@@ -44,7 +44,7 @@ body {
   padding: 0;
   margin: 0;
   border: 0;
-  background: rgb(116,191,201);
+  background: rgba(116,191,201,0.8);
 }
 
 .scrim {
@@ -328,6 +328,8 @@ body {
   content: "\2612";
 }
 
+
+
 #colors1:checked ~ #game #piece-player-1 g {
   fill: #4a5;
 }
@@ -569,7 +571,7 @@ body {
 }
 
 /** game screen: board, dice, messages **/
-/**
+
 .dice {
   position: absolute;
   top:80%;
@@ -614,8 +616,8 @@ body {
   display: block;
   left: 1rem;
   text-align: center;
-  animation: changeOrder 0.6s infinite;
-  -webkit-animation: changeOrder 0.6s infinite;
+  animation: changeOrder 2s infinite;
+  -webkit-animation: changeOrder 2s infinite;
 }
 
 #turn2:checked ~ .game-time:checked ~ [name=cb-player2]:checked + label + input + label,
@@ -831,6 +833,7 @@ label.dice:active::before {
   z-index: 200;
 }
 
+
 #game {
   display: none;
 }
@@ -858,12 +861,7 @@ label.dice:active::before {
 #game .tab#dice {
   cursor: pointer;
 }
-#game .tab#dice::before {
-  content: "Dado";
-}
-#game .tab#dice::after {
-  content: "Tirar";
-}
+
 #game .tab#more-info {
   cursor: pointer;
   left: auto;
@@ -911,7 +909,7 @@ label.dice:active::before {
   height: 0;
   padding-top: 10%;
   box-sizing: border-box;
-  background: rgb(116,191,201);
+  background: none;
 }
 #game #board .tile::before {
   content: attr(data-index);
@@ -919,6 +917,8 @@ label.dice:active::before {
   top: 1.5rem;
   left: 1rem;
   font-size: 0.66rem;
+  font-family: sans-serif;
+  font-weight:800;
 }
 
 
@@ -931,119 +931,139 @@ label.dice:active::before {
 
 }
 
+#game #board .tile3 {
+  background-image: url("../img/1_pobreza.png");
+  background-size:cover;
+}
 
+#game #board .tile7{
+  background-image: url("../img/2_hambre.png");
+  background-size: cover;
+}
 
- #game #board .tile15{
-  background-image: url("../img/HexagonoPobreza1.png");
+#game #board .tile12 {
+  background-image: url("../img/3_salud.png");
   background-size: cover;
 }
-#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile49, #game #board .tile55, #game #board .tile34{
-  background-image: url("../img/HexagonoPobreza1.png");
+#game #board .tile15{
+ background-image: url("../img/4_educacion.png");
+ background-size: cover;
+}
+#game #board .tile18 {
+  background-image: url("../img/5_genero.png");
   background-size: cover;
 }
- #game #board .tile38{
-  background-image: url("../img/HexagonoPobreza1.png");
+
+ #game #board .tile20 {
+  background-image: url("../img/6_saneamiento.png");
   background-size: cover;
 }
+
 #game #board .tile24{
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/7_energia.png");
   background-size: cover;
 }
-#game #board .tile2, #game #board .tile16, #game #board .tile23{
-  background-image: url("../img/HexagonoPobreza1.png");
+
+#game #board .tile28 {
+ background-image: url("../img/8_trabajo.png");
+ background-size: cover;
+}
+
+#game #board .tile32 {
+  background-image: url("../img/9_industria.png");
   background-size: cover;
 }
+
+#game #board .tile35{
+  background-image: url("../img/10_igualdad.png");
+  background-size: cover;
+}
+
+ #game #board .tile38{
+  background-image: url("../img/11_ciudades.png");
+  background-size: cover;
+}
+
 #game #board .tile42{
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/12_consumo.png");
   background-size: cover;
 }
+
+#game #board .tile45 {
+  background-image: url("../img/13_clima.png");
+  background-size: cover;
+}
+
+#game #board .tile48{
+  background-image: url("../img/14_submarina.png");
+  background-size: cover;
+}
+
+#game #board .tile53 {
+  background-image: url("../img/15_ecosistema.png");
+  background-size: cover;
+}
+
 #game #board .tile56{
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/16_justicia.png");
   background-size: cover;
 }
 #game #board .tile62{
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/17_alianza.png");
   background-size: cover;
 }
-#game #board .tile35{
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
- #game #board .tile18 {
-   background-image: url("../img/HexagonoPobreza1.png");
-   background-size: cover;
-}
-#game #board .tile26, #game #board .tile33, #game #board .tile41, #game #board .tile58{
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile3 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size:cover;
 
+#game #board .tile64{
+  background-image: url("../img/2030_ODS.png");
+  background-size: contain;
 }
+
+#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile49, #game #board .tile55, #game #board .tile34{
+  background-image: url("../img/hexagono_blanco_D.png");
+  background-size: cover;
+}
+
+#game #board .tile2, #game #board .tile16, #game #board .tile23{
+  background-image: url("../img/hexagono_blanco_D.png");
+  background-size: cover;
+}
+
 #game #board .tile4, #game #board .tile11, #game #board .tile29, #game #board .tile40, #game #board .tile47, #game #board .tile51, #game #board .tile61 {
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
 
 #game #board .tile5, #game #board .tile19, #game #board .tile27, #game #board .tile44, #game #board .tile59 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-
-#game #board .tile32 {
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
 
 #game #board .tile6, #game #board .tile31, #game #board .tile60 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile45 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
- #game #board .tile28 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile53 {
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
 
+#game #board .tile8, #game #board .tile30, #game #board .tile39, #game #board .tile46, #game #board .tile52 {
+  background-image: url("../img/hexagono_blanco_D.png");
+  background-size: cover;
+}
 
- #game #board .tile20 {
-  background-image: url("../img/HexagonoPobreza1.png");
+#game #board .tile9, #game #board .tile14, #game #board .tile22, #game #board .tile37, #game #board .tile54{
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
 
 #game #board .tile13, #game #board .tile21, #game #board .tile36, #game #board .tile50, #game #board .tile63 {
-  background-image: url("../img/HexagonoPobreza1.png");
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
-#game #board .tile7{
-  background-image: url("../img/HexagonoPobreza1.png");
+
+#game #board .tile26, #game #board .tile33, #game #board .tile41, #game #board .tile58{
+  background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
-#game #board .tile8, #game #board .tile12, #game #board .tile30, #game #board .tile39, #game #board .tile46, #game #board .tile52 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile12 {
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile9, #game #board .tile14, #game #board .tile22, #game #board .tile37, #game #board .tile48, #game #board .tile54{
-  background-image: url("../img/HexagonoPobreza1.png");
-  background-size: cover;
-}
-#game #board .tile64{
-  background-image: url("../img/2030ODS.png");
-  background-size: contain;
-}
+
+
 
 #action label {
   display: none;
