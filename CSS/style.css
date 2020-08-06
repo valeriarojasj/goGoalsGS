@@ -934,7 +934,10 @@ label.dice:active::before {
 #game #board .tile3 {
   background-image: url("../img/1_pobreza.png");
   background-size:cover;
+  color:none;
 }
+
+
 
 #game #board .tile7{
   background-image: url("../img/2_hambre.png");
@@ -3353,4 +3356,15 @@ svg.piece#piece-player-4 g {
   100%{
     filter: blur(0px);
   }
+}
+
+/** Memotest**/
+.myGrid{
+  display:flex;
+  flex-wrap:wrap;
+  height:600px;
+  width:600px;
+}
+.card{
+  box-sizing: border-box;
 }
