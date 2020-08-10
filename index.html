@@ -983,12 +983,14 @@
 <!-- the game section: board, dice, snakes, ladders, and all that jazz...-->
 <div id="game">
 
-  <div class="card bg-light mb-3 float-left mt-3 " style="max-width: 16rem;">
+  <div class="card  controlBoard bg-light mb-3 float-left mt-3 " style="max-width: 16rem;">
     <div class="tab card-header" >Ruleta</div>
     <div class="text-center"  id="app">
 
           <img class="marker" src="img/MarkerODS.png" alt="">
           <img class="wheel" src="img/ruleta.png" alt="">
+          <i class="fas fa-chess-pawn" id="wheelPlayer"></i>
+          <span id="wheelResult"></span>
           <img class="button buttonWheel" src="img/button2.png" alt="">
 
     </div>
@@ -999,7 +1001,7 @@
 <div class="float-right mt-3">
 
 
-  <div class="card bg-light mb-3 " style="max-width: 8rem;">
+  <div class="card controlBoard bg-light mb-3 " style="max-width: 8rem;">
     <div class="tab card-header text-center" >Turno</div>
     <div class="tab card-body" id="player-info">
       <span>
@@ -1016,7 +1018,7 @@
   </div>
   <!--label#dice.tab-->
 
-  <div class="card bg-light mb-3 " style="max-width: 8rem;">
+  <div class="card  controlBoard bg-light mb-3 " style="max-width: 8rem;">
     <div class="tab card-header" >Acción</div>
     <div class="tab card-body" id="action">
       <i class="fas fa-arrow-alt-circle-right"></i>
@@ -1027,7 +1029,7 @@
 
     </div>
   </div>
-  <div class="card bg-light mb-3 " style="max-width: 8rem;">
+  <div class="card  controlBoard bg-light mb-3 " style="max-width: 8rem;">
     <div class="tab card-header" >Acerca de</div>
 
       <label class="tab card-body" id="more-info" for="show-info">Más info</label>

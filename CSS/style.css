@@ -34,8 +34,21 @@ input {
 .card-header{
   font-family: 'Chelsea Market', cursive;
   background-color: #0064a1;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  text-align: center;
+
+  border-color: #0064a1;
   color: white;
 }
+.controlBoard{
+  border-radius: 8px;
+}
+
+#wheelResult{
+    font-family: 'Chelsea Market', cursive;
+}
+
 
 /*font-family: 'Chelsea Market', cursive;
 font-family: 'Chewy', cursive;
@@ -4013,4 +4026,5 @@ svg.piece#piece-player-4 g {
 }
 .card{
   box-sizing: border-box;
+
 }

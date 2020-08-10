@@ -18,10 +18,12 @@
     var currentPosP4= document.querySelector('input[name="cb-player3"]:checked').value;
     var playerTurn= document.querySelector('input[name="turn"]:checked').value;
     var colorOption= document.querySelector('input[name="colors"]:checked').value;
+
   console.log(colorOption);
     if(playerTurn == "1" && colorOption == "colors1"){
 
       document.getElementById("turn-player-info").style.color ='#4a5';
+
 
 
 
@@ -74,6 +76,10 @@
     {
       document.getElementById("turn-player-info").style.color ='#4a5';
     }
+    var wheelPlayer = document.getElementById("wheelPlayer");
+    wheelPlayer.style.color='transparent';
+    var wheelResult = document.getElementById('wheelResult');
+    wheelResult.textContent = '';
 
     console.log(currentPosP1);
     console.log(currentPosP2);
@@ -88,10 +94,15 @@
 
   startButton.addEventListener('click', () => {
     startButton.style.pointerEvents = 'none'; //to disable the button until it finished so that you don;t spin again.
+
     deg = Math.floor(2000 + Math.random() * 2000);
     wheel.style.transition='all 10s ease-out'; //ease-out makes it slow down towards the end.
     wheel.style.transform=`rotate(${deg}deg)`;
     wheel.classList.add('blur');
+
+    wheelResult.textContent = '';
+    wheelPlayer.style.color='transparent';
+
   });
 
   wheel.addEventListener('transitionend',()=>{
@@ -103,7 +114,7 @@
       wheel.style.transform=`rotate(${actualDeg}deg)`;
 
 
-      const nuevoP = document.createElement('p');
+      var wheelResult = document.getElementById('wheelResult');
       const div = document.getElementById('app');
       var currentPosP1= document.querySelector('input[name="cb-player1"]:checked').value;
       var currentPosP1Int=parseInt(currentPosP1,10);
@@ -116,7 +127,8 @@
       var playerTurn= document.querySelector('input[name="turn"]:checked').value;
 
       if(`${actualDeg}`>0 && `${actualDeg}`<=60){
-        var nuevoPText= document.createTextNode('6 ' + `${actualDeg}`);
+        wheelPlayer.style.color= document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' sacó 6'
         console.log("PlayerTurn = " + playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+6;
           $("input[name=cb-player1][value=" + newPosP1 + "]").attr('checked', 'checked');
@@ -128,7 +140,8 @@
         $("input[name=cb-player1][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
       }else if(`${actualDeg}`>60 && `${actualDeg}`<=120){
-        var nuevoPText= document.createTextNode('5 ' + `${actualDeg}`);
+        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' sacó 5'
         console.log("PlayerTurn = "+ playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+5;
         console.log("newPosP1 "+ newPosP1);
@@ -142,7 +155,8 @@
       }
       $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
     }else if(`${actualDeg}`>120 && `${actualDeg}`<=180){
-          var nuevoPText= document.createTextNode('4 ' + `${actualDeg}`);
+      wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' sacó 4'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){var newPosP1= currentPosP1Int+4;
           console.log("newPosP1 "+ newPosP1);
@@ -156,7 +170,8 @@
             }
           $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }else if(`${actualDeg}`>180 && `${actualDeg}`<=240){
-          var nuevoPText= document.createTextNode('3 ' + `${actualDeg}`);
+          wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' sacó 3'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+3;
@@ -172,7 +187,8 @@
             $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
           }
       }else if(`${actualDeg}`>240 && `${actualDeg}`<=300){
-          var nuevoPText= document.createTextNode('2 '+ `${actualDeg}`);
+        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' sacó 2'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+2;
@@ -204,12 +220,11 @@
             console.log("PlayerTurn = "+ playerTurn);
           $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
-        var nuevoPText= document.createTextNode('1 ' + `${actualDeg}`);
+        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' sacó 1';
       }
 
 
-      div.append(nuevoP);
-      nuevoP.append(nuevoPText);
 
 
 
