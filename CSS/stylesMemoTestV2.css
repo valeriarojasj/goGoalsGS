@@ -20,7 +20,7 @@ background: rgba(116,191,201,0.8);
   font-family: 'Alegreya', serif;
   font-weight: normal;
   text-align: center;
-  font-size: 4em;
+  font-size: 2.8em;
 }
 
 .game-info-container {
@@ -31,13 +31,13 @@ background: rgba(116,191,201,0.8);
 
 .game-info {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .game-container {
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(9, auto);
   grid-gap: 10px;
   justify-content: center;
   perspective: 500px;
@@ -45,14 +45,17 @@ background: rgba(116,191,201,0.8);
 
 .card {
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   border-radius: 12px;
+  border-color: transparent;
+  background: rgba(116,191,201,0.1);;
 }
 
 
 
 .card-face {
+  background: #fff;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -60,8 +63,6 @@ background: rgba(116,191,201,0.8);
   width: 100%;
   height: 100%;
   border-radius: 12px;
-  border-width: 1px;
-  border-style: solid;
   overflow: hidden;
   transition: transform 500ms ease-in-out;
   backface-visibility: hidden;
@@ -81,16 +82,17 @@ background: rgba(116,191,201,0.8);
 }
 
 .card-back {
-  background-color: white;
-  border-color: #1992c1;
-  border-width: thick;
+  border: 4px solid #1992c1;
+
+  margin: 0;
+
   transform: rotateY(0);
 }
 
 
 
 .objectives {
-  width:150px;
+  width:120px;
   align-self: center;
   transition: transform 100ms ease-in-out;
   transform: translateY(-10px);
@@ -102,7 +104,7 @@ background: rgba(116,191,201,0.8);
 
 .card-value {
   position: relative;
-  width:150px;
+  width:120px;
   transition: transform 100ms ease-in-out;
 
 }
@@ -112,7 +114,7 @@ background: rgba(116,191,201,0.8);
 }
 
 .card-front {
-  background-color: #fff;
+
   border-color: #333;
   transform: rotateY(180deg);
 }

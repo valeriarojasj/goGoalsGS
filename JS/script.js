@@ -9,12 +9,71 @@
 
 
 
+
+
   window.addEventListener('click', () => {
     var currentPosP1= document.querySelector('input[name="cb-player1"]:checked').value;
     var currentPosP2= document.querySelector('input[name="cb-player2"]:checked').value;
     var currentPosP3= document.querySelector('input[name="cb-player3"]:checked').value;
     var currentPosP4= document.querySelector('input[name="cb-player3"]:checked').value;
     var playerTurn= document.querySelector('input[name="turn"]:checked').value;
+    var colorOption= document.querySelector('input[name="colors"]:checked').value;
+  console.log(colorOption);
+    if(playerTurn == "1" && colorOption == "colors1"){
+
+      document.getElementById("turn-player-info").style.color ='#4a5';
+
+
+
+    }else if(playerTurn == "2" && colorOption == "colors1"){
+      document.getElementById("turn-player-info").style.color ='#48c';
+
+    }else if(playerTurn == "3" && colorOption == "colors1")
+    {
+      document.getElementById("turn-player-info").style.color ='#f55';
+
+    }
+    else if(playerTurn == "4" && colorOption == "colors1")
+    {
+      document.getElementById("turn-player-info").style.color ='#dd5';
+
+    }
+    else if(playerTurn == "1" && colorOption == "colors2"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "2" && colorOption == "colors2"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "3" && colorOption == "colors2")
+    {
+      document.getElementById("turn-player-3").style.color ='#4a5';
+    }
+    else if(playerTurn == "4" && colorOption == "colors2")
+    {
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }
+    else if(playerTurn == "1" && colorOption == "colors3"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "2" && colorOption == "colors3"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "3" && colorOption == "colors3")
+    {
+      document.getElementById("turn-player-3").style.color ='#4a5';
+    }
+    else if(playerTurn == "4" && colorOption == "colors3")
+    {
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }
+    else if(playerTurn == "1" && colorOption == "colors4"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "2" && colorOption == "colors4"){
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }else if(playerTurn == "3" && colorOption == "colors4")
+    {
+      document.getElementById("turn-player-3").style.color ='#4a5';
+    }
+    else if(playerTurn == "4" && colorOption == "colors4")
+    {
+      document.getElementById("turn-player-info").style.color ='#4a5';
+    }
 
     console.log(currentPosP1);
     console.log(currentPosP2);
@@ -55,16 +114,21 @@
       var currentPosP4= document.querySelector('input[name="cb-player3"]:checked').value;
       var currentPosP4Int=parseInt(currentPosP4,10);
       var playerTurn= document.querySelector('input[name="turn"]:checked').value;
+
       if(`${actualDeg}`>0 && `${actualDeg}`<=60){
-        var nuevoPText= document.createTextNode('6');
+        var nuevoPText= document.createTextNode('6 ' + `${actualDeg}`);
         console.log("PlayerTurn = " + playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+6;
+          $("input[name=cb-player1][value=" + newPosP1 + "]").attr('checked', 'checked');
         }else if(playerTurn=="2"){var newPosP2= currentPosP2Int+6;
+          $("input[name=cb-player2][value=" + newPosP2 + "]").attr('checked', 'checked');
         }else if(playerTurn=="3"){var newPosP3= currentPosP3Int+6;
+          $("input[name=cb-player1][value=" + newPosP3 + "]").attr('checked', 'checked');
         }else{var newPosP4= currentPosP4Int+6;
+        $("input[name=cb-player1][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
       }else if(`${actualDeg}`>60 && `${actualDeg}`<=120){
-        var nuevoPText= document.createTextNode('5');
+        var nuevoPText= document.createTextNode('5 ' + `${actualDeg}`);
         console.log("PlayerTurn = "+ playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+5;
         console.log("newPosP1 "+ newPosP1);
@@ -77,8 +141,8 @@
         var newPosP4= currentPosP4Int+5;
       }
       $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
-      }else if(`${actualDeg}`>120 && `${actualDeg}`<=180){
-          var nuevoPText= document.createTextNode('4');
+    }else if(`${actualDeg}`>120 && `${actualDeg}`<=180){
+          var nuevoPText= document.createTextNode('4 ' + `${actualDeg}`);
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){var newPosP1= currentPosP1Int+4;
           console.log("newPosP1 "+ newPosP1);
@@ -92,7 +156,7 @@
             }
           $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }else if(`${actualDeg}`>180 && `${actualDeg}`<=240){
-          var nuevoPText= document.createTextNode('3');
+          var nuevoPText= document.createTextNode('3 ' + `${actualDeg}`);
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+3;
@@ -108,7 +172,7 @@
             $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
           }
       }else if(`${actualDeg}`>240 && `${actualDeg}`<=300){
-          var nuevoPText= document.createTextNode('2');
+          var nuevoPText= document.createTextNode('2 '+ `${actualDeg}`);
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+2;
@@ -140,7 +204,7 @@
             console.log("PlayerTurn = "+ playerTurn);
           $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
-        var nuevoPText= document.createTextNode('1');
+        var nuevoPText= document.createTextNode('1 ' + `${actualDeg}`);
       }
 
 
