@@ -15,7 +15,7 @@
     var currentPosP1= document.querySelector('input[name="cb-player1"]:checked').value;
     var currentPosP2= document.querySelector('input[name="cb-player2"]:checked').value;
     var currentPosP3= document.querySelector('input[name="cb-player3"]:checked').value;
-    var currentPosP4= document.querySelector('input[name="cb-player3"]:checked').value;
+    var currentPosP4= document.querySelector('input[name="cb-player4"]:checked').value;
     var playerTurn= document.querySelector('input[name="turn"]:checked').value;
     var colorOption= document.querySelector('input[name="colors"]:checked').value;
 
@@ -122,8 +122,9 @@
       var currentPosP2Int=parseInt(currentPosP2,10);
       var currentPosP3= document.querySelector('input[name="cb-player3"]:checked').value;
       var currentPosP3Int=parseInt(currentPosP3,10);
-      var currentPosP4= document.querySelector('input[name="cb-player3"]:checked').value;
+      var currentPosP4= document.querySelector('input[name="cb-player4"]:checked').value;
       var currentPosP4Int=parseInt(currentPosP4,10);
+
       var playerTurn= document.querySelector('input[name="turn"]:checked').value;
 
       if(`${actualDeg}`>0 && `${actualDeg}`<=60){
@@ -135,9 +136,9 @@
         }else if(playerTurn=="2"){var newPosP2= currentPosP2Int+6;
           $("input[name=cb-player2][value=" + newPosP2 + "]").attr('checked', 'checked');
         }else if(playerTurn=="3"){var newPosP3= currentPosP3Int+6;
-          $("input[name=cb-player1][value=" + newPosP3 + "]").attr('checked', 'checked');
+          $("input[name=cb-player3][value=" + newPosP3 + "]").attr('checked', 'checked');
         }else{var newPosP4= currentPosP4Int+6;
-        $("input[name=cb-player1][value=" + newPosP4 + "]").attr('checked', 'checked');
+        $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
       }else if(`${actualDeg}`>60 && `${actualDeg}`<=120){
         wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
@@ -152,8 +153,9 @@
         $("input[name=cb-player3][value=" + newPosP3 + "]").attr('checked', 'checked');
       }else{
         var newPosP4= currentPosP4Int+5;
+          $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
       }
-      $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
+
     }else if(`${actualDeg}`>120 && `${actualDeg}`<=180){
       wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
           wheelResult.textContent = ' sacó 4'
@@ -167,8 +169,9 @@
             $("input[name=cb-player3][value=" + newPosP3 + "]").attr('checked', 'checked');
           }else{
             var newPosP4= currentPosP4Int+4;
+            $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
             }
-          $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
+
         }else if(`${actualDeg}`>180 && `${actualDeg}`<=240){
           wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
           wheelResult.textContent = ' sacó 3'
