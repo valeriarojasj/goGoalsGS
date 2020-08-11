@@ -2809,6 +2809,25 @@ svg.piece#piece-player-4 g {
 /*.cb[id$='-9']:checked ~ .dice {
   display: none !important;
 }*/
+
+.closePopUp{
+  cursor:pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding:5px;
+  color:white;
+  z-index: 99999;
+}
+.ods-popupHeader{
+  background-color: #48c;
+  padding:10px 15px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
 .cb[id$='-9']:checked ~ #ladder-popup {
   opacity: 1;
   z-index: 99999;
@@ -3137,6 +3156,7 @@ svg.piece#piece-player-4 g {
   transition-delay: 0.5s;
   -webkit-transition-delay: 0.5s;
 }
+
 .cb[id$='-3']:checked ~ #ods-popup label {
   background: #4a5;
   border-radius: 3px;
@@ -3149,6 +3169,7 @@ svg.piece#piece-player-4 g {
 .cb[id$='-3']:checked ~ #ods-popup label:hover {
   background: #3d984c;
 }
+
 .cb[id$='-7']:checked ~ #ods-popup {
   opacity: 1;
   z-index: 99999;

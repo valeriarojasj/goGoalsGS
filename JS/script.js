@@ -2,11 +2,16 @@
   const wheel =document.querySelector('.wheel');
   const startButton = document.querySelector('.buttonWheel');
   const dice =document.querySelector('.dice');
+  const closeQuestion=document.querySelector('.closeQuestion');
+
   let deg=0;
 
+  function closePopup() {
+    var x = document.querySelector('.ods-popup');
 
+      x.style.display = "none";
 
-
+  }
 
 
 
@@ -226,6 +231,8 @@
         wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
         wheelResult.textContent = ' sacó 1';
       }
+
+
 
 
 
