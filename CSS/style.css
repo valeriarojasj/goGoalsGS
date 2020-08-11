@@ -260,7 +260,7 @@ h5{
 }
 
 #play-fx:checked ~ #options #activate-fx::before {
-  content: "☒ ";
+  content: "☒ ";
 }
 
 #players1:checked ~ #options label[for=players1] {
@@ -621,7 +621,6 @@ h5{
   box-shadow: 0 1.5em 0.5em -1em rgba(0, 0, 0, 0.042);
   z-index: 1;
 }
-
 .dice::before {
   content: "Tirar el dado";
   display: block;
