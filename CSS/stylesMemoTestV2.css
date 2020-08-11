@@ -1,5 +1,4 @@
 
-
 * {
   box-sizing: border-box;
 }
@@ -13,6 +12,10 @@ html {
 body {
   margin: 0;
 background: rgba(116,191,201,0.8);
+}
+
+nav{
+  z-index: 9000;
 }
 
 .page-title {
@@ -45,8 +48,8 @@ background: rgba(116,191,201,0.8);
 
 .card {
   position: relative;
-  height: 120px;
-  width: 120px;
+  height: 135px;
+  width: 135px;
   border-radius: 12px;
   border-color: transparent;
   background: rgba(116,191,201,0.1);;
@@ -82,7 +85,8 @@ background: rgba(116,191,201,0.8);
 }
 
 .card-back {
-  border: 4px solid #1992c1;
+
+  width:135px;
 
   margin: 0;
 
@@ -92,10 +96,8 @@ background: rgba(116,191,201,0.8);
 
 
 .objectives {
-  width:120px;
+  width:135px;
   align-self: center;
-  transition: transform 100ms ease-in-out;
-  transform: translateY(-10px);
 }
 
 .card-back:hover .card {
@@ -104,9 +106,37 @@ background: rgba(116,191,201,0.8);
 
 .card-value {
   position: relative;
-  width:120px;
-  transition: transform 100ms ease-in-out;
 
+  transition: transform 100ms ease-in-out;
+}
+
+.ods2, .ods8, .ods9,  .ods11,   .ods14,  .ods16{
+  top:20%;
+  width:50%;
+}
+.ods1{
+  top:15%;
+  width:80%;
+}
+
+.ods3, .ods13{
+  top:15%;
+  width:60%;
+}
+
+.ods15, .ods17{
+  top:20%;
+  width:40%;
+}
+
+.ods4, .ods5, .ods6, .ods7,.ods10, .ods12{
+  top:15%;
+  width:50%;
+}
+
+.ods2030{
+  top:0%;
+  width:80%;
 }
 
 .card-front:hover .card-value {

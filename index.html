@@ -6,7 +6,7 @@
     <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
 
   </head>
@@ -29,7 +29,7 @@
           Juegos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Escalera</a>
+          <a class="dropdown-item" href="index.html">Escalera</a>
           <a class="dropdown-item" href="memoTestV2.html">Memoria</a>
           <a class="dropdown-item" href="#">Ruleta</a>
 
@@ -44,26 +44,28 @@
 
 
     <!-- checkboxes to control states and variables-->
-<input type="radio" name="players" id="players1" checked="checked" value="1"/>
-<input type="radio" name="players" id="players2" value="2"/>
-<input type="radio" name="players" id="players3" value="3"/>
-<input type="radio" name="players" id="players4" value="4"/>
-<input type="radio" name="turn" id="turn1" checked="checked" value="1"/>
-<input type="radio" name="turn" id="turn2" value="2"/>
-<input type="radio" name="turn" id="turn3" value="3"/>
-<input type="radio" name="turn" id="turn4" value="4"/>
-<input type="radio" name="colors" checked="checked" id="colors1" value="colors1"/>
-<input type="radio" name="colors" id="colors2" value="colors2"/>
-<input type="radio" name="colors" id="colors3" value="colors3"/>
-<input type="radio" name="colors" id="colors4" value="colors4"/>
-<input class="game-time" type="checkbox" id="game-time" name="game-time"/>
-<input type="checkbox" name="show-info" id="show-info"/>
-<input type="checkbox" name="play-fx" id="play-fx"/>
-<input class="game-time" type="radio" id="show-instructions-1" name="show-instructions"/>
-<input class="game-time" type="radio" id="show-instructions-2" name="show-instructions"/>
-<input class="game-time" type="radio" id="show-instructions-3" name="show-instructions"/>
-<input class="game-time" type="radio" id="show-instructions-4" name="show-instructions"/>
-<input class="game-time" type="radio" id="show-instructions-5" name="show-instructions"/>
+<input class="ocultar" type="radio" name="players" id="players1" checked="checked" value="1"/>
+<input class="ocultar" type="radio" name="players" id="players2" value="2"/>
+<input class="ocultar" type="radio" name="players" id="players3" value="3"/>
+<input class="ocultar" type="radio" name="players" id="players4" value="4"/>
+<input class="ocultar" type="radio" name="turn" id="turn1" checked="checked" value="1"/>
+<input class="ocultar" type="radio" name="turn" id="turn2" value="2"/>
+<input class="ocultar" type="radio" name="turn" id="turn3" value="3"/>
+<input class="ocultar" type="radio" name="turn" id="turn4" value="4"/>
+<input class="ocultar" type="radio" name="colors" checked="checked" id="colors1" value="colors1"/>
+<input class="ocultar" type="radio" name="colors" id="colors2" value="colors2"/>
+<input class="ocultar" type="radio" name="colors" id="colors3" value="colors3"/>
+<input class="ocultar" type="radio" name="colors" id="colors4" value="colors4"/>
+<input class="ocultar game-time" type="checkbox" id="game-time" name="game-time"/>
+<!--
+<input type=" checkbox" name="show-info" id="show-info"/>
+<input type=" checkbox" name="play-fx" id="play-fx"/>
+-->
+<input class="ocultar game-time" type="radio" id="show-instructions-1" name="show-instructions"/>
+<input class="ocultar game-time" type="radio" id="show-instructions-2" name="show-instructions"/>
+<input class="ocultar game-time" type="radio" id="show-instructions-3" name="show-instructions"/>
+<input class="ocultar game-time" type="radio" id="show-instructions-4" name="show-instructions"/>
+<input class="ocultar game-time" type="radio" id="show-instructions-5" name="show-instructions"/>
 <!-- inputs and labels that control the piece position for player 1-->
 
 
@@ -939,10 +941,11 @@
       </div>
       <h2>Colores de las fichas</h2>
       <div class="option-colors">
-        <label class="flex" for="colors1"><span></span><span></span><span></span><span></span><span></span></label>
-        <label class="flex" for="colors2"><span></span><span></span><span></span><span></span><span></span></label>
-        <label class="flex" for="colors3"><span></span><span></span><span></span><span></span><span></span></label>
-        <label class="flex" for="colors4"><span></span><span></span><span></span><span></span><span></span></label>
+
+        <label class="flex selection" for="colors1"><span></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color1_player1"><h5>J1</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color1_player2"><h5>J2</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color1_player3"><h5>J3</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color1_player4"><h5>J4</h5> </i></span></label>
+        <label class="flex selection" for="colors2"><span></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color2_player1"><h5>J1</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color2_player2"><h5>J2</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color2_player3"><h5>J3</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color2_player4"><h5>J4</h5> </i></span></label>
+        <label class="flex selection" for="colors3"><span></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color3_player1"><h5>J1</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color3_player2"><h5>J2</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color3_player3"><h5>J3</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color3_player4"><h5>J4</h5> </i></span></label>
+        <label class="flex selection" for="colors4"><span></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color4_player1"><h5>J1</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color4_player2"><h5>J2</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color4_player3"><h5>J3</h5> </i></span><span><i class="fas fa-chess-pawn text-center pawnOptions" id="color4_player4"><h5>J4</h5> </i></span></label>
       </div>
       <h2>Opciones de Sonido</h2>
       <label id="activate-fx" for="play-fx">Con sonido</label>
@@ -968,6 +971,7 @@
   </div>
 </div>
 <!-- animated instructions section-->
+
 <div id="instructions">
   <label id="go-to-game" for="game-time">SALTAR INSTRUCCIONES &rsaquo;</label>
   <div id="step">
@@ -2132,7 +2136,7 @@
 
   </svg>
 
-<img class="d-flex inicio" src="img/inicio_ODS.png" width="100px" alt="">
+<img class="d-flex inicio" src="img/hexagono_inicio.png" width="100px" alt="">
     <svg class="piece" id="piece-player-1" viewBox="0 0 100 100">
       <g transform="scale(.7,.7)">
         <path d="M 50,1 C 50,1 80,85 80,85 70,96 60,99 50,99 40,99 30,96 20,85 20,85 50,1 50,1 Z"></path>
@@ -2409,7 +2413,49 @@
     </svg>
 </div>
   <!-- Modal -->
-  <div class="modal fade" id="ODS1Modal" tabindex="-1" role="dialog" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
+  <div class="modal fade" id="ODS1Modal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button> </div> <!-- Modal body -->
+                  <div class="modal-body mb-0 pb-0 mt-0">
+                      <div class="container ">
+                          <!-- custom radio button -->
+                          <div class="holder">
+                              <div class="row mb-1">
+                                  <div class="col">
+                                      <h2>Choose File Types</h2>
+                                  </div>
+                              </div>
+                              <form action="#" class="customRadio m-0 p-0">
+                                  <div class="row mb-0">
+                                      <div class="row justify-content-start">
+                                          <div class="col-12">
+                                              <div class="row"> <input type="radio" name="textEditor" id="dreamweaver" checked> <label for="dreamweaver">Back up all files folders</label> </div>
+                                              <div class="row"> <input type="radio" name="textEditor" id="sublime"> <label for="sublime">Back up photos and videos</label> </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+                              </form>
+                          </div>
+                      </div>
+                  </div> <!-- Modal footer -->
+                  <div class="modal-footer pt-0 mt-0 pb-5 pr-6 m-1 ">
+                      <div class="col-2"> </div>
+                      <div class="col-6 justify-content-start"> <a href="#" id="modal_footer_support" data-toggle="popover" title="Support" data-content="Support Message" class="modal_footer"><i class="fa fa-question-circle-o modal_footer" aria-hidden="true"></i> <span class="modal_footer">Support</span> </a> </div>
+                      <div class="col-2 justify-content-end ">
+                          <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> --> <button type="button" class="btn btn-outline-light modal_footer" data-dismiss="modal">Cancel</button> </div>
+                      <div class="col-2 justify-content-start m-0 p-0"> <button type="button" class="btn btn-success box-shadow--16dp" data-dismiss="modal">OK</button> </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
 
   </div>
     </div>

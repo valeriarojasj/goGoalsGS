@@ -19,9 +19,8 @@
     z-index: 1;
   }
 }
-input {
-  display: none;
-}
+
+
 
 .fx-sound {
   position: absolute;
@@ -66,7 +65,7 @@ font-family: 'Sriracha', cursive;*/
 
 body {
   font-size: 16px;
-  font-family: Dosis, Roboto, Arial, Verdana, sans-serif;
+  font-family: Chelsea Market, cursive, Arial, Verdana, sans-serif;
   padding: 0;
   margin: 0;
   border: 0;
@@ -100,7 +99,7 @@ body {
 .scrim .box h1 {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-align: center;
   height: 2.5rem;
   line-height: 2.35rem;
@@ -111,7 +110,7 @@ body {
 .scrim .box h2 {
   margin-top: 1rem;
   margin-bottom: 0.15rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .scrim .box h2:first-child {
   margin-top: 0;
@@ -156,7 +155,7 @@ body {
   color: black;
 }
 #options .option-players label:active, #options label.option-start:active {
-  border: 2px solid rgba(0, 0, 0, 0.1);
+
 }
 #options .option-players label.option-start, #options label.option-start.option-start {
   background: #48c;
@@ -192,53 +191,61 @@ body {
 #options .option-colors label span:first-child::before {
   content: "\2610";
 }
+h5{
+  font-family: 'Londrina Solid',cursive;
+  font-size: 0.6em;
+  text-align: center;
+  padding-top:5px;
+}
+
+
 #options .option-colors label:nth-child(1) span:nth-child(2) {
-  background: #4a5;
+  color: #4a5;
 }
 #options .option-colors label:nth-child(1) span:nth-child(3) {
-  background: #48c;
+  color: #48c;
 }
 #options .option-colors label:nth-child(1) span:nth-child(4) {
-  background: #f55;
+  color: #f55;
 }
 #options .option-colors label:nth-child(1) span:nth-child(5) {
-  background: #dd5;
+  color: #dd5;
 }
 #options .option-colors label:nth-child(2) span:nth-child(2) {
-  background: #48c;
+  color: #48c;
 }
 #options .option-colors label:nth-child(2) span:nth-child(3) {
-  background: #f55;
+  color: #f55;
 }
 #options .option-colors label:nth-child(2) span:nth-child(4) {
-  background: #dd5;
+  color: #dd5;
 }
 #options .option-colors label:nth-child(2) span:nth-child(5) {
-  background: #4a5;
+  color: #4a5;
 }
 #options .option-colors label:nth-child(3) span:nth-child(2) {
-  background: #f55;
+  color: #f55;
 }
 #options .option-colors label:nth-child(3) span:nth-child(3) {
-  background: #dd5;
+  color: #dd5;
 }
 #options .option-colors label:nth-child(3) span:nth-child(4) {
-  background: #4a5;
+  color: #4a5;
 }
 #options .option-colors label:nth-child(3) span:nth-child(5) {
-  background: #48c;
+  color: #48c;
 }
 #options .option-colors label:nth-child(4) span:nth-child(2) {
-  background: #dd5;
+  color: #dd5;
 }
 #options .option-colors label:nth-child(4) span:nth-child(3) {
-  background: #4a5;
+  color: #4a5;
 }
 #options .option-colors label:nth-child(4) span:nth-child(4) {
-  background: #48c;
+  color: #48c;
 }
 #options .option-colors label:nth-child(4) span:nth-child(5) {
-  background: #f55;
+  color: #f55;
 }
 #options #activate-fx {
   cursor: pointer;
@@ -275,7 +282,7 @@ body {
   opacity: 1;
   border: 0;
 }
-#colors1:checked ~ #options label[for=colors1] span {
+#colors1:checked ~ #options label[for=colors1] {
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 #colors1:checked ~ #options label[for=colors1] span:first-child {
@@ -301,7 +308,7 @@ body {
   opacity: 1;
   border: 0;
 }
-#colors2:checked ~ #options label[for=colors2] span {
+#colors2:checked ~ #options label[for=colors2] {
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 #colors2:checked ~ #options label[for=colors2] span:first-child {
@@ -324,7 +331,7 @@ body {
   opacity: 1;
   border: 0;
 }
-#colors3:checked ~ #options label[for=colors3] span {
+#colors3:checked ~ #options label[for=colors3] {
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 #colors3:checked ~ #options label[for=colors3] span:first-child {
@@ -344,7 +351,7 @@ body {
   opacity: 1;
   border: 0;
 }
-#colors4:checked ~ #options label[for=colors4] span {
+#colors4:checked ~ #options label[for=colors4]{
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 #colors4:checked ~ #options label[for=colors4] span:first-child {
@@ -419,6 +426,7 @@ body {
 #colors4:checked ~ #game #piece-player-4 g {
   fill: #f55;
 }
+
 
 
 
@@ -952,7 +960,7 @@ label.dice:active::before {
   top: 1.5rem;
   left: 1rem;
   font-size: 1rem;
-  font-family: 'Chewy', cursive;
+  font-family: 'Chelsea Market', cursive;
   font-weight:800;
 }
 
@@ -4015,6 +4023,16 @@ svg.piece#piece-player-4 g {
   100%{
     filter: blur(0px);
   }
+}
+
+input.ocultar{
+  display: none !important;
+}
+input.selection{
+  display:none !important;
+}
+input.cb{
+  display:none !important;
 }
 
 /** Memotest**/
