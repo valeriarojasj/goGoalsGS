@@ -5,8 +5,9 @@ class AudioController {
         this.matchSound = new Audio('Audio/zapsplat_multimedia_game_sound_fun_arcade_organ_positive_win_expression_54270.mp3');
         this.victorySound = new Audio('Audio/zapsplat_multimedia_game_sound_soft_warm_subtle_complete_success_53012.mp3');
         this.gameOverSound = new Audio('Audio/zapsplat_multimedia_game_sound_fun_arcade_organ_short_negative_fail_lose_003_54276.mp3');
-        this.bgMusic.volume = 0.5;
+        this.bgMusic.volume = 0.3;
         this.bgMusic.loop = true;
+
     }
     startMusic() {
         this.bgMusic.play();
@@ -29,7 +30,13 @@ class AudioController {
         this.stopMusic();
         this.gameOverSound.play();
     }
+
+
 }
+
+
+
+
 
 class MixOrMatch {
     constructor(totalTime, cards) {
@@ -150,6 +157,7 @@ function ready() {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             game.startGame();
+
         });
     });
 

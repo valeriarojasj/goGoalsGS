@@ -20,6 +20,25 @@
   }
 }
 
+.fa-toggle-on{
+ color:#48c;
+}
+.fa-toggle-off{
+  color:#48c;
+}
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+  /*
+
+
+
+  font-family: 'Chewy', cursive;
+  font-family: 'Indie Flower', cursive;*/
+}
+
+
 
 
 .fx-sound {
@@ -42,6 +61,21 @@
 }
 .controlBoard{
   border-radius: 8px;
+}
+
+.fas.fa-play{
+  color: #48c;
+
+}
+
+.fas.fa-pause{
+  color: #48c;
+
+}
+
+#playButton{
+  border-color: #48c;
+  border-radius: 4px;
 }
 
 #wheelResult{
@@ -137,6 +171,7 @@ body {
 #options {
   background: rgba(0, 0, 0, 0);
 }
+/*comentario V: selección de numero de jugadores*/
 #options .option-players label, #options label.option-start {
   display: block;
   margin-top: 0.5rem;
@@ -283,7 +318,7 @@ h5{
   border: 0;
 }
 #colors1:checked ~ #options label[for=colors1] {
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #48c; /*comentario V: color de borde al elegir el color del jugador1*/
 }
 #colors1:checked ~ #options label[for=colors1] span:first-child {
   border: 2px solid transparent;
@@ -294,7 +329,7 @@ h5{
 
 #players2:checked ~ #options label[for=players2] {
   background: #009630;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #48c; /*comentario V: color de borde al elegir el color del jugador2*/
   color: white;
 }
 #players2:checked ~ #options label[for^=colors] span:nth-child(4) {
@@ -320,7 +355,7 @@ h5{
 
 #players3:checked ~ #options label[for=players3] {
   background: #009630;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #48c;/*comentario V: color de borde al elegir el color del jugador3*/
   color: white;
 }
 #players3:checked ~ #options label[for^=colors] span:nth-child(5) {
@@ -332,7 +367,7 @@ h5{
   border: 0;
 }
 #colors3:checked ~ #options label[for=colors3] {
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #48c;/*comentario V: color de borde al elegir el color del jugador4*/
 }
 #colors3:checked ~ #options label[for=colors3] span:first-child {
   border: 2px solid transparent;
@@ -1074,10 +1109,8 @@ label.dice:active::before {
   background-size: cover;
   color:transparent;
 }
-
+/* Comentario V: la imagen de la llegada la puse absoluta desde el html para que quede mas grande. Hay que ver si queda responsive"*/
 #game #board .tile64{
-  background-image: url("../img/2030_ODS.png");
-  background-size: contain;
   color:transparent;
 }
 
@@ -1135,6 +1168,7 @@ label.dice:active::before {
 #players1:checked ~ #turn1:checked ~ #game-time:checked ~ #game #action {
   display: none;
 }
+
 
 #players1:checked ~ #turn1:checked ~ #game #turn-changer1 {
   display: block;
@@ -1304,6 +1338,13 @@ svg.piece {
   z-index: 40;
   height:110px;
 
+}
+.llegada{
+  position: absolute;
+  top:-40px;
+  left: 210px;
+  z-index: 40;
+  height:110px;
 }
 svg.piece g {
   fill: #f55;

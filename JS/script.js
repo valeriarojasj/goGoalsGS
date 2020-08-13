@@ -1,8 +1,35 @@
+var button = document.getElementById("playButton");
+var audio = document.getElementById("backgroundMusic");
+var toggleFx = document.getElementById("activateSound")
+
+
+button.addEventListener("click", function(){
+  if(audio.paused){
+    audio.play();
+    button.innerHTML = '<i class="fas fa-pause"></i>';
+  } else {
+    audio.pause();
+    button.innerHTML = '<i class="fas fa-play"></i>';
+  }
+});
+
+toggleFx.addEventListener("click", function(){
+  if(audio.paused){
+    audio.play();
+    toggleFx.innerHTML = '<i class="fas fa-toggle-on"></i>';
+  } else {
+    audio.pause();
+    toggleFx.innerHTML = '<i class="fas fa-toggle-off"></i>';
+  }
+});
+
+
 (function(){ //wrap everything on a function to keep the global scope clean.
   const wheel =document.querySelector('.wheel');
   const startButton = document.querySelector('.buttonWheel');
   const dice =document.querySelector('.dice');
   const closeQuestion=document.querySelector('.closeQuestion');
+
 
   let deg=0;
 
@@ -12,6 +39,11 @@
       x.style.display = "none";
 
   }
+
+
+
+
+
 
 
 
@@ -98,25 +130,31 @@
 
 
   startButton.addEventListener('click', () => {
+    var wheelSound= document.getElementById("wheelSound");
     startButton.style.pointerEvents = 'none'; //to disable the button until it finished so that you don;t spin again.
 
     deg = Math.floor(2000 + Math.random() * 2000);
     wheel.style.transition='all 10s ease-out'; //ease-out makes it slow down towards the end.
     wheel.style.transform=`rotate(${deg}deg)`;
     wheel.classList.add('blur');
+    wheelSound.play();
 
     wheelResult.textContent = '';
     wheelPlayer.style.color='transparent';
 
+
   });
 
   wheel.addEventListener('transitionend',()=>{
+      var wheelResultSound=document.getElementById("wheelResultSound");
 
       wheel.classList.remove('blur');
       startButton.style.pointerEvents = 'auto'; //to activate the button again.
       wheel.style.transition='none'; //so that it starts again from 0 and that it
       const actualDeg= deg%360;
       wheel.style.transform=`rotate(${actualDeg}deg)`;
+      wheelSound.pause();
+      wheelResultSound.play();
 
 
       var wheelResult = document.getElementById('wheelResult');
