@@ -1331,6 +1331,8 @@ svg.piece {
   transition: bottom 0.5s, left 0.5s;
 }
 
+
+
 .inicio{
   position: absolute;
   bottom:-30px;
@@ -1351,6 +1353,14 @@ svg.piece g {
   stroke-width: 4;
   stroke: rgba(0, 0, 0, 0.3);
 }
+
+#turn1:checked~svg.piece g{
+
+  stroke: rgba(0, 0, 0);
+}
+
+
+
 svg.piece#piece-player-1 {
   transform: translate(-5%, -3%);
   -webkit-transform: translate(-5%, -3%);
@@ -1359,6 +1369,9 @@ svg.piece#piece-player-1 {
 svg.piece#piece-player-1 g {
   fill: #f55;
 }
+
+
+
 svg.piece#piece-player-2 {
   transform: translate(40%, -40%);
   -webkit-transform: translate(40%, -40%);

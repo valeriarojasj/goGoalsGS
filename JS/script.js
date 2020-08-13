@@ -1,16 +1,28 @@
 var button = document.getElementById("playButton");
 var audio = document.getElementById("backgroundMusic");
+
 var toggleFx = document.getElementById("activateSound")
 
 
 button.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
+
     button.innerHTML = '<i class="fas fa-pause"></i>';
   } else {
     audio.pause();
     button.innerHTML = '<i class="fas fa-play"></i>';
   }
+});
+
+
+//Comentario V: para hacer el loop del backgroundMusic sin pausa se puede poner buffer de 13.1692 o de 2.
+audio.addEventListener('timeupdate', function(){
+    var buffer = 2;
+    if(audio.currentTime > audio.duration - buffer){
+        audio.currentTime = 0;
+        audio.play()
+    }
 });
 
 toggleFx.addEventListener("click", function(){
