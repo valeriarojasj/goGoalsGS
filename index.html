@@ -44,6 +44,42 @@
 </nav>
 <div id="contenedor"class="container-fluid">
 
+  <audio id="backgroundMusic">
+    <source src='audio/mr_clown.mp3' type='audio/mpeg'/ >
+  </audio>
+
+  <audio id="wheelSound">
+    <source src='audio/zapsplat_multimedia_wheel_of_fortune_style_wheel_spin_004_13212.mp3' type='audio/mpeg'/>
+  </audio>
+  <audio id="wheelResultSound">
+    <source src='audio/zapsplat_impacts_metal_hit_chime_scraper_002_10172.mp3' type='audio/mpeg'/>
+  </audio>
+
+  <audio id="moveForwardSound">
+    <source src='audio/sport_badminton_racket_fast_movement_swoosh_003.mp3' type='audio/mpeg'/>
+  </audio>
+
+
+  <audio id="ODSSound">
+    <source src='audio/zapsplat_multimedia_game_sound_childrens_short_soft_warm_chime_positive_003_49765.mp3' type='audio/mpeg'/>
+  </audio>
+
+  <audio id="beforeLadderSound">
+    <source src='audio/zapsplat_multimedia_game_sound_advance_award_nylon_plucked_synth_002_40807.mp3' type='audio/mpeg'/>
+  </audio>
+  <audio id="ladderSound">
+    <source src='audio/zapsplat_cartoon_ascend_vibes_001_18048.mp3' type='audio/mpeg'/>
+  </audio>
+  <audio id="beforeSlideSound">
+    <source src='audio/multimedia_game_sound_synth_tone_bold_fail_52993.mp3' type='audio/mpeg'/>
+  </audio>
+
+  <audio id="slideSound">
+    <source src='audio/zapsplat_cartoon_descend_whistle_air_001_28921.mp3' type='audio/mpeg'/>
+  </audio>
+
+
+
 
 
     <!-- checkboxes to control states and variables-->
@@ -1052,26 +1088,7 @@
       <button id="playButton"><i class="fas fa-play"></i></i></button>
     </div>
 
-    <audio id="backgroundMusic">
-      <source src='audio/mr_clown.mp3' type='audio/mpeg'/ >
-    </audio>
 
-    <audio id="wheelSound">
-      <source src='audio/zapsplat_multimedia_wheel_of_fortune_style_wheel_spin_004_13212.mp3' type='audio/mpeg'/>
-    </audio>
-    <audio id="wheelResultSound">
-      <source src='audio/zapsplat_impacts_metal_hit_chime_scraper_002_10172.mp3' type='audio/mpeg'/>
-    </audio>
-
-    <audio id="moveForwardSound">
-      <source src='audio/sport_badminton_racket_fast_movement_swoosh_003.mp3' type='audio/mpeg'/>
-    </audio>
-    <audio id="slideSound">
-      <source src='audio/zapsplat_cartoon_descend_whistle_air_001_28921.mp3' type='audio/mpeg'/>
-    </audio>
-    <audio id="ladderSound">
-      <source src='audio/zapsplat_cartoon_ascend_rise_short_slide_001_50521.mp3' type='audio/mpeg'/>
-    </audio>
 
 
 
@@ -2214,18 +2231,18 @@
     <h1>Tobogán!!!</h1>
     <div>Oh no! Te caíste por el tobogán!
       <div>
-        <label id="slide-pl1-23" for="cb-pl1-4">Baja</label>
-        <label id="slide-pl1-48" for="cb-pl1-29">Baja</label>
-        <label id="slide-pl1-63" for="cb-pl1-44">Baja</label>
-        <label id="slide-pl2-23" for="cb-pl2-4">Baja</label>
-        <label id="slide-pl2-48" for="cb-pl2-29">Baja</label>
-        <label id="slide-pl2-63" for="cb-pl2-44">Baja</label>
-        <label id="slide-pl3-23" for="cb-pl3-4">Baja</label>
-        <label id="slide-pl3-48" for="cb-pl3-29">Baja</label>
-        <label id="slide-pl3-63" for="cb-pl3-44">Baja</label>
-        <label id="slide-pl4-23" for="cb-pl4-4">Baja</label>
-        <label id="slide-pl4-48" for="cb-pl4-29">Baja</label>
-        <label id="slide-pl4-63" for="cb-pl4-44">Baja</label>
+        <label class = slideLabel id="slide-pl1-23" for="cb-pl1-4">Baja</label>
+        <label class = slideLabel id="slide-pl1-48" for="cb-pl1-29">Baja</label>
+        <label class = slideLabel id="slide-pl1-63" for="cb-pl1-44">Baja</label>
+        <label class = slideLabel id="slide-pl2-23" for="cb-pl2-4">Baja</label>
+        <label class = slideLabel id="slide-pl2-48" for="cb-pl2-29">Baja</label>
+        <label class = slideLabel id="slide-pl2-63" for="cb-pl2-44">Baja</label>
+        <label class = slideLabel id="slide-pl3-23" for="cb-pl3-4">Baja</label>
+        <label class = slideLabel id="slide-pl3-48" for="cb-pl3-29">Baja</label>
+        <label class = slideLabel id="slide-pl3-63" for="cb-pl3-44">Baja</label>
+        <label class = slideLabel id="slide-pl4-23" for="cb-pl4-4">Baja</label>
+        <label class = slideLabel id="slide-pl4-48" for="cb-pl4-29">Baja</label>
+        <label class = slideLabel id="slide-pl4-63" for="cb-pl4-44">Baja</label>
 
 
 <!--
@@ -2283,26 +2300,26 @@
     <h1>Escalera!</h1>
     <div>Wow! Encontraste una escalera! Sube!
       <div>
-        <label id="ladder-pl1-9" for="cb-pl1-30">Sube</label>
-        <label id="ladder-pl1-16" for="cb-pl1-36">Sube</label>
-        <label id="ladder-pl1-31" for="cb-pl1-52">Sube</label>
-        <label id="ladder-pl1-34" for="cb-pl1-54">Sube</label>
-        <label id="ladder-pl1-39" for="cb-pl1-60">Sube</label>
-        <label id="ladder-pl2-9" for="cb-pl2-30">Sube</label>
-        <label id="ladder-pl2-16" for="cb-pl2-36">Sube</label>
-        <label id="ladder-pl2-31" for="cb-pl2-52">Sube</label>
-        <label id="ladder-pl2-34" for="cb-pl2-54">Sube</label>
-        <label id="ladder-pl2-39" for="cb-pl2-60">Sube</label>
-        <label id="ladder-pl3-9" for="cb-pl3-30">Sube</label>
-        <label id="ladder-pl3-16" for="cb-pl3-36">Sube</label>
-        <label id="ladder-pl3-31" for="cb-pl3-52">Sube</label>
-        <label id="ladder-pl3-34" for="cb-pl3-54">Sube</label>
-        <label id="ladder-pl3-39" for="cb-pl3-60">Sube</label>
-        <label id="ladder-pl4-9" for="cb-pl4-30">Sube</label>
-        <label id="ladder-pl4-16" for="cb-pl4-36">Sube</label>
-        <label id="ladder-pl4-31" for="cb-pl4-52">Sube</label>
-        <label id="ladder-pl4-34" for="cb-pl4-54">Sube</label>
-        <label id="ladder-pl4-39" for="cb-pl4-60">Sube</label>
+        <label class = ladderLabel id="ladder-pl1-9" for="cb-pl1-30">Sube</label>
+        <label class = ladderLabel id="ladder-pl1-16" for="cb-pl1-36">Sube</label>
+        <label class = ladderLabel id="ladder-pl1-31" for="cb-pl1-52">Sube</label>
+        <label class = ladderLabel id="ladder-pl1-34" for="cb-pl1-54">Sube</label>
+        <label class = ladderLabel id="ladder-pl1-39" for="cb-pl1-60">Sube</label>
+        <label class = ladderLabel id="ladder-pl2-9" for="cb-pl2-30">Sube</label>
+        <label class = ladderLabel id="ladder-pl2-16" for="cb-pl2-36">Sube</label>
+        <label class = ladderLabel id="ladder-pl2-31" for="cb-pl2-52">Sube</label>
+        <label class = ladderLabel id="ladder-pl2-34" for="cb-pl2-54">Sube</label>
+        <label class = ladderLabel id="ladder-pl2-39" for="cb-pl2-60">Sube</label>
+        <label class = ladderLabel id="ladder-pl3-9" for="cb-pl3-30">Sube</label>
+        <label class = ladderLabel id="ladder-pl3-16" for="cb-pl3-36">Sube</label>
+        <label class = ladderLabel id="ladder-pl3-31" for="cb-pl3-52">Sube</label>
+        <label class = ladderLabel id="ladder-pl3-34" for="cb-pl3-54">Sube</label>
+        <label class = ladderLabel id="ladder-pl3-39" for="cb-pl3-60">Sube</label>
+        <label class = ladderLabel id="ladder-pl4-9" for="cb-pl4-30">Sube</label>
+        <label class = ladderLabel id="ladder-pl4-16" for="cb-pl4-36">Sube</label>
+        <label class = ladderLabel id="ladder-pl4-31" for="cb-pl4-52">Sube</label>
+        <label class = ladderLabel id="ladder-pl4-34" for="cb-pl4-54">Sube</label>
+        <label class = ladderLabel id="ladder-pl4-39" for="cb-pl4-60">Sube</label>
 
 
       </div>
@@ -2511,7 +2528,7 @@
 
 
 
-<video width="440px" loop="true" autoplay="autoplay" controls muted>
+<video id= "videoLlegada" width="440px" loop="true" controls muted>
 <source src="img/VideoLlegada.mp4" type="video/mp4">
 Tu navegador no permite reproducir este tipo de video.
 </video>
