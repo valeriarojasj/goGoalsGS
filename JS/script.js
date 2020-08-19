@@ -1,15 +1,9 @@
-
-//Comentario V: para la música y efectos de sonido
 var button = document.getElementById("playButton");
-var ladderLabel= document.querySelector(".ladderLabel");
 var audio = document.getElementById("backgroundMusic");
-var odsSound = document.getElementById("ODSSound");
-var beforeLadderSound = document.getElementById("beforeLadderSound");
-var videoLlegada=document.getElementById("videoLlegada");
 
 var toggleFx = document.getElementById("activateSound")
 
-//Comentario V: para que suene la musica de fondo cuando se pone play y se detenga cuando se pone pause.
+
 button.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
@@ -31,7 +25,6 @@ audio.addEventListener('timeupdate', function(){
     }
 });
 
-//Comentario V: para que suene la musica de fondo cuando se seleccionan las opciones de sonido.
 toggleFx.addEventListener("click", function(){
   if(audio.paused){
     audio.play();
@@ -65,7 +58,7 @@ toggleFx.addEventListener("click", function(){
 
 
 
-//Comentario V: Para ver el valor de la posición actual de cada jugador
+
 
   window.addEventListener('click', () => {
     var currentPosP1= document.querySelector('input[name="cb-player1"]:checked').value;
@@ -75,12 +68,13 @@ toggleFx.addEventListener("click", function(){
     var playerTurn= document.querySelector('input[name="turn"]:checked').value;
     var colorOption= document.querySelector('input[name="colors"]:checked').value;
 
-
-//Comentario V: Para darle a cada peon el color correspondiente teniendo en cuenta la selección de color que hicieron los jugadores.
   console.log(colorOption);
     if(playerTurn == "1" && colorOption == "colors1"){
 
       document.getElementById("turn-player-info").style.color ='#4a5';
+
+
+
 
     }else if(playerTurn == "2" && colorOption == "colors1"){
       document.getElementById("turn-player-info").style.color ='#48c';
@@ -88,16 +82,16 @@ toggleFx.addEventListener("click", function(){
     }else if(playerTurn == "3" && colorOption == "colors1")
     {
       document.getElementById("turn-player-info").style.color ='#f55';
+
     }
     else if(playerTurn == "4" && colorOption == "colors1")
     {
       document.getElementById("turn-player-info").style.color ='#dd5';
+
     }
     else if(playerTurn == "1" && colorOption == "colors2"){
-
       document.getElementById("turn-player-info").style.color ='#4a5';
     }else if(playerTurn == "2" && colorOption == "colors2"){
-
       document.getElementById("turn-player-info").style.color ='#4a5';
     }else if(playerTurn == "3" && colorOption == "colors2")
     {
@@ -131,7 +125,6 @@ toggleFx.addEventListener("click", function(){
     {
       document.getElementById("turn-player-info").style.color ='#4a5';
     }
-    //Comentario V: Para poner el peon en la ruleta del color correspondiente al turno actual e iniciar con valor '' en el resultado de la ruleta antes que que gire la ruleta
     var wheelPlayer = document.getElementById("wheelPlayer");
     wheelPlayer.style.color='transparent';
     var wheelResult = document.getElementById('wheelResult');
@@ -145,8 +138,6 @@ toggleFx.addEventListener("click", function(){
   });
 
 
-
-//Comentario V: Esto es para que gire la ruleta y suene la musica de la ruleta.
 
 
 
@@ -165,7 +156,7 @@ toggleFx.addEventListener("click", function(){
 
 
   });
-//Comentario V: Esto es para transformar el resultado de la ruleta de grados a numeros del 1 al 6 y tocar el sonido de resultado de la ruleta.
+
   wheel.addEventListener('transitionend',()=>{
       var wheelResultSound=document.getElementById("wheelResultSound");
 
@@ -292,55 +283,15 @@ toggleFx.addEventListener("click", function(){
       }
 
 
-//Comentario V: Esto es para que suene el sonido de ODS cuando cae en una casilla de ODS
-      if(newPosP1== 3|| newPosP2==3||newPosP3==3||newPosP4==3||
-          newPosP1==7|| newPosP2==7||newPosP3==7||newPosP4==7||
-          newPosP1==12|| newPosP2==12||newPosP3==12||newPosP4==12||
-          newPosP1==15|| newPosP2==15||newPosP3==15||newPosP4==15||
-          newPosP1==18|| newPosP2==18||newPosP3==18||newPosP4==18||
-          newPosP1==20|| newPosP2==20||newPosP3==20||newPosP4==20||
-          newPosP1==24|| newPosP2==24||newPosP3==24||newPosP4==24||
-          newPosP1==28|| newPosP2==28||newPosP3==28||newPosP4==28||
-          newPosP1==32|| newPosP2==32||newPosP3==32||newPosP4==32||
-          newPosP1==35|| newPosP2==35||newPosP3==35||newPosP4==35||
-          newPosP1==38|| newPosP2==38||newPosP3==38||newPosP4==38||
-          newPosP1==42|| newPosP2==42||newPosP3==42||newPosP4==42||
-          newPosP1==45|| newPosP2==45||newPosP3==45||newPosP4==45||
-          newPosP1==49|| newPosP2==49||newPosP3==49||newPosP4==49||
-          newPosP1==53|| newPosP2==53||newPosP3==53||newPosP4==53||
-          newPosP1==56|| newPosP2==56||newPosP3==56||newPosP4==56||
-          newPosP1==62|| newPosP2==62||newPosP3==62||newPosP4==62){
-          odsSound.play();
-
-//Comentario V: Esto es para que suene el sonido de escalera cuando cae en una casilla donde comienza una escalera
-        } if(
-          newPosP1==9|| newPosP2==9||newPosP3==9||newPosP4==9||
-          newPosP1==16|| newPosP2==16||newPosP3==16||newPosP4==16||
-          newPosP1==31|| newPosP2==31||newPosP3==31||newPosP4==31||
-          newPosP1==34|| newPosP2==34||newPosP3==34||newPosP4==34||
-          newPosP1==39|| newPosP2==39||newPosP3==39||newPosP4==39){
-            beforeLadderSound.play();
-            ladderLabel.addEventListener("click",()=>{
-              ladderSound.play();
-            });
-
-//Comentario V: Esto es para que suene el sonido de tobogán cuando cae en una casilla donde comienza un tobogán.
-          } if(
-            newPosP1==23|| newPosP2==23||newPosP3==23||newPosP4==23||
-            newPosP1==48|| newPosP2==48||newPosP3==48||newPosP4==48||
-            newPosP1==63|| newPosP2==63||newPosP3==63||newPosP4==63){
-              beforeSlideSound.play();
-              slideLabel.addEventListener("click",()=>{
-                slideSound.play();
-              });
-          }if(
-            newPosP1==64|| newPosP2==64||newPosP3==64||newPosP4==64){
-              videoLlegada.play();
-            }
 
 
-        });
 
 
+
+
+
+
+      //294 deg = 2
+});
 
 })();

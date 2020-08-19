@@ -1,6 +1,6 @@
 /*/*.cb[id$='-48']:checked ~ .dice {
   display: none !important;
-}*/*/@charset "UTF-8";
+}@charset "UTF-8";
 /***** dice animation */
 @import url("https://fonts.googleapis.com/css?family=Dosis|Roboto");
 @keyframes changeOrder {
@@ -320,7 +320,7 @@ h5{
   border: 0;
 }
 #colors1:checked ~ #options label[for=colors1] {
-  border: 2px solid #48c; /*comentario V: color de borde al elegir el color del jugador1*/
+  border: 2px solid #48c; /*comentario V: color de borde al elegir opcion 1 de colores*/
 }
 #colors1:checked ~ #options label[for=colors1] span:first-child {
   border: 2px solid transparent;
@@ -331,7 +331,7 @@ h5{
 
 #players2:checked ~ #options label[for=players2] {
   background: #009630;
-  border: 2px solid #48c; /*comentario V: color de borde al elegir el color del jugador2*/
+  border: 2px solid rgba(0, 0, 0, 0.1);
   color: white;
 }
 #players2:checked ~ #options label[for^=colors] span:nth-child(4) {
@@ -346,7 +346,7 @@ h5{
   border: 0;
 }
 #colors2:checked ~ #options label[for=colors2] {
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 2 de colores*/
 }
 #colors2:checked ~ #options label[for=colors2] span:first-child {
   border: 2px solid transparent;
@@ -357,7 +357,7 @@ h5{
 
 #players3:checked ~ #options label[for=players3] {
   background: #009630;
-  border: 2px solid #48c;/*comentario V: color de borde al elegir el color del jugador3*/
+  border: 2px solid rgba(0, 0, 0, 0.1);
   color: white;
 }
 #players3:checked ~ #options label[for^=colors] span:nth-child(5) {
@@ -369,7 +369,7 @@ h5{
   border: 0;
 }
 #colors3:checked ~ #options label[for=colors3] {
-  border: 2px solid #48c;/*comentario V: color de borde al elegir el color del jugador4*/
+  border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 3 de colores*/
 }
 #colors3:checked ~ #options label[for=colors3] span:first-child {
   border: 2px solid transparent;
@@ -389,7 +389,7 @@ h5{
   border: 0;
 }
 #colors4:checked ~ #options label[for=colors4]{
-  border: 2px solid rgba(0, 0, 0, 0.1);
+border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 4 de colores*/
 }
 #colors4:checked ~ #options label[for=colors4] span:first-child {
   border: 2px solid transparent;
@@ -929,6 +929,11 @@ label.dice:active::before {
   font-size: 2em;
 }
 
+.playerN{
+  font-size: 1.2em;
+  text-align: inherit;
+}
+
 #game .tab#player-info {
   text-align: center;
 }
@@ -1089,7 +1094,7 @@ label.dice:active::before {
   color:transparent;
 }
 
-#game #board .tile49{
+#game #board .tile48{
   background-image: url("../img/14_submarina.png");
   background-size: cover;
   color:transparent;
@@ -1116,7 +1121,7 @@ label.dice:active::before {
   color:transparent;
 }
 
-#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile48, #game #board .tile55, #game #board .tile34{
+#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile49, #game #board .tile55, #game #board .tile34{
   background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
@@ -3473,14 +3478,14 @@ svg.piece#piece-player-4 g {
 .cb[id$='-45']:checked ~ #ods-popup label:hover {
   background: #3d984c;
 }
-.cb[id$='-49']:checked ~ #ods-popup {
+.cb[id$='-48']:checked ~ #ods-popup {
   opacity: 1;
   z-index: 99999;
   transition: opacity 0.15s;
   transition-delay: 0.5s;
   -webkit-transition-delay: 0.5s;
 }
-.cb[id$='-49']:checked ~ #ods-popup label {
+.cb[id$='-48']:checked ~ #ods-popup label {
   background: #4a5;
   border-radius: 3px;
   color: white;
@@ -3489,7 +3494,7 @@ svg.piece#piece-player-4 g {
   transition: background 0.5s;
   margin-top: 1rem;
 }
-.cb[id$='-49']:checked ~ #ods-popup label:hover {
+.cb[id$='-48']:checked ~ #ods-popup label:hover {
   background: #3d984c;
 }
 .cb[id$='-53']:checked ~ #ods-popup {
@@ -4081,13 +4086,11 @@ svg.piece#piece-player-4 g {
   left: 117px;
   top:106px;
   z-index:2;
-  perspective: 1500px;
 }
 
 .wheel{
   width: 100%;
   height: 100%;
-  
 
 }
 
