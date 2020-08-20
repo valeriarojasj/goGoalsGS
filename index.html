@@ -5,12 +5,12 @@
     <title>Go Goals ODS</title>
     <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Handlee&family=Lato:wght@300&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -1018,17 +1018,26 @@
 <!-- the game section: board, dice, snakes, ladders, and all that jazz...-->
 <div id="game">
 
-  <div class="card  controlBoard bg-light mb-3 float-left mt-3 " style="max-width: 16rem;">
-    <div class="tab card-header" >Ruleta</div>
-    <div class="text-center"  id="app">
+  <div class="controlBoard float-left mt-3 " style="max-width: 16rem;">
+    <div class="divRuleta text-center" >
 
-          <img class="marker" src="img/MarkerODS.png" alt="">
-          <img class="wheel" src="img/ruleta.png" alt="">
-          <i class="fas fa-chess-pawn" id="wheelPlayer"></i>
-          <span id="wheelResult"></span>
-          <img class="button buttonWheel" src="img/button2.png" alt="">
 
-    </div>
+
+      <img class="marker" src="img/MarkerODS.png">
+      <img class="wheel" src="img/ruleta.png">
+      <img class= "fondoRuleta" src="img/fondoRuleta.png" width="100%;" alt="">
+
+      <button type="button" class="btn btn-success buttonWheel " name="button">Girá la ruleta</button>
+
+<div class="">
+  <span class= "wheelTextBefore" >Mueve </span> <div id="wheelResult"></div> <span class ="wheelTextAfter"> Casilleros </span>
+</div>
+
+  </div>
+        <!-- <i class="fas fa-chess-pawn" id="wheelPlayer"></i> -->
+
+
+
 
   </div>
 

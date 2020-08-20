@@ -125,8 +125,8 @@ toggleFx.addEventListener("click", function(){
     {
       document.getElementById("turn-player-info").style.color ='#4a5';
     }
-    var wheelPlayer = document.getElementById("wheelPlayer");
-    wheelPlayer.style.color='transparent';
+    // var wheelPlayer = document.getElementById("wheelPlayer");
+    // wheelPlayer.style.color='transparent';
     var wheelResult = document.getElementById('wheelResult');
     wheelResult.textContent = '';
 
@@ -152,7 +152,7 @@ toggleFx.addEventListener("click", function(){
     wheelSound.play();
 
     wheelResult.textContent = '';
-    wheelPlayer.style.color='transparent';
+    // wheelPlayer.style.color='transparent';
 
 
   });
@@ -162,7 +162,7 @@ toggleFx.addEventListener("click", function(){
 
       wheel.classList.remove('blur');
       startButton.style.pointerEvents = 'auto'; //to activate the button again.
-      wheel.style.transition='none'; //so that it starts again from 0 and that it
+      wheel.style.transition='none'; //so that it starts again from 0
       const actualDeg= deg%360;
       wheel.style.transform=`rotate(${actualDeg}deg)`;
       wheelSound.pause();
@@ -183,8 +183,8 @@ toggleFx.addEventListener("click", function(){
       var playerTurn= document.querySelector('input[name="turn"]:checked').value;
 
       if(`${actualDeg}`>0 && `${actualDeg}`<=60){
-        wheelPlayer.style.color= document.getElementById("turn-player-info").style.color;
-        wheelResult.textContent = ' sacó 6'
+        // wheelPlayer.style.color= document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' 6'
         console.log("PlayerTurn = " + playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+6;
           $("input[name=cb-player1][value=" + newPosP1 + "]").attr('checked', 'checked');
@@ -196,8 +196,8 @@ toggleFx.addEventListener("click", function(){
         $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
       }else if(`${actualDeg}`>60 && `${actualDeg}`<=120){
-        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
-        wheelResult.textContent = ' sacó 5'
+        // wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' 5'
         console.log("PlayerTurn = "+ playerTurn);
         if(playerTurn == "1"){var newPosP1= currentPosP1Int+5;
         console.log("newPosP1 "+ newPosP1);
@@ -212,8 +212,8 @@ toggleFx.addEventListener("click", function(){
       }
 
     }else if(`${actualDeg}`>120 && `${actualDeg}`<=180){
-      wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
-          wheelResult.textContent = ' sacó 4'
+      // wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' 4'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){var newPosP1= currentPosP1Int+4;
           console.log("newPosP1 "+ newPosP1);
@@ -228,8 +228,8 @@ toggleFx.addEventListener("click", function(){
             }
 
         }else if(`${actualDeg}`>180 && `${actualDeg}`<=240){
-          wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
-          wheelResult.textContent = ' sacó 3'
+          // wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' 3'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+3;
@@ -245,8 +245,8 @@ toggleFx.addEventListener("click", function(){
             $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
           }
       }else if(`${actualDeg}`>240 && `${actualDeg}`<=300){
-        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
-          wheelResult.textContent = ' sacó 2'
+        // wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+          wheelResult.textContent = ' 2'
           console.log("PlayerTurn = "+ playerTurn);
           if(playerTurn == "1"){
             var newPosP1= currentPosP1Int+2;
@@ -278,8 +278,8 @@ toggleFx.addEventListener("click", function(){
             console.log("PlayerTurn = "+ playerTurn);
           $("input[name=cb-player4][value=" + newPosP4 + "]").attr('checked', 'checked');
         }
-        wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
-        wheelResult.textContent = ' sacó 1';
+        // wheelPlayer.style.color=document.getElementById("turn-player-info").style.color;
+        wheelResult.textContent = ' 1';
       }
 
 
