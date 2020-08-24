@@ -71,59 +71,60 @@ toggleFx.addEventListener("click", function(){
   console.log(colorOption);
     if(playerTurn == "1" && colorOption == "colors1"){
 
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").src ='img/peon3-01.png';
+    
 
 
 
 
     }if(playerTurn == "2" && colorOption == "colors1"){
-      document.getElementById("turn-player-info").style.color ='#48c';
+      document.getElementById("turn-player-info").src ='img/peon2-01.png';
 
     }if(playerTurn == "3" && colorOption == "colors1")
     {
-      document.getElementById("turn-player-info").style.color ='#f55';
+      document.getElementById("turn-player-info").src ='img/peon1-01.png';
 
     }
     if(playerTurn == "4" && colorOption == "colors1")
     {
-      document.getElementById("turn-player-info").style.color ='#dd5';
+      document.getElementById("turn-player-info").src ='img/peon4-01.png';
 
     }
   if(playerTurn == "1" && colorOption == "colors2"){
-      document.getElementById("turn-player-info").style.color ='#48c';
+      document.getElementById("turn-player-info").src ='img/peon2-01.png';
     }if(playerTurn == "2" && colorOption == "colors2"){
-      document.getElementById("turn-player-info").style.color ='#f55';
+      document.getElementById("turn-player-info").src ='img/peon1-01.png';
     }if(playerTurn == "3" && colorOption == "colors2")
     {
-      document.getElementById("turn-player-info").style.color ='#dd5';
+      document.getElementById("turn-player-info").src ='img/peon4-01.png';
     }
     if(playerTurn == "4" && colorOption == "colors2")
     {
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").src ='img/peon3-01.png';
     }
     if(playerTurn == "1" && colorOption == "colors3"){
-      document.getElementById("turn-player-info").style.color ='#f55';
+      document.getElementById("turn-player-info").src ='img/peon1-01.png';
     }else if(playerTurn == "2" && colorOption == "colors3"){
-      document.getElementById("turn-player-info").style.color ='#dd5';
+      document.getElementById("turn-player-info").src ='img/peon4-01.png';
     }else if(playerTurn == "3" && colorOption == "colors3")
     {
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").src ='img/peon3-01.png';
     }
     else if(playerTurn == "4" && colorOption == "colors3")
     {
-      document.getElementById("turn-player-info").style.color ='#48c';
+      document.getElementById("turn-player-info").src ='img/peon2-01.png';
     }
     else if(playerTurn == "1" && colorOption == "colors4"){
-      document.getElementById("turn-player-info").style.color ='#dd5';
+      document.getElementById("turn-player-info").src ='img/peon4-01.png';
     }else if(playerTurn == "2" && colorOption == "colors4"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").src ='img/peon3-01.png';
     }else if(playerTurn == "3" && colorOption == "colors4")
     {
-      document.getElementById("turn-player-info").style.color ='#48c';
+      document.getElementById("turn-player-info").src ='img/peon2-01.png';
     }
     else if(playerTurn == "4" && colorOption == "colors4")
     {
-      document.getElementById("turn-player-info").style.color ='#f55';
+      document.getElementById("turn-player-info").src ='img/peon1-01.png';
     }
     // var wheelPlayer = document.getElementById("wheelPlayer");
     // wheelPlayer.style.color='transparent';
