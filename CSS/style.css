@@ -1247,7 +1247,7 @@ label.dice:active::before {
   color: #f55;
 }
 
-/*aca aparece el numero del jugador actual*/
+/*aca aparece el numero del jugador actual
 #turn1:checked ~ #turno::after {
   content: " 1";
 }
@@ -1262,7 +1262,7 @@ label.dice:active::before {
 
 #turn4:checked ~ #game .tab#player-info span::after {
   content: " 4";
-}
+}*/
 
 #game-time:checked ~ #game {
   display: block;
@@ -4180,6 +4180,24 @@ width:100%;
   top:-300px;
   left:88px;
 }
+
+
+
+.divPeonText{
+display: inline-block;
+vertical-align: top;
+text-align: center;
+}
+
+.turnPeon{
+  width:20px;
+}
+.img-text{
+display: block;
+
+}
+
+
 
 .divPlay{
 position:absolute;
