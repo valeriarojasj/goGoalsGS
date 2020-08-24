@@ -76,54 +76,54 @@ toggleFx.addEventListener("click", function(){
 
 
 
-    }else if(playerTurn == "2" && colorOption == "colors1"){
+    }if(playerTurn == "2" && colorOption == "colors1"){
       document.getElementById("turn-player-info").style.color ='#48c';
 
-    }else if(playerTurn == "3" && colorOption == "colors1")
+    }if(playerTurn == "3" && colorOption == "colors1")
     {
       document.getElementById("turn-player-info").style.color ='#f55';
 
     }
-    else if(playerTurn == "4" && colorOption == "colors1")
+    if(playerTurn == "4" && colorOption == "colors1")
     {
       document.getElementById("turn-player-info").style.color ='#dd5';
 
     }
-    else if(playerTurn == "1" && colorOption == "colors2"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
-    }else if(playerTurn == "2" && colorOption == "colors2"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
-    }else if(playerTurn == "3" && colorOption == "colors2")
+  if(playerTurn == "1" && colorOption == "colors2"){
+      document.getElementById("turn-player-info").style.color ='#48c';
+    }if(playerTurn == "2" && colorOption == "colors2"){
+      document.getElementById("turn-player-info").style.color ='#f55';
+    }if(playerTurn == "3" && colorOption == "colors2")
     {
-      document.getElementById("turn-player-3").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#dd5';
     }
-    else if(playerTurn == "4" && colorOption == "colors2")
+    if(playerTurn == "4" && colorOption == "colors2")
     {
       document.getElementById("turn-player-info").style.color ='#4a5';
     }
-    else if(playerTurn == "1" && colorOption == "colors3"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
+    if(playerTurn == "1" && colorOption == "colors3"){
+      document.getElementById("turn-player-info").style.color ='#f55';
     }else if(playerTurn == "2" && colorOption == "colors3"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#dd5';
     }else if(playerTurn == "3" && colorOption == "colors3")
     {
-      document.getElementById("turn-player-3").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#4a5';
     }
     else if(playerTurn == "4" && colorOption == "colors3")
     {
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#48c';
     }
     else if(playerTurn == "1" && colorOption == "colors4"){
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#dd5';
     }else if(playerTurn == "2" && colorOption == "colors4"){
       document.getElementById("turn-player-info").style.color ='#4a5';
     }else if(playerTurn == "3" && colorOption == "colors4")
     {
-      document.getElementById("turn-player-3").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#48c';
     }
     else if(playerTurn == "4" && colorOption == "colors4")
     {
-      document.getElementById("turn-player-info").style.color ='#4a5';
+      document.getElementById("turn-player-info").style.color ='#f55';
     }
     // var wheelPlayer = document.getElementById("wheelPlayer");
     // wheelPlayer.style.color='transparent';

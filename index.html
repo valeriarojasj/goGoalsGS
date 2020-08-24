@@ -1042,42 +1042,54 @@
   </div>
 
 
-<div class="float-right mt-3">
+<div class="float-right controlDerecha controlBoard" style="max-width: 16rem;">
+<div class="fondoDerecha">
+  <img class = "imgFondoDer"src="img/fondo2.png" width="100%;" alt="">
 
 
-  <div class="card controlBoard bg-light mb-3 " style="max-width: 8rem;">
-    <div class="tab card-header text-center" >Turno</div>
-    <div class="tab card-body" id="player-info">
-      <span>
-
-        <i class="fas fa-chess-pawn" id="turn-player-info"></i>
-
-
-
-
-
-        </span>
-
-    </div>
-  </div>
   <!--label#dice.tab-->
 
-  <div class="card  controlBoard bg-light mb-3 " style="max-width: 8rem;">
-    <div class="tab card-header" id="action-header" >Acción</div>
-    <div class="tab card-body" id="action">
-      <i class="fas fa-arrow-alt-circle-right"></i>
+  <div class="card  divTurno mb-3 " style="border-color: transparent; background-color:transparent;">
+
+    <div class="divRueda">
+
+    </div>
+
+
+    <div class="tab" id="action">
+
+
+      <div class="tab" id="player-info">
+        <span> Jugando <br>
+<!-- <img class="mb-3"src="img/peon3-01.png" width= 30px; alt=""> -->
+
+
+          <i class="mb-3 fas fa-chess-pawn" id="turn-player-info"></i>
+
+
+
+
+
+          </span>
+
+      </div>
+      <div class="divNextButton">
+        <button class=" btn-primary nextButton" type="button" name="button">Siguiente Turno</button>
+      </div>
+
       <label id="turn-changer1" for="turn1"></label>
       <label id="turn-changer2" for="turn2"></label>
       <label id="turn-changer3" for="turn3"></label>
       <label id="turn-changer4" for="turn4"></label>
 
     </div>
+
   </div>
 
 <!-- Controles Para que suene y se detenga la música de fondo. -->
-  <div class="card  controlBoard bg-light mb-3 " style="max-width: 8rem;">
-    <div class="tab card-header" >Música</div>
-    <div class="mt-3 mb-3 mx-auto">
+
+
+    <div class="divPlay mx-auto ">
       <button id="playButton"><i class="fas fa-play"></i></i></button>
     </div>
 
@@ -1104,20 +1116,9 @@
 
 
 
-  </div>
-  <div class="card  controlBoard bg-light mb-3 " style="max-width: 8rem;">
-    <div class="tab card-header" >Acerca de</div>
-
-      <label class="tab card-body" id="more-info" for="show-info">Más info</label>
-      <div class="Musica" id="MusicaInfo">
 
 
-
-      </div>
-
-  </div>
-
-
+</div>
 </div>
 
   <!-- Board based on the one from codewars: https://www.codewars.com/kata/snakes-and-ladders-1 -->

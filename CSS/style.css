@@ -43,19 +43,8 @@
   width: 0px;
   overflow: hidden;
 }
-.card-header{
-  font-family: 'Chelsea Market', cursive;
-  background-color: #0064a1;
-  border-top-left-radius: 8px !important;
-  border-top-right-radius: 8px !important;
-  text-align: center;
 
-  border-color: #0064a1;
-  color: white;
-}
-.controlBoard{
-  border-radius: 8px;
-}
+
 
 .fas.fa-play{
   color: #48c;
@@ -660,15 +649,7 @@ border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 4 de colo
   cursor: pointer;
   padding-top: 0.5rem;
 }*/
-#game .tab#action {
-  cursor: pointer;
-  left: calc(100px + 1rem);
-  width: 130px;
-}
 
-#game .tab#action {
-  content: "Siguiente Jugador";
-}
 
 #turn1:checked ~ .game-time:checked ~ [name=cb-player1]:checked + label + input + label,
 #turn1:checked ~ .game-time:checked ~ [name=cb-player1]:checked + label + input + label + input + label,
@@ -934,9 +915,7 @@ label.dice:active::before {
   content: " 1";
   font-weight: bolder;
 }
-#game .tab#dice {
-  cursor: pointer;
-}
+
 
 #game .tab#more-info {
   cursor: pointer;
@@ -947,15 +926,9 @@ label.dice:active::before {
 }
 
 
-#game .tab#action {
-  cursor: pointer;
-  left: calc(100px + 1rem);
-  width: 130px;
-}
 
-#game .tab#action::after {
-  content: "Siguiente Jugador";
-}
+
+
 #game .tab#action label {
   position: absolute;
   top: 0;
@@ -4184,7 +4157,49 @@ input.cb{
   height:600px;
   width:600px;
 }
-.card{
+.controlBoard{
   box-sizing: border-box;
+
+}
+.controlDerecha{
+margin-top: 145px;
+position: relative;
+width:100%;
+
+}
+.fondoDerecha{
+position:absolute;
+width:100%;
+}
+
+.divTurno{
+
+  position:relative;
+  height:130px;
+  width:130px;
+  top:-300px;
+  left:88px;
+}
+
+.divPlay{
+position:absolute;
+top:220px;
+left:135px;
+
+
+}
+
+#action{
+
+height:500px;
+text-align: center;
+}
+
+.nextButton{
+  z-index: 20;
+  top:100px;
+  font-family: "Patrick Hand", cursive;
+  width:120px;
+  border-radius: 12px;
 
 }
