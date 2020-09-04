@@ -476,7 +476,7 @@ border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 4 de colo
   display: block;
 }
 
-/** Instructions **/
+/** Instructions *
 #instructions {
   position: fixed;
   z-index: 9999;
@@ -623,7 +623,7 @@ border: 2px solid #48c;/*comentario V: color de borde al elegir opcion 4 de colo
 #game-time:checked ~ #instructions {
   display: none;
 }
-
+*/
 /** game screen: board, dice, messages **/
 /*
 .dice {
@@ -1059,7 +1059,7 @@ label.dice:active::before {
   color:transparent;
 }
 
-#game #board .tile48{
+#game #board .tile49{
   background-image: url("../img/14_submarina.png");
   background-size: cover;
   color:transparent;
@@ -1086,7 +1086,7 @@ label.dice:active::before {
   color:transparent;
 }
 
-#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile49, #game #board .tile55, #game #board .tile34{
+#game #board .tile1,  #game #board .tile10,#game #board .tile17,#game #board .tile25,#game #board .tile43, #game #board .tile57, #game #board .tile48, #game #board .tile55, #game #board .tile34{
   background-image: url("../img/hexagono_blanco_D.png");
   background-size: cover;
 }
