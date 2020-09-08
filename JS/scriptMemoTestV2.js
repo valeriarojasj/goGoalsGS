@@ -57,6 +57,7 @@ class MixOrMatch {
     startCountup() {
         return setInterval(() => {
             this.totalTime++;
+
             this.timer.innerText = this.totalTime;
         }, 1000);
     }
