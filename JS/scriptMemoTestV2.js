@@ -26,17 +26,7 @@ class AudioController {
         this.stopMusic();
         this.victorySound.play();
     }
-    gameOver() {
-        this.stopMusic();
-        this.gameOverSound.play();
-    }
-
-
 }
-
-
-
-
 
 class MixOrMatch {
     constructor(totalTime, cards) {
@@ -64,21 +54,14 @@ class MixOrMatch {
         this.timer.innerText = this.timeRemaining;
         this.ticker.innerText = this.totalClicks;
     }
-    startCountdown() {
+    startCountUp() {
         return setInterval(() => {
             this.timeRemaining--;
             this.timer.innerText = this.timeRemaining;
-            if(this.timeRemaining === 0)
-                this.gameOver();
         }, 1000);
     }
-    gameOver() {
-        clearInterval(this.countdown);
-        this.audioController.gameOver();
-        document.getElementById('game-over-text').classList.add('visible');
-    }
     victory() {
-        clearInterval(this.countdown);
+        clearInterval(this.countUp);
         this.audioController.victory();
         document.getElementById('victory-text').classList.add('visible');
     }

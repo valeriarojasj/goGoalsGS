@@ -1403,16 +1403,7 @@ toggleFx.addEventListener("click", function(){
         wheelResult.textContent = ' 1';
       }
 
-
-
-
-
-
-
-
-
-
       //294 deg = 2
-});
+    });
 
 })();
