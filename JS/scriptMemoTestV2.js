@@ -29,35 +29,35 @@ class AudioController {
 }
 
 class MixOrMatch {
-    constructor(totalTime, cards) {
+    constructor(initialTime, cards) {
         this.cardsArray = cards;
-        this.totalTime = totalTime;
-        this.timeRemaining = totalTime;
-        this.timer = document.getElementById('time-remaining')
+        this.initialTime = initialTime;
+        this.totalTime = initialTime;
+        this.timer = document.getElementById('total-time')
         this.ticker = document.getElementById('flips');
         this.audioController = new AudioController();
     }
 
     startGame() {
         this.totalClicks = 0;
-        this.timeRemaining = this.totalTime;
+        this.totalTime = this.initialTime;
         this.cardToCheck = null;
         this.matchedCards = [];
         this.busy = true;
         setTimeout(() => {
             this.audioController.startMusic();
             this.shuffleCards(this.cardsArray);
-            this.countdown = this.startCountdown();
+            this.countUp = this.startCountup();
             this.busy = false;
         }, 500)
         this.hideCards();
-        this.timer.innerText = this.timeRemaining;
+        this.timer.innerText = this.totalTime;
         this.ticker.innerText = this.totalClicks;
     }
-    startCountUp() {
+    startCountup() {
         return setInterval(() => {
-            this.timeRemaining--;
-            this.timer.innerText = this.timeRemaining;
+            this.totalTime++;
+            this.timer.innerText = this.totalTime;
         }, 1000);
     }
     victory() {
@@ -134,7 +134,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(100, cards);
+    let game = new MixOrMatch(0, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
