@@ -4,6 +4,7 @@ var moveForwardSound=document.getElementById("moveForwardSound");
 var slideSound=document.getElementById("slideSound");
 var ladderSound= document.getElementById("ladderSound");
 var llegadaSound= document.getElementById("llegadaSound");
+var congratulations =document.getElementById("congratulations");
 
 var videoLlegada=document.getElementById("videoLlegada");
 
@@ -195,8 +196,8 @@ toggleFx.addEventListener("click", function(){
       var newPosP3=0;
       var newPosP4=0;
 
-      var baja ="";
-      var retroceder="";
+
+    
 
 
       function ladderP1(){
@@ -240,9 +241,9 @@ toggleFx.addEventListener("click", function(){
 
 
           sube.addEventListener('click',()=>{
-
-              posSube.removeAttribute('checked');
               posArriba.setAttribute('checked', 'checked');
+              posSube.removeAttribute('checked');
+
 
 
 
@@ -286,8 +287,9 @@ toggleFx.addEventListener("click", function(){
             var posArriba=document.getElementById('cb-pl2-60');
           }
           sube.addEventListener('click',()=>{
-            posSube.removeAttribute('checked');
             posArriba.setAttribute('checked', 'checked');
+            posSube.removeAttribute('checked');
+
 
           });
 
@@ -330,9 +332,9 @@ toggleFx.addEventListener("click", function(){
 
           }
           sube.addEventListener('click',()=>{
-
-            posSube.removeAttribute('checked');
             posArriba.setAttribute('checked', 'checked');
+            posSube.removeAttribute('checked');
+
 
           });
 
@@ -373,8 +375,9 @@ toggleFx.addEventListener("click", function(){
             var posArriba=document.getElementById('cb-pl4-60');
           }
           sube.addEventListener('click',()=>{
-            posSube.removeAttribute('checked');
             posArriba.setAttribute('checked', 'checked');
+            posSube.removeAttribute('checked');
+
 
           });
 
@@ -403,9 +406,9 @@ toggleFx.addEventListener("click", function(){
           }
 
           baja.addEventListener('click',()=>{
-
-            posBaja.removeAttribute('checked');
             posAbajo.setAttribute('checked', 'checked');
+            posBaja.removeAttribute('checked');
+
           });
 
 
@@ -433,9 +436,9 @@ toggleFx.addEventListener("click", function(){
           }
 
           baja.addEventListener('click',()=>{
-
-            posBaja.removeAttribute('checked');
             posAbajo.setAttribute('checked', 'checked');
+            posBaja.removeAttribute('checked');
+
           });
 
 
@@ -463,9 +466,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             baja.addEventListener('click',()=>{
-
-              posBaja.removeAttribute('checked');
               posAbajo.setAttribute('checked', 'checked');
+              posBaja.removeAttribute('checked');
+
 
             });
 
@@ -493,8 +496,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             baja.addEventListener('click',()=>{
-              posBaja.removeAttribute('checked');
               posAbajo.setAttribute('checked', 'checked');
+              posBaja.removeAttribute('checked');
+
             });
 
 
@@ -540,9 +544,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             retroceder.addEventListener('click',()=>{
-
-              posRetrocede.removeAttribute('checked');
               posAtras.setAttribute('checked', 'checked');
+              posRetrocede.removeAttribute('checked');
+
 
             if(newPosP1==63){
               slideP1();
@@ -593,9 +597,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             retroceder.addEventListener('click',()=>{
-
-              posRetrocede.removeAttribute('checked');
               posAtras.setAttribute('checked', 'checked');
+              posRetrocede.removeAttribute('checked');
+
             if(newPosP2==63){
               slideP2();
             }
@@ -645,8 +649,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             retroceder.addEventListener('click',()=>{
-              posRetrocede.removeAttribute('checked');
               posAtras.setAttribute('checked', 'checked');
+              posRetrocede.removeAttribute('checked');
+
 
             if(newPosP3==63){
               slideP3();
@@ -696,9 +701,9 @@ toggleFx.addEventListener("click", function(){
           }
 
             retroceder.addEventListener('click',()=>{
-
-              posRetrocede.removeAttribute('checked');
               posAtras.setAttribute('checked', 'checked');
+              posRetrocede.removeAttribute('checked');
+
 
             if(newPosP4==63){
               slideP4();
@@ -772,6 +777,7 @@ toggleFx.addEventListener("click", function(){
             returnP1();
           }
           else if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbLlegada")){
+            congratulations.style.display="contents";
             videoLlegada.play();
 
           }
