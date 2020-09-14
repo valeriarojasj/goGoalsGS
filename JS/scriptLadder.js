@@ -197,7 +197,7 @@ toggleFx.addEventListener("click", function(){
       var newPosP4=0;
 
 
-    
+
 
 
       function ladderP1(){
@@ -763,6 +763,7 @@ toggleFx.addEventListener("click", function(){
 
           if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbOds")){
             odsSound.play();
+            
           }
           else if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbLadder")){
             ladderSound.play();
