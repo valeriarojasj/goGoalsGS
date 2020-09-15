@@ -32,7 +32,9 @@ class MixOrMatch {
     constructor(initialTime, cards) {
         this.cardsArray = cards;
         this.initialTime = initialTime;
-        this.totalTime = initialTime;
+        //Create minutes to count
+        this.minutes = "0" + 0;
+        this.seconds = initialTime;
         this.timer = document.getElementById('total-time')
         this.ticker = document.getElementById('flips');
         this.audioController = new AudioController();
@@ -40,7 +42,7 @@ class MixOrMatch {
 
     startGame() {
         this.totalClicks = 0;
-        this.totalTime = this.initialTime;
+        this.seconds = this.initialTime;
         this.cardToCheck = null;
         this.matchedCards = [];
         this.busy = true;
@@ -51,14 +53,22 @@ class MixOrMatch {
             this.busy = false;
         }, 500)
         this.hideCards();
-        this.timer.innerText = this.totalTime;
+        this.timer.innerText = "00:00";
         this.ticker.innerText = this.totalClicks;
     }
     startCountup() {
         return setInterval(() => {
-            this.totalTime++;
-
-            this.timer.innerText = this.totalTime;
+          //Getting seconds and minutes
+            this.seconds++;
+            if (this.seconds < 10) {
+              this.seconds = "0" + this.seconds;
+            }
+            if (this.seconds == 60) {
+              this.minutes++;
+              if (this.minutes < 10) this.minutes = "0" + this.minutes;
+              this.seconds = "0" + 0;
+            }
+            this.timer.innerText = this.minutes + ":" + this.seconds;
         }, 1000);
     }
     victory() {
