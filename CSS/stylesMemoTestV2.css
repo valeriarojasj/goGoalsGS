@@ -1,12 +1,13 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Chelsea Market', cursive;
 }
 
 html {
   min-height: 100vh;
 
-  font-family: 'Alegreya', serif;
+  font-family: 'Chelsea Market', cursive;
 }
 
 body {
@@ -20,7 +21,7 @@ nav{
 
 .page-title {
   color: #fff;
-  font-family: 'Alegreya', serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: normal;
   text-align: center;
   font-size: 2.8em;
@@ -160,8 +161,8 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #FF6D00;
-  font-family: 'Alegreya', serif;
+  color: #fff;
+  font-family: 'Patrick Hand', cursive;
   transition: background-color 500ms, font-size 500ms;
 }
 
