@@ -46,7 +46,7 @@
 
 
 
-.fas.fa-play{
+.fas.fa-music{
   color: #48c;
 
 }
@@ -105,7 +105,7 @@ body {
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   background: white;
-  border-radius: 3px;
+  border-radius: 12px;
   box-shadow: 0 1.5em 0.5em -1em rgba(0, 0, 0, 0.25);
   width: 70%;
   max-width: 375px;
@@ -134,8 +134,46 @@ body {
   line-height: 2.35rem;
   background: #48c;
   color: white;
-  border-radius: 3px 3px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
 }
+.headerODS1{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0px solid transparent;
+}
+
+.imgODS1{
+  position:absolute;
+  right:20px;
+  bottom:15px;
+}
+
+.hexagonoHeader{
+  position: absolute;
+  left: 30px;
+  top: -35px;
+}
+.papelitosLeft{
+  position: absolute;
+  left: 140px;
+  top: 2px;
+}
+
+.papelitosRight{
+  position: absolute;
+  right: 40px;
+}
+
+#ODS1ModalTitle{
+  position: absolute;
+  left: 190px;
+  top: 25px;
+  color:rgb(221,15,46);
+}
+
+
 .scrim .box h2 {
   margin-top: 1rem;
   margin-bottom: 0.15rem;
@@ -2878,6 +2916,7 @@ svg.piece#piece-player-4 g {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px 12px 0px 0px;
 
 
 }
@@ -3215,7 +3254,9 @@ ul>li {
 }
 
 ul>li:hover {
-background: #3d984c;
+background: lightblue;
+border-radius: 4px;
+
 }
 
 ul>li input[type=radio] {

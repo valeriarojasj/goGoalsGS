@@ -17,7 +17,7 @@ button.addEventListener("click", function(){
     button.innerHTML = '<i class="fas fa-pause"></i>';
   } else {
     audio.pause();
-    button.innerHTML = '<i class="fas fa-play"></i>';
+    button.innerHTML = '<i class="fas fa-music"></i>';
   }
 });
 
@@ -763,7 +763,7 @@ toggleFx.addEventListener("click", function(){
 
           if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbOds")){
             odsSound.play();
-            
+
           }
           else if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbLadder")){
             ladderSound.play();
