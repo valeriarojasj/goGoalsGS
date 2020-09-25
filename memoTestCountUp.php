@@ -407,7 +407,7 @@
 
   <!-- Footer -->
   <footer>
-    <?php require("Resources/footer.php") ?>
+    <?php require("resources/footer.php") ?>
   </footer>
 </body>
 
