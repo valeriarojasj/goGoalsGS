@@ -17,7 +17,7 @@
 <body>
   <!-- Header y nav -->
   <header>
-    <?php require("Resources/header.php") ?>
+    <?php require("resources/header.php") ?>
   </header>
 
   <!-- Game web -->
@@ -400,7 +400,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Footer -->
     <footer>
       <?php require("Resources/footer.php") ?>

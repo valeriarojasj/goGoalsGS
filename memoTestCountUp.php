@@ -13,9 +13,11 @@
   <title>Memo Test (Cuenta Progresiva)</title>
 </head>
 <body>
+
+  <!-- Soy una prueba para comitear-->
   <!-- Header -->
   <header>
-    <?php require("Resources/header.php") ?>
+    <?php require("resources/header.php") ?>
   </header>
 
 <!-- Game page -->
