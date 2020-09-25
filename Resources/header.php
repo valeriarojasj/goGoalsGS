@@ -14,8 +14,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="index.php">Escalera</a>
-          <a class="dropdown-item " href="memoTestCountDown.php">MemoTest</a>
-          <a class="dropdown-item active" href="memoTestCountUp.php">MemoTest (Tiempo Ilimitado)</a>
+          <a class="dropdown-item" href="memoTestCountDown.php">MemoTest</a>
+          <a class="dropdown-item" href="memoTestCountUp.php">MemoTest (Tiempo Ilimitado)</a>
+          <a class="dropdown-item" href="QuizJSON/index.html">Trivia</a>
         </div>
       </li>
     </ul>

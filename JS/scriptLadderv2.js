@@ -711,6 +711,176 @@ toggleFx.addEventListener("click", function(){
             });
       }
 
+     /*var questionSet1 = [{
+        question: "¿Cómo dirías que alguien está viviendo,en una situación de pobreza?",
+        choices: [ "No tiene un Smartphone", "No es capaz de costear sus necesidades básicas como comida, cuidados médicos,educación…", "No está bien vestido/a"],
+        correctAnswer: 1 //el conteo empieza desde 0, osea que 1 es la segunda respuesta
+      }, {
+        question: "¿Hay menos gente viviendo en situación de pobreza que hace 25 años?",
+        choices: [ "No; 1000 millones de personas más están viviendo en la pobreza", "Sí; 1000 millones de personas han conseguido salir de la pobreza"],
+        correctAnswer: 1
+      }, {
+        question: "¿Cuánta gente vive en situación de pobreza en el mundo?",
+        choices: ["Más de 800 personas","Más de 8000 personas", "Más de 800 millones de personas"],
+        correctAnswer: 2
+      }, {
+        question: "La mayoría de la gente en situación de pobreza vive en:",
+        choices: ["Europa","Norte y Sudamérica","África y Asia"],
+        correctAnswer: 2
+      }, {
+        question: "En 1990, casi 4 de cada 10 personas (38%) vivía en una situación de pobreza extrema. ¿Cuánta gente vive hoy en día en esta situación?",
+        choices: ["1 de cada 10","3 de cada 10","5 de cada 10"],
+        correctAnswer: 0
+      }];
+
+      var questionSet2 = [{
+        question: "¿Se produce suficiente comida en el mundo para alimentar a todos sus habitantes?",
+        choices: ["No; porque me entra hambre todo el tiempo", "Sí; se produce suficiente comida sana, pero no se producen suficientes dulces y refrescos", "Sí que se produce suficiente comida, pero no todo el mundo puede permitirse comprarla"],
+        correctAnswer: 2
+      }, {
+        question: "Verdadero o falso: El número de personas con hambre en el mundo está disminuyendo",
+        choices: ["Verdadero","Falso"],
+        correctAnswer: 0
+      }, {
+        question: "¿Cuánta gente en el mundo no come lo suficiente para poder tener una buena salud?",
+        choices: ["Más de 90 personas", "Más de 9000 personas", "Más de 900 millones de personas"],
+        correctAnswer: 2
+      }, {
+        question: "¿Cuál de los siguientes enunciados es verdadero?",
+        choices: ["Necesitas al menos tomar un refresco al día para estar sano y en buena forma", "Hay suficiente comida en el mundo para alimentar a todas las personas", "Te puedes mantener sano si no comes ni frutas ni verduras"],
+        correctAnswer: 1
+      }, {
+        question: "¿Qué es la malnutrición?",
+        choices: ["Cuando no comes 3 platos al día", "Cuando no comes carne cada día", "Cuando no comes suficiente comida sana durante un cierto periodo de tiempo"],
+        correctAnswer: 2
+      }];
+
+      var questionSet3 = [{
+        question: "¿Cuál es la esperanza de vida media en el mundo?",
+        choices: ["50 años", "60 años", "70 años"],
+        correctAnswer: 2
+      }, {
+        question: "Qué cosas podrían ayudar a que no muriesen más niños menores?",
+        choices: ["Comida nutritiva y agua potable", "Refrescos y teléfonos móviles", "Refrescos y agua potable"],
+        correctAnswer: 0
+      }, {
+        question: "¿Qué es lo mejor para un bebé recién nacido?",
+        choices: ["Ser alimentado mediante un biberón", "Beber agua", "Que su madre le dé el pecho"],
+        correctAnswer: 2
+      }, {
+        question: "¿Cuántos minutos de ejercicio deben hacer los niños de entre 7 y 17 años cada día?",
+        choices: ["60 minutos", "30 minutos","No necesitan hacer ejercicio cada día"],
+        correctAnswer: 0
+      }, {
+        question: "¿Cuál de estos insectos ha ayudado a propagar la malaria?",
+        choices: ["Mosquitos","Libélulas","Luciérnagas" ],
+        correctAnswer: 0
+      }];*/
+
+
+/**ODS**/
+const question = document.getElementById('question');
+const choices = Array.from(document.getElementsByClassName('choice-text'));
+const scoreText = document.getElementById('score');
+const btnSendAnswer = document.getElementById('btnSendAnswer');
+
+let currentQuestion = {};
+let acceptingAnswers = false;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
+
+let questions = [];
+
+      function odsP1(){
+          if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
+
+
+            fetch('questionsODS1.json')
+                .then((res) => {
+                    return res.json();
+                })
+                .then((loadedQuestions) => {
+                    questions = loadedQuestions;
+                    startGame();
+                })
+                .catch((err) => {
+                    console.error(err);
+                });
+
+            //CONSTANTS
+            const CORRECT_BONUS = 10;
+            const MAX_QUESTIONS = 1;
+
+            startGame = () => {
+                questionCounter = 0;
+                score = 0;
+                availableQuestions = [...questions];
+                getNewQuestion();
+            };
+
+            getNewQuestion = () => {
+                if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+                    return
+                }
+                questionCounter++;
+
+
+
+
+                const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+                currentQuestion = availableQuestions[questionIndex];
+                question.innerText = currentQuestion.question;
+
+                choices.forEach((choice) => {
+                    const number = choice.dataset['number'];
+                    choice.innerText = currentQuestion['choice' + number];
+                });
+
+                availableQuestions.splice(questionIndex, 1);
+                acceptingAnswers = true;
+            };
+
+            choices.forEach((choice) => {
+                btnSendAnswer.addEventListener('click', (e) => {
+                    if (!acceptingAnswers) return;
+
+                    acceptingAnswers = false;
+                    const selectedChoice = e.target;
+                    console.log("selected Choice = " + selectedChoice);
+                    const selectedAnswer = selectedChoice.dataset['number'];
+                    console.log("selected Answer = " + selectedAnswer);
+
+
+                    const classToApply =
+                        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+                        selectedChoice.parentElement.classList.add(classToApply);
+                    if (classToApply === 'correct') {
+                        incrementScore(CORRECT_BONUS);
+                        selectedChoice.parentElement.style.backgroundColor = "green";
+
+                    }else if (classToApply === 'incorrect') {
+                      selectedChoice.parentElement.style.backgroundColor = "red";
+                    }
+
+
+
+
+
+                    setTimeout(() => {
+
+                        getNewQuestion();
+                    }, 1000);
+                });
+            });
+
+            incrementScore = (num) => {
+                score += num;
+                scoreText.innerText = score;
+            };
+
+
+          }}
 
 
 
@@ -765,7 +935,7 @@ toggleFx.addEventListener("click", function(){
 
           if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbOds")){
             odsSound.play();
-            
+            odsP1();
 
           }
           else if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbLadder")){

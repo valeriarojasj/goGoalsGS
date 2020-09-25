@@ -1,0 +1,22 @@
+[
+  {
+    "question": "¿Se produce suficiente comida en el mundo para alimentar a todos sus habitantes?",
+    "choice1": "No; porque me entra hambre todo el tiempo",
+    "choice2": "Sí; se produce suficiente comida sana, pero no se producen suficientes dulces y refrescos",
+    "choice3": "Sí que se produce suficiente comida, pero no todo el mundo puede permitirse comprarla",
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: El número de personas con hambre en el mundo está disminuyendo",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 2
+  },
+  {
+    "question": "¿Cuánta gente en el mundo no come lo suficiente para poder tener una buena salud?",
+    "choice1": "Más de 90 personas",
+    "choice2": "Más de 9000 personas",
+    "choice3": "Más de 900 millones de personas",
+    "answer": 3
+  }
+]
