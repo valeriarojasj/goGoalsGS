@@ -9,7 +9,7 @@
   <link href="css/stylesMemoTestV2.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
-<script src="js/scriptMemoTestCountUp.js" async></script>
+  <script src="js/scriptMemoTestCountUp.js" async></script>
   <title>Memo Test (Cuenta Progresiva)</title>
 </head>
 <body>
