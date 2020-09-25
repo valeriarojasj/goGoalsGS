@@ -1003,9 +1003,9 @@
 
 
 
-          <img class="marker" src="img/MarkerODS.png">
+          <img class="marker" src="img/markerODS.png">
           <img class="wheel" src="img/ruleta.png">
-          <img class= "fondoRuleta" src="img/fondoRuleta.png" width="100%;" alt="">
+          <img class= "fondoRuleta" src="img/fondoRuleta1.png" width="100%;" alt="">
 
           <button type="button" class="btn btn-success buttonWheel " name="button">Girá la ruleta</button>
 
@@ -1024,7 +1024,7 @@
 
     <div class="float-right controlDerecha controlBoard" style="max-width: 16rem;">
     <div class="fondoDerecha">
-      <img class = "imgFondoDer"src="img/fondo2.png" width="100%;" alt="">
+      <img class = "imgFondoDer"src="img/fondoControl2.png" width="100%;" alt="">
 
 
       <!--label#dice.tab-->
