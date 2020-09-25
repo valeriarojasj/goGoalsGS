@@ -14,7 +14,11 @@
 </head>
 <body>
 
+<<<<<<< HEAD
   <!-- Soy un commit para ir a la web, jelou-->
+=======
+  <!-- Soy una prueba para comitear-->
+>>>>>>> 8034af6... prueba de sonido
   <!-- Header -->
   <header>
     <?php require("resources/header.php") ?>
