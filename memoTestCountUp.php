@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <!-- Soy una prueba para comitear-->
+  <!-- Soy un commit para ir a la web, jelou-->
   <!-- Header -->
   <header>
     <?php require("resources/header.php") ?>
