@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <!-- Soy una prueba para comitear-->
+  <!-- Me usan de prueba, me tienen que eliminar si o si -->
   <!-- Header -->
   <header>
     <?php require("resources/header.php") ?>
