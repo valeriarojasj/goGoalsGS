@@ -2518,11 +2518,11 @@ inputs and labels that control the piece position for player 1-->
 </div>
 </div>
 <!-- Modal -->
-<div class="modal fade" style="margin-top: 20px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
+<div class="modal fade" style="padding-top: 35px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header headerODS1">
-        <img class="hexagonoHeader" height="100px" src="img/hexagono_blanco.png" alt="">
+        <img class="hexagonoHeader" height="100px" src="img/hexa-01.png" alt="">
         <img class="papelitosLeft" src="img/papelitos_left.png" height="60px" alt="">
         <h4 class="modal-title" id="ODS1ModalTitle">Fin de la Pobreza</h4>
         <img class="papelitosRight" src="img/papelitos_right.png" height="60px" alt="">
@@ -2534,31 +2534,25 @@ inputs and labels that control the piece position for player 1-->
       <div class="modal-body ODSModalBody">
         <img class="imgODS1" src="img/Tarjeta1_papelitos.png" height="120px" alt="">
         <form action="#" class="customRadio">
-          <p>¿Cómo dirías que alguien se encuentra en la pobreza?</p>
+          <p id="question">¿Cómo dirías que alguien se encuentra en la pobreza?</p>
           <div class="divRadioODS">
             <ul class="px-3">
-              <li>
-                <input type="radio" name="textEditor" id="opcion1ODS1" value="1"><label for="opcion1ODS1">No tiene un SmartPhone</label>
+              <li class ="choice-container">
+                <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion1" value="1"><label class = "choice-text" for="opcion1" data-number="1">No tiene un SmartPhone</label>
               </li>
-              <li>
-                <input type="radio" name="textEditor" id="opcion2ODS1" value="2"><label for="opcion2ODS1">No puede costear sus necesidades básicas como comida, servicios de salud, educación,etc.</label>
+              <li class ="choice-container">
+                <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion2" value="2"><label class = "choice-text" for="opcion2" data-number="2">No puede costear sus necesidades básicas como comida, servicios de salud, educación,etc.</label>
               </li>
-              <li>
-                <input type="radio" name="textEditor" id="opcion3ODS1" value="3"><label for="opcion3ODS1">Está mal vestido/a</label>
+              <li class ="choice-container">
+                <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion3" value="3"><label class = "choice-text" for="opcion3" data-number="3">Está mal vestido/a</label>
               </li>
             </ul>
-
-
-
           </div>
-
-
-
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Enviar</button>
+        <button id = "btnSendAnswer" type="button" class="btn btn-primary">Enviar</button>
       </div>
     </div>
   </div>
@@ -2610,7 +2604,7 @@ inputs and labels that control the piece position for player 1-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/scriptLadder.js" charset="utf-8"></script>
+<script src="js/scriptLadderV2.js" charset="utf-8"></script>
 
   </body>
 </html>
