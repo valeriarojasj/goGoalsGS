@@ -1,12 +1,13 @@
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('Audio/African_fun_long.mp3');
-        this.flipSound = new Audio('Audio/office_ball_point_pen_click.mp3');
-        this.matchSound = new Audio('Audio/zapsplat_multimedia_game_sound_fun_arcade_organ_positive_win_expression_54270.mp3');
-        this.victorySound = new Audio('Audio/zapsplat_multimedia_game_sound_soft_warm_subtle_complete_success_53012.mp3');
-        this.gameOverSound = new Audio('Audio/zapsplat_multimedia_game_sound_fun_arcade_organ_short_negative_fail_lose_003_54276.mp3');
+        this.bgMusic = new Audio('audio/african_fun_long.mp3');
+        this.flipSound = new Audio('audio/office_ball_point_pen_click.mp3');
+        this.matchSound = new Audio('audio/zapsplat_multimedia_game_sound_fun_arcade_organ_positive_win_expression_54270.mp3');
+        this.victorySound = new Audio('audio/zapsplat_multimedia_game_sound_soft_warm_subtle_complete_success_53012.mp3');
+        this.gameOverSound = new Audio('audio/zapsplat_multimedia_game_sound_fun_arcade_organ_short_negative_fail_lose_003_54276.mp3');
         this.bgMusic.volume = 0.3;
         this.bgMusic.loop = true;
+        /*Me modificaron el nombre*/
 
     }
     startMusic() {
