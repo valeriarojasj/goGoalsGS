@@ -50,264 +50,184 @@
 
 
     <input class="cb cbInicio" type="radio" name="cb-player1" id="cb-pl1-0" value="0" checked="checked" />
-    <!--<label class="dice" for="cb-pl1-0"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-1" value="1" />
-    <!--<label class="dice" for="cb-pl1-1"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-2" value="2"/>
-    <!--<label class="dice" for="cb-pl1-2"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-3"value="3"/>
-    <!--<label class="dice" for="cb-pl1-3"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-4" value="4"/>
-    <!--<label class="dice" for="cb-pl1-4"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-5" value="5"/>
-    <!--<label class="dice" for="cb-pl1-5"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-6" value="6"/>
-    <!--<label class="dice" for="cb-pl1-6"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-7" value="7"/>
-    <!--<label class="dice" for="cb-pl1-7"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-8" value="8"/>
-    <!--<label class="dice" for="cb-pl1-8"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player1" id="cb-pl1-9" value="9"/>
-    <!--<label class="dice" for="cb-pl1-9"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-10" value="10"/>
-    <!--<label class="dice" for="cb-pl1-10"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-11" value="11"/>
-    <!--<label class="dice" for="cb-pl1-11"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-12" value="12"/>
-    <!--<label class="dice" for="cb-pl1-12"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-13" value="13"/>
-    <!--<label class="dice" for="cb-pl1-13"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-14" value="14"/>
-    <!--<label class="dice" for="cb-pl1-14"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-15" value="15"/>
-    <!--<label class="dice" for="cb-pl1-15"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player1" id="cb-pl1-16" value="16"/>
-    <!--<label class="dice" for="cb-pl1-16"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-17" value="17"/>
-    <!--<label class="dice" for="cb-pl1-17"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-18" value="18"/>
-    <!--<label class="dice" for="cb-pl1-18"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-19" value="19"/>
-    <!--<label class="dice" for="cb-pl1-19"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-20" value="20"/>
-    <!--<label class="dice" for="cb-pl1-20"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-21" value="21"/>
-    <!--<label class="dice" for="cb-pl1-21"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-22" value="22"/>
-    <!--<label class="dice" for="cb-pl1-22"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player1" id="cb-pl1-23" value="23"/>
-    <!--<label class="dice" for="cb-pl1-23"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-24" value="24"/>
-    <!--<label class="dice" for="cb-pl1-24"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-25" value="25"/>
-    <!--<label class="dice" for="cb-pl1-25"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-26" value="26"/>
-    <!--<label class="dice" for="cb-pl1-26"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-27" value="27"/>
-    <!--<label class="dice" for="cb-pl1-27"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-28"value="28"/>
-    <!--<label class="dice" for="cb-pl1-28"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-29" value="29"/>
-    <!--<label class="dice" for="cb-pl1-29"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-30" value="30"/>
-    <!--<label class="dice" for="cb-pl1-30"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player1" id="cb-pl1-31" value="31"/>
-    <!--<label class="dice" for="cb-pl1-31"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-32" value="32"/>
-    <!--<label class="dice" for="cb-pl1-32"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-33" value="33"/>
-    <!--<label class="dice" for="cb-pl1-33"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player1" id="cb-pl1-34" value="34"/>
-    <!--<label class="dice" for="cb-pl1-34"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-35" value="35"/>
-    <!--<label class="dice" for="cb-pl1-35"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-36" value="36"/>
-    <!--<label class="dice" for="cb-pl1-36"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-37" value="37"/>
-    <!--<label class="dice" for="cb-pl1-37"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-38" value="38"/>
-    <!--<label class="dice" for="cb-pl1-38"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player1" id="cb-pl1-39" value="39"/>
-    <!--<label class="dice" for="cb-pl1-39"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-40" value="40"/>
-    <!--<label class="dice" for="cb-pl1-40"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-41" value="41"/>
-    <!--<label class="dice" for="cb-pl1-41"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-42" value="42"/>
-    <!--<label class="dice" for="cb-pl1-42"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-43" value="43"/>
-    <!--<label class="dice" for="cb-pl1-43"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-44" value="44"/>
-    <!--<label class="dice" for="cb-pl1-44"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-45" value="45"/>
-    <!--<label class="dice" for="cb-pl1-45"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-46" value="46"/>
-    <!--<label class="dice" for="cb-pl1-46"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-47" value="47"/>
-    <!--<label class="dice" for="cb-pl1-47"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player1" id="cb-pl1-48" value="48"/>
-    <!--<label class="dice" for="cb-pl1-48"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-49" value="49"/>
-    <!--<label class="dice" for="cb-pl1-49"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-50" value="50"/>
-    <!--<label class="dice" for="cb-pl1-50"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-51" value="51"/>
-    <!--<label class="dice" for="cb-pl1-51"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-52" value="52"/>
-    <!--<label class="dice" for="cb-pl1-52"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-53" value="53"/>
-    <!--<label class="dice" for="cb-pl1-53"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-54" value="54"/>
-    <!--<label class="dice" for="cb-pl1-54"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-55" value="55"/>
-    <!--<label class="dice" for="cb-pl1-55"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-56" value="56"/>
-    <!--<label class="dice" for="cb-pl1-56"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-57" value="57"/>
-    <!--<label class="dice" for="cb-pl1-57"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-58" value="58"/>
-    <!--<label class="dice" for="cb-pl1-58"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-59" value="59"/>
-    <!--<label class="dice" for="cb-pl1-59"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-60" value="60"/>
-    <!--<label class="dice" for="cb-pl1-60"></label>-->
+
     <input class="cb" type="radio" name="cb-player1" id="cb-pl1-61" value="61"/>
-    <!--<label class="dice" for="cb-pl1-61"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player1" id="cb-pl1-62" value="62"/>
-    <!--<label class="dice" for="cb-pl1-62"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player1" id="cb-pl1-63" value="63"/>
-    <!--<label class="dice" for="cb-pl1-63"></label>-->
+
     <input class="cb cbLlegada" type="radio" name="cb-player1" id="cb-pl1-64" value="64"/>
-    <!--<label class="dice" for="cb-pl1-64"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-65" value="65"/>
-    <!--<label class="dice" for="cb-pl1-65"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-66" value="66"/>
-    <!--<label class="dice" for="cb-pl1-66"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-67" value="67"/>
-    <!--<label class="dice" for="cb-pl1-67"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-68" value="68"/>
-    <!--<label class="dice" for="cb-pl1-68"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-69" value="69"/>
-    <!--<label class="dice" for="cb-pl1-69"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player1" id="cb-pl1-70" value="70"/>
-    <!--<label class="dice" for="cb-pl1-70"></label>-->
-    <!--
-    <input class="cb" type="radio" name="cb-player1" id="cb-pl1-71"/>
-    <!-<label class="dice" for="cb-pl1-71"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-72"/> -->
-    <!--<label class="dice" for="cb-pl1-72"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-73"/> -->
-    <!--<label class="dice" for="cb-pl1-73"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-74"/> -->
-    <!--<label class="dice" for="cb-pl1-74"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-75"/> -->
-    <!--<label class="dice" for="cb-pl1-75"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-76"/> -->
-    <!--<label class="dice" for="cb-pl1-76"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-77"/> -->
-    <!--<label class="dice" for="cb-pl1-77"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-78"/> -->
-    <!--<label class="dice" for="cb-pl1-78"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-79"/> -->
-    <!--<label class="dice" for="cb-pl1-79"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-80"/> -->
-    <!--<label class="dice" for="cb-pl1-80"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-81"/> -->
-    <!--<label class="dice" for="cb-pl1-81"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-82"/> -->
-    <!--<label class="dice" for="cb-pl1-82"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-83"/> -->
-    <!--<label class="dice" for="cb-pl1-83"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-84"/> -->
-    <!--<label class="dice" for="cb-pl1-84"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-85"/> -->
-    <!--<label class="dice" for="cb-pl1-85"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-86"/> -->
-    <!--<label class="dice" for="cb-pl1-86"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-87"/> -->
-    <!--<label class="dice" for="cb-pl1-87"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-88"/> -->
-    <!--<label class="dice" for="cb-pl1-88"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-89"/> -->
-    <!--<label class="dice" for="cb-pl1-89"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-90"/> -->
-    <!--<label class="dice" for="cb-pl1-90"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-91"/> -->
-    <!--<label class="dice" for="cb-pl1-91"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-92"/> -->
-    <!--<label class="dice" for="cb-pl1-92"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-93"/> -->
-    <!--<label class="dice" for="cb-pl1-93"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-94"/> -->
-    <!--<label class="dice" for="cb-pl1-94"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-95"/> -->
-    <!--<label class="dice" for="cb-pl1-95"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-96"/> -->
-    <!--<label class="dice" for="cb-pl1-96"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-97"/> -->
-    <!--<label class="dice" for="cb-pl1-97"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-98"/> -->
-    <!--<label class="dice" for="cb-pl1-98"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-99"/> -->
-    <!--<label class="dice" for="cb-pl1-99"></label>-->
-     <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-100"/> -->
-    <!--<label class="dice" for="cb-pl1-100"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-101"/> -->
-    <!--<label class="dice" for="cb-pl1-101"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-102"/> -->
-    <!--<label class="dice" for="cb-pl1-102"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-103"/> -->
-    <!--<label class="dice" for="cb-pl1-103"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-104"/> -->
-    <!--<label class="dice" for="cb-pl1-104"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-105"/> -->
-    <!--<label class="dice" for="cb-pl1-105"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player1" id="cb-pl1-106"/> -->
-    <!--<label class="dice" for="cb-pl1-106"></label>-->
     <input class="cb cbInicio" type="radio" name="cb-player2" id="cb-pl2-0" value="0" checked="checked" />
-    <!--<label class="dice" for="cb-pl2-0"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-1" value="1" />
-    <!--<label class="dice" for="cb-pl2-1"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-2" value="2"/>
-    <!--<label class="dice" for="cb-pl2-2"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-3"value="3"/>
-    <!--<label class="dice" for="cb-pl2-3"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-4" value="4"/>
-    <!--<label class="dice" for="cb-pl2-4"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-5" value="5"/>
-    <!--<label class="dice" for="cb-pl2-5"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-6" value="6"/>
-    <!--<label class="dice" for="cb-pl2-6"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-7" value="7"/>
-    <!--<label class="dice" for="cb-pl2-7"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-8" value="8"/>
-    <!--<label class="dice" for="cb-pl2-8"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player2" id="cb-pl2-9" value="9"/>
-    <!--<label class="dice" for="cb-pl2-9"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-10" value="10"/>
-    <!--<label class="dice" for="cb-pl2-10"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-11" value="11"/>
-    <!--<label class="dice" for="cb-pl2-11"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-12" value="12"/>
-    <!--<label class="dice" for="cb-pl2-12"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-13" value="13"/>
-    <!--<label class="dice" for="cb-pl2-13"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-14" value="14"/>
-    <!--<label class="dice" for="cb-pl2-14"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-15" value="15"/>
-    <!--<label class="dice" for="cb-pl2-15"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player2" id="cb-pl2-16" value="16"/>
-    <!--<label class="dice" for="cb-pl2-16"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-17" value="17"/>
-    <!--<label class="dice" for="cb-pl2-17"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-18" value="18"/>
-    <!--<label class="dice" for="cb-pl2-18"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-19" value="19"/>
-    <!--<label class="dice" for="cb-pl2-19"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-20" value="20"/>
-    <!--<label class="dice" for="cb-pl2-20"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-21" value="21"/>
-    <!--<label class="dice" for="cb-pl2-21"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-22" value="22"/>
     <!--<label class="dice" for="cb-pl2-22"></label>-->
     <input class="cb cbSlide" type="radio" name="cb-player2" id="cb-pl2-23" value="23"/>
@@ -405,79 +325,7 @@
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-69" value="69"/>
     <!--<label class="dice" for="cb-pl2-69"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-70" value="70"/>
-    <!--<label class="dice" for="cb-pl2-70"></label>--><!--
-    <input class="cb" type="radio" name="cb-player2" id="cb-pl2-71"/>
-    <!-<label class="dice" for="cb-pl2-71"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-72"/> -->
-    <!--<label class="dice" for="cb-pl2-72"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-73"/> -->
-    <!--<label class="dice" for="cb-pl2-73"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-74"/> -->
-    <!--<label class="dice" for="cb-pl2-74"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-75"/> -->
-    <!--<label class="dice" for="cb-pl2-75"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-76"/> -->
-    <!--<label class="dice" for="cb-pl2-76"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-77"/> -->
-    <!--<label class="dice" for="cb-pl2-77"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-78"/> -->
-    <!--<label class="dice" for="cb-pl2-78"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-79"/> -->
-    <!--<label class="dice" for="cb-pl2-79"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-80"/> -->
-    <!--<label class="dice" for="cb-pl2-80"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-81"/> -->
-    <!--<label class="dice" for="cb-pl2-81"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-82"/> -->
-    <!--<label class="dice" for="cb-pl2-82"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-83"/> -->
-    <!--<label class="dice" for="cb-pl2-83"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-84"/> -->
-    <!--<label class="dice" for="cb-pl2-84"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-85"/> -->
-    <!--<label class="dice" for="cb-pl2-85"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-86"/> -->
-    <!--<label class="dice" for="cb-pl2-86"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-87"/> -->
-    <!--<label class="dice" for="cb-pl2-87"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-88"/> -->
-    <!--<label class="dice" for="cb-pl2-88"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-89"/> -->
-    <!--<label class="dice" for="cb-pl2-89"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-90"/> -->
-    <!--<label class="dice" for="cb-pl2-90"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-91"/> -->
-    <!--<label class="dice" for="cb-pl2-91"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-92"/> -->
-    <!--<label class="dice" for="cb-pl2-92"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-93"/> -->
-    <!--<label class="dice" for="cb-pl2-93"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-94"/> -->
-    <!--<label class="dice" for="cb-pl2-94"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-95"/> -->
-    <!--<label class="dice" for="cb-pl2-95"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-96"/> -->
-    <!--<label class="dice" for="cb-pl2-96"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-97"/> -->
-    <!--<label class="dice" for="cb-pl2-97"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-98"/> -->
-    <!--<label class="dice" for="cb-pl2-98"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-99"/> -->
-    <!--<label class="dice" for="cb-pl2-99"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-100"/> -->
-    <!--<label class="dice" for="cb-pl2-100"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-101"/> -->
-    <!--<label class="dice" for="cb-pl2-101"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-102"/> -->
-    <!--<label class="dice" for="cb-pl2-102"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-103"/> -->
-    <!--<label class="dice" for="cb-pl2-103"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-104"/> -->
-    <!--<label class="dice" for="cb-pl2-104"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-105"/> -->
-    <!--<label class="dice" for="cb-pl2-105"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player2" id="cb-pl2-106"/> -->
-    <!--<label class="dice" for="cb-pl2-106"></label>-->
+
     <input class="cb cbInicio" type="radio" name="cb-player3" id="cb-pl3-0" value="0" checked="checked" />
     <!--<label class="dice" for="cb-pl3-0"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-1" value="1" />
@@ -619,80 +467,7 @@
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-69" value="69"/>
     <!--<label class="dice" for="cb-pl3-69"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-70" value="70"/>
-    <!--<label class="dice" for="cb-pl3-70"></label>--><!--
-    <input class="cb" type="radio" name="cb-player3" id="cb-pl3-71"/>
-    <!-<label class="dice" for="cb-pl3-71"></label>-->
-     
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-72"/> -->
-    <!--<label class="dice" for="cb-pl3-72"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-73"/> -->
-    <!--<label class="dice" for="cb-pl3-73"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-74"/> -->
-    <!--<label class="dice" for="cb-pl3-74"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-75"/> -->
-    <!--<label class="dice" for="cb-pl3-75"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-76"/> -->
-    <!--<label class="dice" for="cb-pl3-76"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-77"/> -->
-    <!--<label class="dice" for="cb-pl3-77"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-78"/> -->
-    <!--<label class="dice" for="cb-pl3-78"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-79"/> -->
-    <!--<label class="dice" for="cb-pl3-79"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-80"/> -->
-    <!--<label class="dice" for="cb-pl3-80"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-81"/> -->
-    <!--<label class="dice" for="cb-pl3-81"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-82"/> -->
-    <!--<label class="dice" for="cb-pl3-82"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-83"/> -->
-    <!--<label class="dice" for="cb-pl3-83"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-84"/> -->
-    <!--<label class="dice" for="cb-pl3-84"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-85"/> -->
-    <!--<label class="dice" for="cb-pl3-85"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-86"/> -->
-    <!--<label class="dice" for="cb-pl3-86"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-87"/>
-    <!-<label class="dice" for="cb-pl3-87"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-88"/> -->
-    <!--<label class="dice" for="cb-pl3-88"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-89"/> -->
-    <!--<label class="dice" for="cb-pl3-89"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-90"/> -->
-    <!--<label class="dice" for="cb-pl3-90"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-91"/> -->
-    <!--<label class="dice" for="cb-pl3-91"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-92"/> -->
-    <!--<label class="dice" for="cb-pl3-92"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-93"/> -->
-    <!--<label class="dice" for="cb-pl3-93"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-94"/> -->
-    <!--<label class="dice" for="cb-pl3-94"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-95"/> -->
-    <!--<label class="dice" for="cb-pl3-95"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-96"/> -->
-    <!--<label class="dice" for="cb-pl3-96"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-97"/> -->
-    <!--<label class="dice" for="cb-pl3-97"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-98"/> -->
-    <!--<label class="dice" for="cb-pl3-98"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-99"/> -->
-    <!--<label class="dice" for="cb-pl3-99"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-100"/> -->
-    <!--<label class="dice" for="cb-pl3-100"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-101"/> -->
-    <!--<label class="dice" for="cb-pl3-101"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-102"/> -->
-    <!--<label class="dice" for="cb-pl3-102"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-103"/> -->
-    <!--<label class="dice" for="cb-pl3-103"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-104"/> -->
-    <!--<label class="dice" for="cb-pl3-104"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-105"/> -->
-    <!--<label class="dice" for="cb-pl3-105"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player3" id="cb-pl3-106"/> -->
-    <!--<label class="dice" for="cb-pl3-106"></label>-->
+
     <input class="cb cbInicio" type="radio" name="cb-player4" id="cb-pl4-0" value=0 checked="checked" />
     <!--<label class="dice" for="cb-pl4-0"></label>-->
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-1" value="1" />
@@ -834,80 +609,7 @@
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-69" value="69"/>
     <!--<label class="dice" for="cb-pl4-69"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-70" value="70"/>
-    <!--<label class="dice" for="cb-pl4-70"></label>--><!--
-    <input class="cb" type="radio" name="cb-player4" id="cb-pl4-71"/>
-    <!-<label class="dice" for="cb-pl4-71"></label>
-    <input class="cb" type="radio" name="cb-player4" id="cb-pl4-72"/>
-    <!-<label class="dice" for="cb-pl4-72"></label>-->
-    <!--
-    <input class="cb" type="radio" name="cb-player4" id="cb-pl4-73"/>
-    <!-<label class="dice" for="cb-pl4-73"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-74"/> -->
-    <!--<label class="dice" for="cb-pl4-74"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-75"/> -->
-    <!--<label class="dice" for="cb-pl4-75"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-76"/> -->
-    <!--<label class="dice" for="cb-pl4-76"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-77"/> -->
-    <!--<label class="dice" for="cb-pl4-77"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-78"/> -->
-    <!--<label class="dice" for="cb-pl4-78"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-79"/> -->
-    <!--<label class="dice" for="cb-pl4-79"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-80"/> -->
-    <!--<label class="dice" for="cb-pl4-80"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-81"/> -->
-    <!--<label class="dice" for="cb-pl4-81"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-82"/> -->
-    <!--<label class="dice" for="cb-pl4-82"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-83"/> -->
-    <!--<label class="dice" for="cb-pl4-83"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-84"/> -->
-    <!--<label class="dice" for="cb-pl4-84"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-85"/> -->
-    <!--<label class="dice" for="cb-pl4-85"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-86"/> -->
-    <!--<label class="dice" for="cb-pl4-86"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-87"/> -->
-    <!--<label class="dice" for="cb-pl4-87"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-88"/> -->
-    <!--<label class="dice" for="cb-pl4-88"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-89"/> -->
-    <!--<label class="dice" for="cb-pl4-89"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-90"/> -->
-    <!--<label class="dice" for="cb-pl4-90"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-91"/> -->
-    <!--<label class="dice" for="cb-pl4-91"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-92"/> -->
-    <!--<label class="dice" for="cb-pl4-92"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-93"/> -->
-    <!--<label class="dice" for="cb-pl4-93"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-94"/> -->
-    <!--<label class="dice" for="cb-pl4-94"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-95"/> -->
-    <!--<label class="dice" for="cb-pl4-95"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-96"/> -->
-    <!--<label class="dice" for="cb-pl4-96"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-97"/> -->
-    <!--<label class="dice" for="cb-pl4-97"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-98"/> -->
-    <!--<label class="dice" for="cb-pl4-98"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-99"/> -->
-    <!--<label class="dice" for="cb-pl4-99"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-100"/> -->
-    <!--<label class="dice" for="cb-pl4-100"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-101"/> -->
-    <!--<label class="dice" for="cb-pl4-101"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-102"/> -->
-    <!--<label class="dice" for="cb-pl4-102"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-103"/> -->
-    <!--<label class="dice" for="cb-pl4-103"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-104"/> -->
-    <!--<label class="dice" for="cb-pl4-104"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-105"/> -->
-    <!--<label class="dice" for="cb-pl4-105"></label>-->
-    <!-- <input class="cb" type="radio" name="cb-player4" id="cb-pl4-106"/> -->
-    <!--<label class="dice" for="cb-pl4-106"></label>-->
+
     <!-- game settings menu (# of players, colors) -->
     <div class="scrim" id="options">
       <div class="box">
@@ -1122,42 +824,10 @@
 
       <!-- Board based on the one from codewars: https://www.codewars.com/kata/snakes-and-ladders-1 -->
       <div id="board">
-      <!--  <div class="tile tile100" data-index="100"></div>
-        <div class="tile tile99" data-index="99"></div>
-        <div class="tile tile98" data-index="98"></div>
-        <div class="tile tile97" data-index="97"></div>
-        <div class="tile tile96" data-index="96"></div>
-        <div class="tile tile95" data-index="95"></div>
-        <div class="tile tile94" data-index="94"></div>
-        <div class="tile tile93" data-index="93"></div>
-        <div class="tile tile92" data-index="92"></div>
-        <div class="tile tile91" data-index="91"></div>
-        <div class="tile tile81" data-index="81"></div>
-        <div class="tile tile82" data-index="82"></div>
-        <div class="tile tile83" data-index="83"></div>
-        <div class="tile tile84" data-index="84"></div>
-        <div class="tile tile85" data-index="85"></div>
-        <div class="tile tile86" data-index="86"></div>
-        <div class="tile tile87" data-index="87"></div>
-        <div class="tile tile88" data-index="88"></div>
-        <div class="tile tile89" data-index="89"></div>
-        <div class="tile tile90" data-index="90"></div>
-        <div class="tile tile80" data-index="80"></div>
-        <div class="tile tile79" data-index="79"></div>
-        <div class="tile tile78" data-index="78"></div>
-        <div class="tile tile77" data-index="77"></div>
-        <div class="tile tile76" data-index="76"></div>
-        <div class="tile tile75" data-index="75"></div>
-        <div class="tile tile74" data-index="74"></div>
-        <div class="tile tile73" data-index="73"></div>
-        <div class="tile tile72" data-index="72"></div>
-        <div class="tile tile71" data-index="71"></div>
-        <div class="tile tile64" data-index="64"></div>
-        <div class="tile tile63" data-index="63"></div>-->
+
         <div class="tile tile61" data-index="61"></div>
         <div class="tile tile62" data-index="62"></div>
         <div class="tile tile63" data-index="63"></div>
-
         <div class="tile tile64" data-index="64"></div>
         <div class="tile tile65" data-index="65"></div>
         <div class="tile tile66" data-index="66"></div>
@@ -1165,7 +835,6 @@
         <div class="tile tile68" data-index="68"></div>
         <div class="tile tile69" data-index="69"></div>
         <div class="tile tile70" data-index="70"></div>
-
         <div class="tile tile60" data-index="60"></div>
         <div class="tile tile59" data-index="59"></div>
         <div class="tile tile58" data-index="58"></div>
@@ -2512,17 +2181,17 @@
           <div class="modal-body ODSModalBody">
             <img class="imgODS1" src="img/Tarjeta1_papelitos.png" height="120px" alt="">
             <form action="#" class="customRadio">
-              <p>¿Cómo dirías que alguien se encuentra en la pobreza?</p>
+              <p id="question">¿Cómo dirías que alguien se encuentra en la pobreza?</p>
               <div class="divRadioODS">
                 <ul class="px-3">
-                  <li>
-                    <input type="radio" name="textEditor" id="opcion1ODS1" value="1"><label for="opcion1ODS1">No tiene un SmartPhone</label>
+                  <li class ="choice-container">
+                    <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion1" value="1"><label class = "choice-text" for="opcion1" data-number="1">No tiene un SmartPhone</label>
                   </li>
-                  <li>
-                    <input type="radio" name="textEditor" id="opcion2ODS1" value="2"><label for="opcion2ODS1">No puede costear sus necesidades básicas como comida, servicios de salud, educación,etc.</label>
+                  <li class ="choice-container">
+                    <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion2" value="2"><label class = "choice-text" for="opcion2" data-number="2">No puede costear sus necesidades básicas como comida, servicios de salud, educación,etc.</label>
                   </li>
-                  <li>
-                    <input type="radio" name="textEditor" id="opcion3ODS1" value="3"><label for="opcion3ODS1">Está mal vestido/a</label>
+                  <li class ="choice-container">
+                    <input class ="choice-prefix" type="radio" name="ODSQuestion" id="opcion3" value="3"><label class = "choice-text" for="opcion3" data-number="3">Está mal vestido/a</label>
                   </li>
                 </ul>
 
@@ -2536,12 +2205,19 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            <button type="button" class="btn btn-primary">Enviar</button>
+              <button id = "btnSendAnswer" type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
       </div>
     </div>
+    <div id="divCorrect">
+
     </div>
+    <div id="divIncorrect">
+
+    </div>
+
+  </div>
   </div>
 
 
@@ -2580,5 +2256,5 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/scriptLadder.js" charset="utf-8"></script>
+  <script src="js/scriptLadderV2.js" charset="utf-8"></script>
 </html>

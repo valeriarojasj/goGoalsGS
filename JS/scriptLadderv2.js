@@ -781,8 +781,12 @@ toggleFx.addEventListener("click", function(){
 /**ODS**/
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
-const scoreText = document.getElementById('score');
 const btnSendAnswer = document.getElementById('btnSendAnswer');
+const divCorrect = document.getElementById('divCorrect');
+const divIncorrect = document.getElementById('divIncorrect');
+const ods1Modal = document.getElementById('ODS1Modal');
+const verPregunta = document.getElementById('ods-popup');
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -846,9 +850,8 @@ let questions = [];
                     if (!acceptingAnswers) return;
 
                     acceptingAnswers = false;
-                    const selectedChoice = e.target;
-                    console.log("selected Choice = " + selectedChoice);
-                    const selectedAnswer = selectedChoice.dataset['number'];
+                    const selectedChoice = document.querySelector('input[name="ODSQuestion"]:checked');
+                    const selectedAnswer = selectedChoice.value;
                     console.log("selected Answer = " + selectedAnswer);
 
 
@@ -856,11 +859,33 @@ let questions = [];
                         selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
                         selectedChoice.parentElement.classList.add(classToApply);
                     if (classToApply === 'correct') {
-                        incrementScore(CORRECT_BONUS);
+
                         selectedChoice.parentElement.style.backgroundColor = "green";
+                        setTimeout(() => {
+
+                          ods1Modal.classList.remove("show");
+                          ods1Modal.classList.add("hide");
+
+                          const imgCorrect = document.createElement("img");
+                          imgCorrect.src="img/modalCorrect.png"
+                          imgCorrect.style.maxWidth="70%";
+                          divCorrect.appendChild(imgCorrect);
+                        }, 1000);
+
+
 
                     }else if (classToApply === 'incorrect') {
                       selectedChoice.parentElement.style.backgroundColor = "red";
+                      setTimeout(() => {
+
+                        ods1Modal.classList.remove("show");
+                        ods1Modal.classList.add("hide");
+                        
+                        const imgIncorrect = document.createElement("img");
+                        imgIncorrect.src="img/modalIncorrect.png"
+                        imgIncorrect.style.maxWidth="70%";
+                        divIncorrect.appendChild(imgIncorrect);
+                      }, 1000);
                     }
 
 
@@ -874,10 +899,6 @@ let questions = [];
                 });
             });
 
-            incrementScore = (num) => {
-                score += num;
-                scoreText.innerText = score;
-            };
 
 
           }}

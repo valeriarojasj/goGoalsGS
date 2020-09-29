@@ -1,26 +1,26 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
-    "answer": 1
+    "question": "¿Cómo dirías que alguien está viviendo en una situación de pobreza?",
+    "choice1": "No tiene un Smartphone",
+    "choice2": "No es capaz de costear sus necesidades básicas como comida, cuidados médicos,educación…",
+    "choice3": "No está bien vestido/a",
+    "choice4":"Ninguna de las anteriores",
+    "answer": 2
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "¿Hay menos gente viviendo en situación de pobreza que hace 25 años?",
+    "choice1": "No; 1000 millones de personas más están viviendo en la pobreza",
+    "choice2": "Sí; 1000 millones de personas han conseguido salir de la pobreza",
+    "choice3": "Sí; 100 personas han conseguido salir de la pobreza",
+    "choice4":"Ninguna de las anteriores",
+    "answer": 2
+  },
+  {
+    "question": "¿Cuánta gente vive en situación de pobreza en el mundo?",
+    "choice1": "Más de 800 personas",
+    "choice2": "Más de 8000 personas",
+    "choice3": "Más de 800 millones de personas",
+    "choice4":"Ninguna de las anteriores",
     "answer": 3
-  },
-  {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
-    "answer": 4
   }
 ]
