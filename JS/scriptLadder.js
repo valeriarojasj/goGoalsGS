@@ -1,3 +1,9 @@
+/*web loading*/
+window.onload = function(){
+  document.getElementById("loading").style.display = "none"
+}
+
+/*Gameplay*/
 var button = document.getElementById("playButton");
 var audio = document.getElementById("backgroundMusic");
 var moveForwardSound=document.getElementById("moveForwardSound");
@@ -765,7 +771,7 @@ toggleFx.addEventListener("click", function(){
 
           if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbOds")){
             odsSound.play();
-            
+
 
           }
           else if(document.querySelector('input[name="cb-player1"]:checked').classList.contains("cbLadder")){

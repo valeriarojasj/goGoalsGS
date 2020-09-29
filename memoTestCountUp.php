@@ -10,11 +10,15 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
   <script src="js/scriptMemoTestCountUp.js" async></script>
-  <title>Memo Test (Cuenta Progresiva)</title>
+  <title>MemoTest</title>
 </head>
 <body>
+  <!-- Loading web -->
+  <div id="loading">
+    <img id="loading-gif" src="img/cargaGif/loading1.gif" alt="Loading..." />
+    <h1 id="loading-gif">CARGANDO</h1>
+  </div>
 
-  <!-- Me usan de prueba, me tienen que eliminar si o si -->
   <!-- Header -->
   <header>
     <?php require("resources/header.php") ?>

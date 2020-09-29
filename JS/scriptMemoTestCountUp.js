@@ -1,3 +1,9 @@
+/*web loading*/
+window.onload = function(){
+  document.getElementById("loading").style.display = "none"
+}
+
+/*Gameplay*/
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('Audio/African_fun_long.mp3');
@@ -33,7 +39,6 @@ class MixOrMatch {
         this.cardsArray = cards;
         this.initialTime = initialTime;
         //Create minutes to count
-        this.minutes = "0" + 0;
         this.seconds = initialTime;
         this.timer = document.getElementById('total-time')
         this.ticker = document.getElementById('flips');
@@ -43,6 +48,7 @@ class MixOrMatch {
     startGame() {
         this.totalClicks = 0;
         this.seconds = this.initialTime;
+        this.minutes = "0" + 0;
         this.cardToCheck = null;
         this.matchedCards = [];
         this.busy = true;
