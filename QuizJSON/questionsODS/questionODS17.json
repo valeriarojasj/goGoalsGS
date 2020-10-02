@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Una alianza es:"
+    "choice1": "Cuando juegas con tus amigos fingiendo que son adultos",
+    "choice2": "Cuando las personas y las organizaciones se apoyan mutuamente para alcanzar una meta común",
+    "choice3": "Cuando dos alumnos comen en la misma mesa cada día",
+    "answer": 2
+  },
+  {
+    "question": "¿Cómo ayuda el comercio justo a lograr los ODS?",
+    "choice1": "Ofrece unas mejores condiciones de comercio a los productores y a los trabajadores",
+    "choice2": "Aumenta los beneficios de las industrias",
+    "choice3": "Incita a los productores a contratar niños",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué ha hecho más fácil la comunicación entre socios?",
+    "choice1": "Palomas mensajeras",
+    "choice2": "Internet",
+    "choice3": "Mensajes en botellas",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué se necesita para conseguir lograr los 17 ODS?",
+    "choice1": "El involucramiento de todos los países",
+    "choice2": "Que los países desarrollados lideren el cambio",
+    "choice3": "Que los países en desarrollo lideren el cambio",
+    "answer": 1
+  },
+  {
+    "question": "¿Quién debería estar involucrado en acuerdos para lograr los ODS?",
+    "choice1": "Ciudadanos",
+    "choice2": "Gobiernos",
+    "choice3": "Empresa",
+    "choice4" "Todos",
+    "answer": 4
+  }
+]

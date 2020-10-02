@@ -1,0 +1,37 @@
+[
+  {
+    "question": "¿Qué es una democracia?"
+    "choice1": "Un país en el que manda un dictador",
+    "choice2": "Un país en el que la gente decide quién gobierna",
+    "choice3": "Un país gobernado solo por hombres",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es un niño soldado?",
+    "choice1": "Un niño que juega a hacer la guerra con otros niños",
+    "choice2": "Un niño que está dentro de un grupo armado",
+    "choice3": "Ambos",
+    "answer": 2
+  },
+  {
+    "question": "Un casco azul es:?",
+    "choice1": "Un soldado que trabaja para las Naciones Unidas para proteger la paz",
+    "choice2": "Un bombero de la marina",
+    "choice3": "Un niño soldado",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué es un campo de refugiados?",
+    "choice1": "Un campamento de verano en las montañas",
+    "choice2": "Un campo para la protección de gente que huye de sus casas",
+    "choice3": "Un campamento militar",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es el desplazamiento de niños?",
+    "choice1": "Cuando los niños se van de vacaciones",
+    "choice2": "Cuando los niños tienen que dejar su hogar a causa de un conflicto armado",
+    "choice3": "Cuando un niño pasa la noche en casa de su amigo",
+    "answer": 2
+  }
+]

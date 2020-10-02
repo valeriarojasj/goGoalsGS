@@ -60,7 +60,7 @@ class MixOrMatch {
             this.busy = false;
         }, 500)
         this.hideCards();
-        this.timer.innerText = "00:00";
+        this.timer.innerText = this.minutes + ":" + this.seconds;
         this.ticker.innerText = this.totalClicks;
     }
     startCountup() {
@@ -152,7 +152,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(0, cards);
+    let game = new MixOrMatch("00", cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {

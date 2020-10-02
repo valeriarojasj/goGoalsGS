@@ -1,3 +1,9 @@
+/*web loading*/
+window.onload = function(){
+  document.getElementById("loading").style.display = "none"
+}
+
+/*Gameplay*/
 var button = document.getElementById("playButton");
 var audio = document.getElementById("backgroundMusic");
 var moveForwardSound=document.getElementById("moveForwardSound");
@@ -880,7 +886,7 @@ let questions = [];
 
                         ods1Modal.classList.remove("show");
                         ods1Modal.classList.add("hide");
-                        
+
                         const imgIncorrect = document.createElement("img");
                         imgIncorrect.src="img/modalIncorrect.png"
                         imgIncorrect.style.maxWidth="70%";

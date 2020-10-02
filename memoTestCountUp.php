@@ -413,6 +413,7 @@
   <footer>
     <?php require("resources/footer.php") ?>
   </footer>
+  
 </body>
 
 <!-- JS, Popper.js, and jQuery -->

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "¿Qué es una energía renovable?"
+    "choice1": "Una marca de refresco",
+    "choice2": "Una energía que se deriva de recursos naturales, y que puede ser renovada por la naturaleza en un período corto de tiempo, como el viento o el sol",
+    "choice3": "Una fuente de energía con una cuota de inscripción renovable",
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál de los siguientes enunciados es correcto?",
+    "choice1": "El cambio climático no existe porque el pasado verano fue muy frío",
+    "choice2": "El cambio climático no existe porque todavía existen los casquetes polares",
+    "choice3": "El cambio climático llevará a un aumento de las inundaciones y de las tormentas fuertes",
+    "answer": 3
+  },
+  {
+    "question": "Los países deben asegurarse de usar más:",
+    "choice1": "Carbón y petróleo para energía",
+    "choice2": "Energía nuclear",
+    "choice3": "Energía proveniente de sol, el viento y las olas",
+    "answer": 3
+  },
+  {
+    "question": "¿Quién está a cargo de cuidar el planeta?",
+    "choice1": "Los científicos",
+    "choice2": "Los famosos",
+    "choice3": "El gobierno",
+    "choice4": "Todos",
+    "answer": 4
+  },
+  {
+    "question": "¿En 2015, ¿dónde pactaron los líderes mundiales un acuerdo por el clima y para frenar el calentamiento global?",
+    "choice1": "París (El acuerdo de París)",
+    "choice2": "Londres (El acuerdo del Big Ben)",
+    "choice3": "Nueva York (El acuerdo Manhattan)",
+    "answer": 1
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "question": "¿Qué contribuye a la contaminación marina?"
+    "choice1": "Basura en la playa",
+    "choice2": "Medusas y cangrejos",
+    "choice3": "Algas marinas",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué es la sobrepesca?",
+    "choice1": "Comer mucho pescado y ponerse enfermo",
+    "choice2": "Pescar más peces del que los océanos pueden reponer naturalmente",
+    "choice3": "Sobrealimentar a los peces para que se hagan muy grandes",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué porcentaje de especies viviendo en el océano se han identificado?",
+    "choice1": "Sobre el 5%",
+    "choice2": "Sobre el 50%",
+    "choice3": "Más del 80%",
+    "answer": 1
+  },
+  {
+    "question": "Verdadero o falso: Si no cambiamos nuestros hábitos para el 2050 habrá más plástico en el océano que peces",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 1
+  },
+  {
+    "question": "Las bolsas de plástico son peligrosas para las tortugas porque ellas piensan que son:",
+    "choice1": "Comida",
+    "choice2": "Un juguete",
+    "choice3": "Conchas",
+    "answer": 1
+  }
+]
