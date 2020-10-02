@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- Loading web -->
+    <div id="loading">
+      <img id="loading-gif" src="img/cargaGif/loading2.gif" alt="Loading..." />
+      <h1 id="loading-gif">CARGANDO</h1>
+    </div>
+
     <!-- Header y nav -->
     <header>
       <?php require("resources/header.php") ?>
