@@ -872,14 +872,6 @@ toggleFx.addEventListener("click", function(){
 
       }
 
-
-
-
-
-
-
-
-
     });
 
 })();
