@@ -1,0 +1,37 @@
+[
+  {
+    "question": "¿Cómo podrías usar menos agua?",
+    "choice1": "No hay escasez de agua donde vivo, puedo usar tanta agua como quiera.",
+    "choice2": "Duchándome en vez de tomar un baño.",
+    "choice3": "Bebiendo refrescos en lugar de agua.",
+    "answer": 2
+  },
+  {
+    "question": "El agua potable es:",
+    "choice1": "Agua que es segura de beber",
+    "choice2": "El agua de las macetas",
+    "choice3": "Agua que parece limpia",
+    "answer": 1
+  },
+  {
+    "question": "¿Dónde van las aguas residuales resultantes de las actividades humanas?",
+    "choice1": "Son tratadas y recicladas",
+    "choice2": "Son almacenadas en lugares seguros",
+    "choice3": "Son descargadas en ríos o mares sin eliminar sus elementos contaminantes",
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál de los siguientes enunciados es cierto?",
+    "choice1": "Más gente tiene un teléfono móvil que un lavabo",
+    "choice2": "La mayoría de la gente tiene lavabos pero no puede permitirse teléfonos móviles",
+    "choice3": "Todo el mundo tiene lavabos y teléfonos móviles",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué porcentaje de agua es potable?",
+    "choice1": "3%",
+    "choice2": "50%",
+    "choice3": "97%",
+    "answer": 1
+  }
+]

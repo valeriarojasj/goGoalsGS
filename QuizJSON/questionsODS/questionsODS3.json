@@ -1,0 +1,37 @@
+[
+  {
+    "question": "¿Cuál es la esperanza de vida media en el mundo?",
+    "choice1": "50 años",
+    "choice2": "60 años",
+    "choice3": "70 años",
+    "answer": 3
+  },
+  {
+    "question": "Qué podría ayudar a que no muriesen más niños menores?",
+    "choice1": "Comida nutritiva y agua potable",
+    "choice2": "Teléfonos móviles y refrescos",
+    "choice3": "Dulces y refrescos",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué es lo mejor para un bebé recién nacido?",
+    "choice1": "Ser alimentado mediante un biberón",
+    "choice2": "Beber agua",
+    "choice3": "Que su madre le dé el pecho",
+    "answer": 3
+  },
+  {
+    "question": "¿Cuántos minutos de ejercicio deben hacer los niños de entre 7 y 17 años cada día?",
+    "choice1": "60 minutos",
+    "choice2": "30 minutos",
+    "choice3": "No necesitan hacer ejercicio cada día",
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál de estos insectos ha ayudado a propagar la malaria?",
+    "choice1": "Mosquitos",
+    "choice2": "Libélulas",
+    "choice3": "Luciérnagas",
+    "answer": 3
+  }
+]

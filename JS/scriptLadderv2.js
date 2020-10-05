@@ -800,7 +800,7 @@ let questions = [];
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
-            fetch('questionsODS1.json')
+            fetch('quizjson/questionsODS/questionsODS1.json')
                 .then((res) => {
                     return res.json();
                 })
@@ -880,7 +880,7 @@ let questions = [];
 
                         ods1Modal.classList.remove("show");
                         ods1Modal.classList.add("hide");
-                        
+
                         const imgIncorrect = document.createElement("img");
                         imgIncorrect.src="img/modalIncorrect.png"
                         imgIncorrect.style.maxWidth="70%";

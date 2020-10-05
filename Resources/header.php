@@ -6,17 +6,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Quiénes somos </a>
+        <a class="nav-link" href="#" style="font-size: 16px;">Quiénes somos </a>
       </li>
       <li class="nav-item  active dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" style="font-size: 16px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Juegos<span class="sr-only">(current)</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="index.php">Escalera</a>
-          <a class="dropdown-item" href="memoTestCountDown.php">MemoTest</a>
-          <a class="dropdown-item" href="memoTestCountUp.php">MemoTest (Tiempo Ilimitado)</a>
-          <a class="dropdown-item" href="QuizJSON/index.html">Trivia</a>
+          <a class="dropdown-item" href="index.php" style="font-size: 16px;">Escalera</a>
+          <a class="dropdown-item" href="memoTestCountDown.php" style="font-size: 16px;">MemoTest</a>
+          <a class="dropdown-item" href="memoTestCountUp.php" style="font-size: 16px;">MemoTest (Tiempo Ilimitado)</a>
+          <a class="dropdown-item" href="triviaIndex.php" style="font-size: 16px;">Trivia</a>
         </div>
       </li>
     </ul>

@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Chelsea Market', cursive;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+}
+
+html{
+  font-family: 'Chelsea Market', cursive;
+}
 #highScoresList {
   list-style: none;
   padding-left: 0;

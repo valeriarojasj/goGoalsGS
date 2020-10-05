@@ -1,0 +1,37 @@
+[
+  {
+    "question": "¿En qué continente vive la mayoría de los niños que no van a la escuela?",
+    "choice1": "Europa",
+    "choice2": "Asia",
+    "choice3": "América",
+    "choice4": "África",
+    "answer": 4
+  },
+  {
+    "question": "Verdadero o falso: Menos niños que niñas van la escuela en el mundo entero.",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 1
+  },
+  {
+    "question": "La educación…",
+    "choice1": "Hará difícil que consigas un buen trabajo",
+    "choice2": "Te ayudará a conseguir un buen trabajo y a mejorar tu vida",
+    "choice3": "Solamente es útil para niños muy inteligentes",
+    "answer": 2
+  },
+  {
+    "question": "Una educación de calidad es buena para…",
+    "choice1": "Una mejor salud",
+    "choice2": "Menor pobreza",
+    "choice3": "Ambas",
+    "answer": 3
+  },
+  {
+    "question": "¿Qué porcentaje de adultos está alfabetizado hoy en día, significando que pueden leer y escribir?",
+    "choice1": "80%",
+    "choice2": "60%",
+    "choice3": "30%",
+    "answer": 1
+  }
+]

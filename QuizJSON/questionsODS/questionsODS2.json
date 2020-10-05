@@ -18,5 +18,19 @@
     "choice2": "Más de 9000 personas",
     "choice3": "Más de 900 millones de personas",
     "answer": 3
+  },
+  {
+    "question": "¿Cuál de los siguientes enunciados es verdadero?",
+    "choice1": "Necesitas al menos tomar un refresco al día para estar sano y en buena forma",
+    "choice2": "Hay suficiente comida en el mundo para alimentar a todas las personas",
+    "choice3": "Te puedes mantener sano si no comes ni frutas ni verduras",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es la malnutrición?",
+    "choice1": "Cuando no comes 3 platos al día",
+    "choice2": "Cuando no comes carne cada día",
+    "choice3": "Cuando no comes suficiente comida sana durante un cierto periodo de tiempo",
+    "answer": 3
   }
 ]
