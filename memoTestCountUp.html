@@ -5,34 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- CSS only -->
-
-  <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
   <link href="css/stylesMemoTestV2.css" rel="stylesheet">
-
+  <!-- Soy una pruebaaaaaaaaaaaaaaaa -->
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
-  <script src="js/scriptMemoTestCountUp.js" async></script>
-  <title>MemoTest</title>
+<script src="js/scriptMemoTestCountUp.js" async></script>
+  <title>Memo Test (Cuenta Progresiva)</title>
 </head>
 <body>
-  <!-- Loading web -->
-  <div id="loading">
-    <img id="loading-gif" src="img/cargaGif/loading1.gif" alt="Loading..." />
-    <h1 id="loading-gif">CARGANDO</h1>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img/genSustentable.png"  alt="logoGenSust"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Quiénes somos </a>
+      </li>
+      <li class="nav-item  active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Juegos<span class="sr-only">(current)</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Escalera</a>
+          <a class="dropdown-item " href="memoTestCountDown.html">MemoTest</a>
+          <a class="dropdown-item active" href="memoTestCountUp.html">MemoTest (Tiempo Ilimitado)</a>
+        </div>
+      </li>
+    </ul>
+
   </div>
+</nav>
 
-  <!-- Header -->
-  <header>
-    <?php require("resources/header.php") ?>
-  </header>
-
-<!-- Game page -->
 <h1 class="page-title">Encuentra las parejas!</h1>
 
-  <!-- Soy otra prueba -->
+
   <div class="overlay-text visible text-center">
     Haz click para empezar
   </div>
@@ -414,11 +425,6 @@
   </div>
 </div>
 
-  <!-- Footer -->
-  <footer>
-    <?php require("resources/footer.php") ?>
-  </footer>
-  
 </body>
 
 <!-- JS, Popper.js, and jQuery -->

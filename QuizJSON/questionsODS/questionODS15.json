@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Debemos proteger nuestros bosques contra el cambio climático porque:"
+    "choice1": "Los bosques son lugares bonitos donde jugar",
+    "choice2": "Los bosques producen oxígeno",
+    "choice3": "Necesitamos madera para construir casas",
+    "answer": 2
+  },
+  {
+    "question": "La extinción de las especies animales es debido a:",
+    "choice1": "Actividades humanas",
+    "choice2": "Animales que se comen los unos a los otros",
+    "choice3": "Emisiones de frecuencia de los teléfonos móviles",
+    "answer": 1
+  },
+  {
+    "question": "La biodiversidad es:",
+    "choice1": "La diversidad de especies animales y vegetales viviendo en nuestro planeta",
+    "choice2": "La variedad de productos sanos que puedes encontrar en el supermercado",
+    "choice3": "El número de planetas en los que los humanos podemos vivir",
+    "answer": 1
+  },
+  {
+    "question": "Globalmente, los bosques están:",
+    "choice1": "Creciendo: hay árboles por todos lados",
+    "choice2": "Siendo talados al mismo ritmo que son plantados",
+    "choice3": "Desvaneciendo: casi la mitad de los bosques ya han desaparecido",
+    "answer": 1
+  },
+  {
+    "question": "Los árboles son esenciales porque",
+    "choice1": "Son un hábitat para la vida salvaje",
+    "choice2": "Los puedes escalar",
+    "choice3": "El plástico se produce con árboles",
+    "answer": 1
+  }
+]

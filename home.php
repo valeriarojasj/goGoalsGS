@@ -9,18 +9,27 @@
       <!-- CSS -->
       <link rel="stylesheet" href="css/home.css">
   </head>
+<<<<<<< HEAD
   <!-- Header y nav -->
   <header>
     <?php require("../resources/header.php") ?>
   </header>
+=======
+
+>>>>>>> 764cc00d2f74c5c3e91e032c7cf2146d9cf58ccb
   <body>
     <ul class="nav justify-content-center mt-2">
       <li class="nav-item">
         <img src="img/genSustentable.png" alt="">
       </li>
     </ul>
+<<<<<<< HEAD
     <div class="container">
       <img id="img-construction" src="img/construccion.png" alt="">
+=======
+    <div class="container mt-5">
+      <img id="img-construction" src="img/construction/construction1.png" alt="">
+>>>>>>> 764cc00d2f74c5c3e91e032c7cf2146d9cf58ccb
     </div>
   </body>
 

@@ -1,3 +1,9 @@
+/*web loading*/
+window.onload = function(){
+  document.getElementById("loading").style.display = "none"
+}
+
+/*Gameplay*/
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('audio/african_fun_long.mp3');
@@ -34,7 +40,6 @@ class MixOrMatch {
         this.cardsArray = cards;
         this.initialTime = initialTime;
         //Create minutes to count
-        this.minutes = "0" + 0;
         this.seconds = initialTime;
         this.timer = document.getElementById('total-time')
         this.ticker = document.getElementById('flips');
@@ -44,6 +49,7 @@ class MixOrMatch {
     startGame() {
         this.totalClicks = 0;
         this.seconds = this.initialTime;
+        this.minutes = "0" + 0;
         this.cardToCheck = null;
         this.matchedCards = [];
         this.busy = true;
@@ -54,7 +60,7 @@ class MixOrMatch {
             this.busy = false;
         }, 500)
         this.hideCards();
-        this.timer.innerText = "00:00";
+        this.timer.innerText = this.minutes + ":" + this.seconds;
         this.ticker.innerText = this.totalClicks;
     }
     startCountup() {
@@ -146,7 +152,7 @@ if (document.readyState == 'loading') {
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(0, cards);
+    let game = new MixOrMatch("00", cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {

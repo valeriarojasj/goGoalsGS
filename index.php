@@ -7,12 +7,21 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Handlee&family=Lato:wght@300&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Handlee&family=Lato:wght@300&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  
   </head>
   <body>
+    <!-- Loading web -->
+    <div id="loading">
+      <img id="loading-gif" src="img/cargaGif/loading2.gif" alt="Loading..." />
+      <h1 id="loading-gif">CARGANDO</h1>
+    </div>
+
     <!-- Header y nav -->
     <header>
       <?php require("resources/header.php") ?>
@@ -2067,7 +2076,6 @@
         Tu navegador no permite reproducir este tipo de video.
         </video>
       </div>
-
     </div>
 
     <!-- Footer -->

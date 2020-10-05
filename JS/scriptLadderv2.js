@@ -1,3 +1,9 @@
+/*web loading*/
+window.onload = function(){
+  document.getElementById("loading").style.display = "none"
+}
+
+/*Gameplay*/
 var button = document.getElementById("playButton");
 var audio = document.getElementById("backgroundMusic");
 var moveForwardSound=document.getElementById("moveForwardSound");
