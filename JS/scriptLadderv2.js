@@ -785,6 +785,8 @@ const btnSendAnswer = document.getElementById('btnSendAnswer');
 const divCorrect = document.getElementById('divCorrect');
 const divIncorrect = document.getElementById('divIncorrect');
 const ods1Modal = document.getElementById('ODS1Modal');
+const questionBox = document.querySelector('.question-box');
+
 
 
 let currentQuestion = {};
@@ -796,10 +798,11 @@ let availableQuestions = [];
 let questions = [];
 
       function odsP1(){
+
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
-            fetch('questionsODS1.json')
+            fetch('quizjson/questionsODS/questionsODS1.json')
                 .then((res) => {
                     return res.json();
                 })
@@ -827,9 +830,6 @@ let questions = [];
                     return
                 }
                 questionCounter++;
-
-
-
 
                 const questionIndex = Math.floor(Math.random() * availableQuestions.length);
                 currentQuestion = availableQuestions[questionIndex];
@@ -863,6 +863,7 @@ let questions = [];
                         setTimeout(() => {
                           ods1Modal.classList.remove("show");
                           ods1Modal.classList.add("hide");
+                          questionBox.style.display = "none";
                           const imgCorrect = document.createElement("img");
                           imgCorrect.src="img/modalCorrect.png"
                           imgCorrect.style.maxWidth="70%";
@@ -876,6 +877,7 @@ let questions = [];
                       setTimeout(() => {
                         ods1Modal.classList.remove("show");
                         ods1Modal.classList.add("hide");
+                        questionBox.style.display = "none";
                         const imgIncorrect = document.createElement("img");
                         imgIncorrect.src="img/modalIncorrect.png"
                         imgIncorrect.style.maxWidth="70%";
