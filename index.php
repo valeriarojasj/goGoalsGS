@@ -7,26 +7,21 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Handlee&family=Lato:wght@300&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
-
-  <!-- CSS -->
+<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Handlee&family=Lato:wght@300&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b67648323f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
-
   </head>
   <body>
+    <!-- Header y nav -->
+    <header>
+      <?php require("resources/header.php") ?>
+    </header>
     <!-- Loading web -->
     <div id="loading">
       <img id="loading-gif" src="img/cargaGif/loading2.gif" alt="Loading..." />
       <h1 id="loading-gif">CARGANDO</h1>
     </div>
-
-    <!-- Header y nav -->
-    <header>
-      <?php require("resources/header.php") ?>
-    </header>
-
     <!-- Game web -->
   <div id="contenedor"class="container-fluid">
 
@@ -45,10 +40,8 @@
     <input class="ocultar" type="radio" name="colors" id="colors4" value="colors4"/>
     <input class="ocultar game-time" type="checkbox" id="game-time" name="game-time"/>
     <!--
-
     <input type=" checkbox" name="show-info" id="show-info"/>
     <input type=" checkbox" name="play-fx" id="play-fx"/>
-
     <input class="ocultar game-time" type="radio" id="show-instructions-1" name="show-instructions"/>
     <input class="ocultar game-time" type="radio" id="show-instructions-2" name="show-instructions"/>
     <input class="ocultar game-time" type="radio" id="show-instructions-3" name="show-instructions"/>
@@ -238,385 +231,367 @@
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-21" value="21"/>
 
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-22" value="22"/>
-    <!--<label class="dice" for="cb-pl2-22"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player2" id="cb-pl2-23" value="23"/>
-    <!--<label class="dice" for="cb-pl2-23"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-24" value="24"/>
-    <!--<label class="dice" for="cb-pl2-24"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-25" value="25"/>
-    <!--<label class="dice" for="cb-pl2-25"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-26" value="26"/>
-    <!--<label class="dice" for="cb-pl2-26"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-27" value="27"/>
-    <!--<label class="dice" for="cb-pl2-27"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-28"value="28"/>
-    <!--<label class="dice" for="cb-pl2-28"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-29" value="29"/>
-    <!--<label class="dice" for="cb-pl2-29"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-30" value="30"/>
-    <!--<label class="dice" for="cb-pl2-30"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player2" id="cb-pl2-31" value="31"/>
-    <!--<label class="dice" for="cb-pl2-31"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-32" value="32"/>
-    <!--<label class="dice" for="cb-pl2-32"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-33" value="33"/>
-    <!--<label class="dice" for="cb-pl2-33"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player2" id="cb-pl2-34" value="34"/>
-    <!--<label class="dice" for="cb-pl2-34"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-35" value="35"/>
-    <!--<label class="dice" for="cb-pl2-35"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-36" value="36"/>
-    <!--<label class="dice" for="cb-pl2-36"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-37" value="37"/>
-    <!--<label class="dice" for="cb-pl2-37"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-38" value="38"/>
-    <!--<label class="dice" for="cb-pl2-38"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player2" id="cb-pl2-39" value="39"/>
-    <!--<label class="dice" for="cb-pl2-39"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-40" value="40"/>
-    <!--<label class="dice" for="cb-pl2-40"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-41" value="41"/>
-    <!--<label class="dice" for="cb-pl2-41"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-42" value="42"/>
-    <!--<label class="dice" for="cb-pl2-42"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-43" value="43"/>
-    <!--<label class="dice" for="cb-pl2-43"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-44" value="44"/>
-    <!--<label class="dice" for="cb-pl2-44"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-45" value="45"/>
-    <!--<label class="dice" for="cb-pl2-45"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-46" value="46"/>
-    <!--<label class="dice" for="cb-pl2-46"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-47" value="47"/>
-    <!--<label class="dice" for="cb-pl2-47"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player2" id="cb-pl2-48" value="48"/>
-    <!--<label class="dice" for="cb-pl2-48"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-49" value="49"/>
-    <!--<label class="dice" for="cb-pl2-49"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-50" value="50"/>
-    <!--<label class="dice" for="cb-pl2-50"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-51" value="51"/>
-    <!--<label class="dice" for="cb-pl2-51"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-52" value="52"/>
-    <!--<label class="dice" for="cb-pl2-52"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-53" value="53"/>
-    <!--<label class="dice" for="cb-pl2-53"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-54" value="54"/>
-    <!--<label class="dice" for="cb-pl2-54"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-55" value="55"/>
-    <!--<label class="dice" for="cb-pl2-55"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-56" value="56"/>
-    <!--<label class="dice" for="cb-pl2-56"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-57" value="57"/>
-    <!--<label class="dice" for="cb-pl2-57"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-58" value="58"/>
-    <!--<label class="dice" for="cb-pl2-58"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-59" value="59"/>
-    <!--<label class="dice" for="cb-pl2-59"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-60" value="60"/>
-    <!--<label class="dice" for="cb-pl2-60"></label>-->
+
     <input class="cb" type="radio" name="cb-player2" id="cb-pl2-61" value="61"/>
-    <!--<label class="dice" for="cb-pl2-61"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player2" id="cb-pl2-62" value="62"/>
-    <!--<label class="dice" for="cb-pl2-62"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player2" id="cb-pl2-63" value="63"/>
-    <!--<label class="dice" for="cb-pl2-63"></label>-->
+
     <input class="cb cbLlegada" type="radio" name="cb-player2" id="cb-pl2-64" value="64"/>
-    <!--<label class="dice" for="cb-pl2-64"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-65" value="65"/>
-    <!--<label class="dice" for="cb-pl2-65"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-66" value="66"/>
-    <!--<label class="dice" for="cb-pl2-66"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-67" value="67"/>
-    <!--<label class="dice" for="cb-pl2-67"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-68" value="68"/>
-    <!--<label class="dice" for="cb-pl2-68"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-69" value="69"/>
-    <!--<label class="dice" for="cb-pl2-69"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player2" id="cb-pl2-70" value="70"/>
 
     <input class="cb cbInicio" type="radio" name="cb-player3" id="cb-pl3-0" value="0" checked="checked" />
-    <!--<label class="dice" for="cb-pl3-0"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-1" value="1" />
-    <!--<label class="dice" for="cb-pl3-1"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-2" value="2"/>
-    <!--<label class="dice" for="cb-pl3-2"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-3"value="3"/>
-    <!--<label class="dice" for="cb-pl3-3"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-4" value="4"/>
-    <!--<label class="dice" for="cb-pl3-4"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-5" value="5"/>
-    <!--<label class="dice" for="cb-pl3-5"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-6" value="6"/>
-    <!--<label class="dice" for="cb-pl3-6"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-7" value="7"/>
-    <!--<label class="dice" for="cb-pl3-7"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-8" value="8"/>
-    <!--<label class="dice" for="cb-pl3-8"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player3" id="cb-pl3-9" value="9"/>
-    <!--<label class="dice" for="cb-pl3-9"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-10" value="10"/>
-    <!--<label class="dice" for="cb-pl3-10"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-11" value="11"/>
-    <!--<label class="dice" for="cb-pl3-11"></label>-->
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-12" value="12"/>
-    <!--<label class="dice" for="cb-pl3-12"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-13" value="13"/>
-    <!--<label class="dice" for="cb-pl3-13"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-14" value="14"/>
-    <!--<label class="dice" for="cb-pl3-14"></label>-->
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-15" value="15"/>
-    <!--<label class="dice" for="cb-pl3-15"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player3" id="cb-pl3-16" value="16"/>
-    <!--<label class="dice" for="cb-pl3-16"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-17" value="17"/>
-    <!--<label class="dice" for="cb-pl3-17"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-18" value="18"/>
-    <!--<label class="dice" for="cb-pl3-18"></label>-->
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-19" value="19"/>
-    <!--<label class="dice" for="cb-pl3-19"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-20" value="20"/>
-    <!--<label class="dice" for="cb-pl3-20"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-21" value="21"/>
-    <!--<label class="dice" for="cb-pl3-21"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-22" value="22"/>
-    <!--<label class="dice" for="cb-pl3-22"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player3" id="cb-pl3-23" value="23"/>
-    <!--<label class="dice" for="cb-pl3-23"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-24" value="24"/>
-    <!--<label class="dice" for="cb-pl3-24"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-25" value="25"/>
-    <!--<label class="dice" for="cb-pl3-25"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-26" value="26"/>
-    <!--<label class="dice" for="cb-pl3-26"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-27" value="27"/>
-    <!--<label class="dice" for="cb-pl3-27"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-28"value="28"/>
-    <!--<label class="dice" for="cb-pl3-28"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-29" value="29"/>
-    <!--<label class="dice" for="cb-pl3-29"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-30" value="30"/>
-    <!--<label class="dice" for="cb-pl3-30"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player3" id="cb-pl3-31" value="31"/>
-    <!--<label class="dice" for="cb-pl3-31"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-32" value="32"/>
-    <!--<label class="dice" for="cb-pl3-32"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-33" value="33"/>
-    <!--<label class="dice" for="cb-pl3-33"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player3" id="cb-pl3-34" value="34"/>
-    <!--<label class="dice" for="cb-pl3-34"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-35" value="35"/>
-    <!--<label class="dice" for="cb-pl3-35"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-36" value="36"/>
-    <!--<label class="dice" for="cb-pl3-36"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-37" value="37"/>
-    <!--<label class="dice" for="cb-pl3-37"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-38" value="38"/>
-    <!--<label class="dice" for="cb-pl3-38"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player3" id="cb-pl3-39" value="39"/>
-    <!--<label class="dice" for="cb-pl3-39"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-40" value="40"/>
-    <!--<label class="dice" for="cb-pl3-40"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-41" value="41"/>
-    <!--<label class="dice" for="cb-pl3-41"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-42" value="42"/>
-    <!--<label class="dice" for="cb-pl3-42"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-43" value="43"/>
-    <!--<label class="dice" for="cb-pl3-43"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-44" value="44"/>
-    <!--<label class="dice" for="cb-pl3-44"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-45" value="45"/>
-    <!--<label class="dice" for="cb-pl3-45"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-46" value="46"/>
-    <!--<label class="dice" for="cb-pl3-46"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-47" value="47"/>
-    <!--<label class="dice" for="cb-pl3-47"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player3" id="cb-pl3-48" value="48"/>
-    <!--<label class="dice" for="cb-pl3-48"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-49" value="49"/>
-    <!--<label class="dice" for="cb-pl3-49"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-50" value="50"/>
-    <!--<label class="dice" for="cb-pl3-50"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-51" value="51"/>
-    <!--<label class="dice" for="cb-pl3-51"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-52" value="52"/>
-    <!--<label class="dice" for="cb-pl3-52"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-53" value="53"/>
-    <!--<label class="dice" for="cb-pl3-53"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-54" value="54"/>
-    <!--<label class="dice" for="cb-pl3-54"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-55" value="55"/>
-    <!--<label class="dice" for="cb-pl3-55"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-56" value="56"/>
-    <!--<label class="dice" for="cb-pl3-56"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-57" value="57"/>
-    <!--<label class="dice" for="cb-pl3-57"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-58" value="58"/>
-    <!--<label class="dice" for="cb-pl3-58"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-59" value="59"/>
-    <!--<label class="dice" for="cb-pl3-59"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-60" value="60"/>
-    <!--<label class="dice" for="cb-pl3-60"></label>-->
+
     <input class="cb" type="radio" name="cb-player3" id="cb-pl3-61" value="61"/>
-    <!--<label class="dice" for="cb-pl3-61"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player3" id="cb-pl3-62" value="62"/>
-    <!--<label class="dice" for="cb-pl3-62"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player3" id="cb-pl3-63" value="63"/>
-    <!--<label class="dice" for="cb-pl3-63"></label>-->
+
     <input class="cb cbLlegada" type="radio" name="cb-player3" id="cb-pl3-64" value="64"/>
-    <!--<label class="dice" for="cb-pl3-64"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-65" value="65"/>
-    <!--<label class="dice" for="cb-pl3-65"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-66" value="66"/>
-    <!--<label class="dice" for="cb-pl3-66"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-67" value="67"/>
-    <!--<label class="dice" for="cb-pl3-67"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-68" value="68"/>
-    <!--<label class="dice" for="cb-pl3-68"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-69" value="69"/>
-    <!--<label class="dice" for="cb-pl3-69"></label>-->
+
     <input class="cb cbReturn" type="radio" name="cb-player3" id="cb-pl3-70" value="70"/>
 
     <input class="cb cbInicio" type="radio" name="cb-player4" id="cb-pl4-0" value=0 checked="checked" />
-    <!--<label class="dice" for="cb-pl4-0"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-1" value="1" />
-    <!--<label class="dice" for="cb-pl4-1"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-2" value="2"/>
-    <!--<label class="dice" for="cb-pl4-2"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-3"value="3"/>
-    <!--<label class="dice" for="cb-pl4-3"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-4" value="4"/>
-    <!--<label class="dice" for="cb-pl4-4"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-5" value="5"/>
-    <!--<label class="dice" for="cb-pl4-5"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-6" value="6"/>
-    <!--<label class="dice" for="cb-pl4-6"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-7" value="7"/>
-    <!--<label class="dice" for="cb-pl4-7"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-8" value="8"/>
-    <!--<label class="dice" for="cb-pl4-8"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player4" id="cb-pl4-9" value="9"/>
-    <!--<label class="dice" for="cb-pl4-9"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-10" value="10"/>
-    <!--<label class="dice" for="cb-pl4-10"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-11" value="11"/>
-    <!--<label class="dice" for="cb-pl4-11"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-12" value="12"/>
-    <!--<label class="dice" for="cb-pl4-12"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-13" value="13"/>
-    <!--<label class="dice" for="cb-pl4-13"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-14" value="14"/>
-    <!--<label class="dice" for="cb-pl4-14"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-15" value="15"/>
-    <!--<label class="dice" for="cb-pl4-15"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player4" id="cb-pl4-16" value="16"/>
-    <!--<label class="dice" for="cb-pl4-16"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-17" value="17"/>
-    <!--<label class="dice" for="cb-pl4-17"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-18" value="18"/>
-    <!--<label class="dice" for="cb-pl4-18"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-19" value="19"/>
-    <!--<label class="dice" for="cb-pl4-19"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-20" value="20"/>
-    <!--<label class="dice" for="cb-pl4-20"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-21" value="21"/>
-    <!--<label class="dice" for="cb-pl4-21"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-22" value="22"/>
-    <!--<label class="dice" for="cb-pl4-22"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player4" id="cb-pl4-23" value="23"/>
-    <!--<label class="dice" for="cb-pl4-23"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-24" value="24"/>
-    <!--<label class="dice" for="cb-pl4-24"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-25" value="25"/>
-    <!--<label class="dice" for="cb-pl4-25"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-26" value="26"/>
-    <!--<label class="dice" for="cb-pl4-26"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-27" value="27"/>
-    <!--<label class="dice" for="cb-pl4-27"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-28"value="28"/>
-    <!--<label class="dice" for="cb-pl4-28"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-29" value="29"/>
-    <!--<label class="dice" for="cb-pl4-29"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-30" value="30"/>
-    <!--<label class="dice" for="cb-pl4-30"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player4" id="cb-pl4-31" value="31"/>
-    <!--<label class="dice" for="cb-pl4-31"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-32" value="32"/>
-    <!--<label class="dice" for="cb-pl4-32"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-33" value="33"/>
-    <!--<label class="dice" for="cb-pl4-33"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player4" id="cb-pl4-34" value="34"/>
-    <!--<label class="dice" for="cb-pl4-34"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-35" value="35"/>
-    <!--<label class="dice" for="cb-pl4-35"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-36" value="36"/>
-    <!--<label class="dice" for="cb-pl4-36"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-37" value="37"/>
-    <!--<label class="dice" for="cb-pl4-37"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-38" value="38"/>
-    <!--<label class="dice" for="cb-pl4-38"></label>-->
+
     <input class="cb cbLadder" type="radio" name="cb-player4" id="cb-pl4-39" value="39"/>
-    <!--<label class="dice" for="cb-pl4-39"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-40" value="40"/>
-    <!--<label class="dice" for="cb-pl4-40"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-41" value="41"/>
-    <!--<label class="dice" for="cb-pl4-41"></label>-->
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-42" value="42"/>
-    <!--<label class="dice" for="cb-pl4-42"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-43" value="43"/>
-    <!--<label class="dice" for="cb-pl4-43"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-44" value="44"/>
-    <!--<label class="dice" for="cb-pl4-44"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-45" value="45"/>
-    <!--<label class="dice" for="cb-pl4-45"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-46" value="46"/>
-    <!--<label class="dice" for="cb-pl4-46"></label>-->
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-47" value="47"/>
-    <!--<label class="dice" for="cb-pl4-47"></label>-->
+
     <input class="cb cbSlide" type="radio" name="cb-player4" id="cb-pl4-48" value="48"/>
-    <!--<label class="dice" for="cb-pl4-48"></label>-->
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-49" value="49"/>
-    <!--<label class="dice" for="cb-pl4-49"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-50" value="50"/>
-    <!--<label class="dice" for="cb-pl4-50"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-51" value="51"/>
-    <!--<label class="dice" for="cb-pl4-51"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-52" value="52"/>
-    <!--<label class="dice" for="cb-pl4-52"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-53" value="53"/>
-    <!--<label class="dice" for="cb-pl4-53"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-54" value="54"/>
-    <!--<label class="dice" for="cb-pl4-54"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-55" value="55"/>
-    <!--<label class="dice" for="cb-pl4-55"></label>-->
+
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-56" value="56"/>
-    <!--<label class="dice" for="cb-pl4-56"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-57" value="57"/>
-    <!--<label class="dice" for="cb-pl4-57"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-58" value="58"/>
-    <!--<label class="dice" for="cb-pl4-58"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-59" value="59"/>
-    <!--<label class="dice" for="cb-pl4-59"></label>-->
+
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-60" value="60"/>
-    <!--<label class="dice" for="cb-pl4-60"></label>-->
     <input class="cb" type="radio" name="cb-player4" id="cb-pl4-61" value="61"/>
-    <!--<label class="dice" for="cb-pl4-61"></label>-->
     <input class="cb cbOds" type="radio" name="cb-player4" id="cb-pl4-62" value="62"/>
-    <!--<label class="dice" for="cb-pl4-62"></label>-->
     <input class="cb cbSlide" type="radio" name="cb-player4" id="cb-pl4-63" value="63"/>
-    <!--<label class="dice" for="cb-pl4-63"></label>-->
+
     <input class="cb cbLlegada" type="radio" name="cb-player4" id="cb-pl4-64" value="64"/>
-    <!--<label class="dice" for="cb-pl4-64"></label>-->
-    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-65" value="65"/>
-    <!--<label class="dice" for="cb-pl4-65"></label>-->
+
+    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-65" value="65"/
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-66" value="66"/>
-    <!--<label class="dice" for="cb-pl4-66"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-67" value="67"/>
-    <!--<label class="dice" for="cb-pl4-67"></label>-->
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-68" value="68"/>
-    <!--<label class="dice" for="cb-pl4-68"></label>-->
-    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-69" value="69"/>
-    <!--<label class="dice" for="cb-pl4-69"></label>-->
+
+    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-69" value="69"/
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-70" value="70"/>
 
     <!-- game settings menu (# of players, colors) -->
@@ -693,7 +668,6 @@
       </div>
     </div>
     <!-- animated instructions section
-
     <div id="instructions">
       <label id="go-to-game" for="game-time">SALTAR INSTRUCCIONES &rsaquo;</label>
       <div id="step">
@@ -1328,16 +1302,7 @@
 
         </svg>
 
-      <!--  <g class="ladders-big" >
-          <path d="M89,574 140,392 M102,578 153,396 M388,581 385,508 M402,580 399,507 M449,552 554,395 M460,560 565,403 M320,516 333,444 M334,518 347,446 M24,436 74,329 M36,442 87,334 M430,458 210,99 M441,450 222,93 M264,393 214,339 M273,384 224,330 M563,284 391,203 M568,271 396,190 M570,149 559,31 M584,148 573,30 M142,158 155,40 M156,160 169,42 M397,101 379,30 M411,97 392,26"></path>
-        </g>
-        <g class="ladders-small">
-          <path d="M91,568 104,573 M94,556 105,561 M97,544 108,549 M100,532 111,537 M103,520 114,525 M107,508 118,513 M111,496 122,501 M114,484 125,489 M117,472 128,477 M121,460 132,465 M124,448 135,453 M128,436 139,441 M131,424 142,429 M134,412 145,417 M138,400 149,405 M388,575 401,574 M388,563 401,562 M388,552 401,551 M388,541 401,540 M388,530 400,529 M388,518 400,517 M452,546 464,555 M459,536 470,544 M466,526 476,533 M473,516 482,522 M479,508 490,515 M485,498 496,506 M492,488 502,495 M498,479 509,486 M504,469 515,477 M512,459 522,467 M517,449 528,457 M523,440 534,448 M530,430 541,438 M536,421 548,429 M542,412 554,419 M549,402 560,409 M322,510 335,512 M324,498 337,500 M326,486 339,488 M328,475 341,477 M330,463 343,465 M332,452 345,454 M258,388 268,378 M250,379 260,369 M243,370 252,361 M235,362 245,352 M227,353 236,344 M219,345 229,335 M27,430 40,436 M32,419 45,425 M37,408 49,414 M42,398 54,404 M47,388 59,394 M51,377 64,383 M56,366 69,372 M61,356 75,362 M66,345 79,351 M71,335 84,341 M427,453 438,444 M420,443 432,434 M414,433 426,424 M408,423 420,414 M402,413 413,404 M395,402 407,393 M388,391 400,382 M381,379 393,370 M374,368 386,359 M367,356 378,347 M359,344 371,336 M352,332 364,324 M345,320 357,312 M338,308 350,300 M330,296 342,288 M323,284 335,276 M316,272 328,264 M308,260 320,252 M301,248 313,240 M294,236 305,228 M287,224 298,216 M280,212 291,205 M273,200 284,193 M267,188 277,181 M259,175 269,168 M251,163 261,156 M244,151 254,144 M236,139 246,132 M229,127 239,120 M222,115 232,108 M215,103 225,96 M143,152 157,154 M144,140 158,142 M145,128 159,130 M146,116 160,118 M147,104 161,106 M149,92 163,94 M150,80 164,82 M151,68 165,70 M153,56 167,58 M154,44 168,46 M396,95 409,91 M393,84 406,80 M390,73 403,69 M387,62 400,58 M384,51 397,47 M381,40 394,36 M570,143 583,142 M568,130 582,129 M566,117 580,116 M565,104 577,103 M564,91 576,90 M563,78 575,77 M562,65 574,64 M561,52 573,51 M560,38 572,37 M556,281 562,268 M546,276 552,263 M536,271 542,258 M526,266 532,254 M516,261 522,249 M506,255 512,244 M496,250 502,239 M486,245 492,235 M476,240 482,230 M466,236 472,225 M456,231 462,220 M446,226 451,216 M436,221 441,211 M425,218 431,206 M415,213 421,201 M405,208 411,196 M395,204 401,192"></path>
-        </g>
-    <a href="https://www.freepik.com/vectors/vintage">Vintage vector created by macrovector - www.freepik.com</a>-->
 
-    <!--  <path d="M20,42 28,42 28,35 32,35 32,42 40,42 40,32 45,32 30,20 15,32 20,32 Z M20,578 30,578 30,583 40,570 30,557 30,562 20, 562Z" fill="rgba(0,0,0,0.25)"></path>
-    -->
 
        <defs
               id="defs6"
@@ -1846,38 +1811,7 @@
             >
           </metadata
           >
-    <!--
-          <g class="ladders-big">
-            <path d="M89,574 140,392 M102,578 153,396 M388,581 385,508 M402,580 399,507 M449,552 554,395 M460,560 565,403 M320,516 333,444 M334,518 347,446 M24,436 74,329 M36,442 87,334 M430,458 210,99 M441,450 222,93 M264,393 214,339 M273,384 224,330 M563,284 391,203 M568,271 396,190 M570,149 559,31 M584,148 573,30 M142,158 155,40 M156,160 169,42 M397,101 379,30 M411,97 392,26"></path>
-          </g>
-          <g class="ladders-small">
-            <path d="M91,568 104,573 M94,556 105,561 M97,544 108,549 M100,532 111,537 M103,520 114,525 M107,508 118,513 M111,496 122,501 M114,484 125,489 M117,472 128,477 M121,460 132,465 M124,448 135,453 M128,436 139,441 M131,424 142,429 M134,412 145,417 M138,400 149,405 M388,575 401,574 M388,563 401,562 M388,552 401,551 M388,541 401,540 M388,530 400,529 M388,518 400,517 M452,546 464,555 M459,536 470,544 M466,526 476,533 M473,516 482,522 M479,508 490,515 M485,498 496,506 M492,488 502,495 M498,479 509,486 M504,469 515,477 M512,459 522,467 M517,449 528,457 M523,440 534,448 M530,430 541,438 M536,421 548,429 M542,412 554,419 M549,402 560,409 M322,510 335,512 M324,498 337,500 M326,486 339,488 M328,475 341,477 M330,463 343,465 M332,452 345,454 M258,388 268,378 M250,379 260,369 M243,370 252,361 M235,362 245,352 M227,353 236,344 M219,345 229,335 M27,430 40,436 M32,419 45,425 M37,408 49,414 M42,398 54,404 M47,388 59,394 M51,377 64,383 M56,366 69,372 M61,356 75,362 M66,345 79,351 M71,335 84,341 M427,453 438,444 M420,443 432,434 M414,433 426,424 M408,423 420,414 M402,413 413,404 M395,402 407,393 M388,391 400,382 M381,379 393,370 M374,368 386,359 M367,356 378,347 M359,344 371,336 M352,332 364,324 M345,320 357,312 M338,308 350,300 M330,296 342,288 M323,284 335,276 M316,272 328,264 M308,260 320,252 M301,248 313,240 M294,236 305,228 M287,224 298,216 M280,212 291,205 M273,200 284,193 M267,188 277,181 M259,175 269,168 M251,163 261,156 M244,151 254,144 M236,139 246,132 M229,127 239,120 M222,115 232,108 M215,103 225,96 M143,152 157,154 M144,140 158,142 M145,128 159,130 M146,116 160,118 M147,104 161,106 M149,92 163,94 M150,80 164,82 M151,68 165,70 M153,56 167,58 M154,44 168,46 M396,95 409,91 M393,84 406,80 M390,73 403,69 M387,62 400,58 M384,51 397,47 M381,40 394,36 M570,143 583,142 M568,130 582,129 M566,117 580,116 M565,104 577,103 M564,91 576,90 M563,78 575,77 M562,65 574,64 M561,52 573,51 M560,38 572,37 M556,281 562,268 M546,276 552,263 M536,271 542,258 M526,266 532,254 M516,261 522,249 M506,255 512,244 M496,250 502,239 M486,245 492,235 M476,240 482,230 M466,236 472,225 M456,231 462,220 M446,226 451,216 M436,221 441,211 M425,218 431,206 M415,213 421,201 M405,208 411,196 M395,204 401,192"></path>
-          </g>-->
-          <!--<path d="M20,42 28,42 28,35 32,35 32,42 40,42 40,32 45,32 30,20 15,32 20,32 Z M20,578 30,578 30,583 40,570 30,557 30,562 20, 562Z" fill="rgba(0,0,0,0.25)"></path>
-          -->
 
-    <!--
-          <path class="snake" d="M 90,226 C 98,257 69,322 128,332 187,342 181,381 120,382 59,383 53,425 54,433 56,450 87,467 87,481 87,495 76,506 76,512 84,505 95,496 96,480 97,464 60,447 64,425 68,403 99,392 134,391 169,390 219,344 131,322 94,313 100,279 101,256 102,233 101,229 100,225 105,223.62 106,214 96,210 86,205 65.75,211 83,223 85.88,225 88,226 90,226 Z" fill="#73880A"></path>
-          <circle class="eye" cx="97" cy="212" r="5"></circle>
-          <path class="snake" d="M 22,282 C 35,271 58,266 81,273 104,280 144,278 145,253 146,228 175,208 193,213 204,198 220,210 220,216 220,222 201,229 193,221 182,222 157,229 156,252 155,275 139,297 86,281 33,268 22,283 22,283 Z" fill="#D15600"></path>
-          <circle class="eye" cx="203" cy="210" r="5"></circle>
-          <path class="snake" d="M 453,271 C 433,285 396,289 400,261 405,233 394,223 369,223 343,224 319,167 376,161 379,168 401,168 402,156 403,143 376,143 375,152 300,162 333,233 366,233 402,233 388,258 389,266 390,281 414,309 453,272 Z" fill="#6BBA70"></path>
-          <circle class="eye" cx="387" cy="148" r="5"></circle>
-          <path class="snake" d="M 457,199 C 429,161 465,134 489,158 512,182 542,159 540,129 538,99 523,98 522,98 528,91 505,75 495,97 503,113 518,105 519,105 519,105 530,110 531,130 532,150 513,169 492,149 471,129 445,143 443,159 442,174 449,194 457,200 Z" fill="#C79810"></path>
-          <circle class="eye" cx="512" cy="90" r="5"></circle>
-          <path class="snake" d="M 441,95 C 457,93 479,72 445,52 415,33 434,16 451,16 468,16 489,39 492,40 495,28 521,33 521,43 521,54 496,54 490,48 490,48 466,23 450,25 434,27 439,43 459,51 479,61 473,101 441,96 Z" fill="#356AA0"></path>
-          <circle class="eye" cx="504" cy="35" r="5"></circle>
-          <path class="snake" d="M 278,457 C 291,438 262,428 247,444 230,464 193,450 231,420 256,400 300,425 335,395 349,381 334,338 334,338 334,338 348,325 325,324 301,322 306,341 326,340 334,358 346,401 285,401 231,401 205,416 205,446 206,472 244,462 250,452 258,441 281,435 278,458 Z" fill="#3F4C6B"></path>
-          <circle class="eye" cx="327" cy="325" r="5"></circle>
-          <path class="snake" d="M 343,584 C 352,567 344,553 320,553 296,553 286,562 279,568 272,573 238,592 238,558 237,524 253,517 253,517 253,517 270,517 270,509 270,498 238,501 247,514 227,537 230,556 230,561 229,567 239,605 281,575 324,544 349,562 343,585 Z" fill="#008C00"></path>
-          <circle class="eye" cx="257" cy="503" r="5"></circle>
-          <path class="snake" d="M 572,506 C 555,514 511,516 518,456 526,396 518,380 490,388 457,397 436,346 492,335 507,341 518,334 518,326 518,317 494,313 489,326 422,337 448,410 489,398 525,384 510,449 510,456 510,462 502,547 572,508 Z" fill="#D01F3C"></path>
-          <circle class="eye" cx="503" cy="320" r="5"></circle>
-          <path class="snake" d="M 19,138 C 45,154 84,152 63,119 43,87 59,85 79,84 99,83 103,77 94,40 85,46 73,39 72,32 72,25 109,13 102,35 117,69 108,100 79,94 52,88 70,114 73,118 82,127 83,190 18,138 Z" fill="#2096cE"></path>
-          <circle class="eye" cx="89" cy="27" r="5"></circle>
-          <path class="snake" d="M 322,152 C 302,168 282,153 285,137 287,120 287,121 275,110 263,99 295,79 291,62 287,45 297,30 318,38 324,51 346,48 346,39 347,30 327,20 320,31 295,18 274,33 280,57 286,82 252,86 262,111 265,118 280,122 275,137 271,148 291,185 322,154 Z" fill="#CC4444"></path>
-          <circle class="eye" cx="330" cy="30" r="5"></circle>
-    -->
 
     <g>
 
@@ -1936,48 +1870,6 @@
             <label id="slide-pl4-48" for="cb-pl4-29">Baja</label>
             <label id="slide-pl4-63" for="cb-pl4-44">Baja</label>
 
-
-    <!--
-            <label id="snake-pl1-16" for="cb-pl1-6">Baja</label>
-            <label id="snake-pl1-46" for="cb-pl1-25">Baja</label>
-            <label id="snake-pl1-49" for="cb-pl1-11">Baja</label>
-            <label id="snake-pl1-62" for="cb-pl1-19">Baja</label>
-            <label id="snake-pl1-64" for="cb-pl1-60">Baja</label>
-            <label id="snake-pl1-74" for="cb-pl1-53">Baja</label>
-            <label id="snake-pl1-89" for="cb-pl1-68">Baja</label>
-            <label id="snake-pl1-92" for="cb-pl1-88">Baja</label>
-            <label id="snake-pl1-95" for="cb-pl1-75">Baja</label>
-            <label id="snake-pl1-99" for="cb-pl1-80">Baja</label>
-            <label id="snake-pl2-16" for="cb-pl2-6">Baja</label>
-            <label id="snake-pl2-46" for="cb-pl2-25">Baja</label>
-            <label id="snake-pl2-49" for="cb-pl2-11">Baja</label>
-            <label id="snake-pl2-62" for="cb-pl2-19">Baja</label>
-            <label id="snake-pl2-64" for="cb-pl2-60">Baja</label>
-            <label id="snake-pl2-74" for="cb-pl2-53">Baja</label>
-            <label id="snake-pl2-89" for="cb-pl2-68">Baja</label>
-            <label id="snake-pl2-92" for="cb-pl2-88">Baja</label>
-            <label id="snake-pl2-95" for="cb-pl2-75">Baja</label>
-            <label id="snake-pl2-99" for="cb-pl2-80">Baja</label>
-            <label id="snake-pl3-16" for="cb-pl3-6">Baja</label>
-            <label id="snake-pl3-46" for="cb-pl3-25">Baja</label>
-            <label id="snake-pl3-49" for="cb-pl3-11">Baja</label>
-            <label id="snake-pl3-62" for="cb-pl3-19">Baja</label>
-            <label id="snake-pl3-64" for="cb-pl3-60">Baja</label>
-            <label id="snake-pl3-74" for="cb-pl3-53">Baja</label>
-            <label id="snake-pl3-89" for="cb-pl3-68">Baja</label>
-            <label id="snake-pl3-92" for="cb-pl3-88">Baja</label>
-            <label id="snake-pl3-95" for="cb-pl3-75">Baja</label>
-            <label id="snake-pl3-99" for="cb-pl3-80">Baja</label>
-            <label id="snake-pl4-16" for="cb-pl4-6">Baja</label>
-            <label id="snake-pl4-46" for="cb-pl4-25">Baja</label>
-            <label id="snake-pl4-49" for="cb-pl4-11">Baja</label>
-            <label id="snake-pl4-62" for="cb-pl4-19">Baja</label>
-            <label id="snake-pl4-64" for="cb-pl4-60">Baja</label>
-            <label id="snake-pl4-74" for="cb-pl4-53">Baja</label>
-            <label id="snake-pl4-89" for="cb-pl4-68">Baja</label>
-            <label id="snake-pl4-92" for="cb-pl4-88">Baja</label>
-            <label id="snake-pl4-95" for="cb-pl4-75">Baja</label>
-            <label id="snake-pl4-99" for="cb-pl4-80">Baja</label>-->
           </div>
         </div>
         <svg viewBox="0 0 100 100">
@@ -2068,16 +1960,28 @@
     <div class="scrim ods-popup" id="ods-popup">
       <div class="box question-box">
         <div class="ods-popupHeader">
-          <h1>Casillero de Pregunta</h1>
-          <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
+
+
+        <h1>Casillero de Pregunta</h1>
+        <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
         </div>
         <div>
           <p>Responde una pregunta y si es correcta puedes girar nuevamente la ruleta!</p>
+
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ODS1Modal">
-            Ver Pregunta
-          </button>
+      Ver Pregunta
+    </button>
+
+          <div>
+
+          </div>
+
         </div>
-      <div class="divImgPregunta">
+
+    <div class="divImgPregunta">
+
+
+
         <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
         <!-- <svg viewBox="0 0 100 100"> -->
           <!-- <path d="M5,85 20,10" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
@@ -2164,6 +2068,7 @@
         Tu navegador no permite reproducir este tipo de video.
         </video>
       </div>
+
     </div>
 
     <!-- Footer -->

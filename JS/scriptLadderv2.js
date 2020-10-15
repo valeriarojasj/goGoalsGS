@@ -738,7 +738,6 @@ toggleFx.addEventListener("click", function(){
         choices: ["1 de cada 10","3 de cada 10","5 de cada 10"],
         correctAnswer: 0
       }];
-
       var questionSet2 = [{
         question: "¿Se produce suficiente comida en el mundo para alimentar a todos sus habitantes?",
         choices: ["No; porque me entra hambre todo el tiempo", "Sí; se produce suficiente comida sana, pero no se producen suficientes dulces y refrescos", "Sí que se produce suficiente comida, pero no todo el mundo puede permitirse comprarla"],
@@ -760,7 +759,6 @@ toggleFx.addEventListener("click", function(){
         choices: ["Cuando no comes 3 platos al día", "Cuando no comes carne cada día", "Cuando no comes suficiente comida sana durante un cierto periodo de tiempo"],
         correctAnswer: 2
       }];
-
       var questionSet3 = [{
         question: "¿Cuál es la esperanza de vida media en el mundo?",
         choices: ["50 años", "60 años", "70 años"],
@@ -794,7 +792,6 @@ const ods1Modal = document.getElementById('ODS1Modal');
 const questionBox = document.querySelector('.question-box');
 
 
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -804,7 +801,6 @@ let availableQuestions = [];
 let questions = [];
 
       function odsP1(){
-
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
@@ -821,7 +817,7 @@ let questions = [];
                 });
 
             //CONSTANTS
-            const CORRECT_BONUS = 10;
+            const CORRECT_BONUS = 100;
             const MAX_QUESTIONS = 1;
 
             startGame = () => {
@@ -836,6 +832,9 @@ let questions = [];
                     return
                 }
                 questionCounter++;
+
+
+
 
                 const questionIndex = Math.floor(Math.random() * availableQuestions.length);
                 currentQuestion = availableQuestions[questionIndex];
@@ -867,9 +866,11 @@ let questions = [];
 
                         selectedChoice.parentElement.style.backgroundColor = "green";
                         setTimeout(() => {
+
                           ods1Modal.classList.remove("show");
                           ods1Modal.classList.add("hide");
                           questionBox.style.display = "none";
+
                           const imgCorrect = document.createElement("img");
                           imgCorrect.src="img/modalCorrect.png"
                           imgCorrect.style.maxWidth="70%";
@@ -881,9 +882,11 @@ let questions = [];
                     }else if (classToApply === 'incorrect') {
                       selectedChoice.parentElement.style.backgroundColor = "red";
                       setTimeout(() => {
+
                         ods1Modal.classList.remove("show");
                         ods1Modal.classList.add("hide");
                         questionBox.style.display = "none";
+
                         const imgIncorrect = document.createElement("img");
                         imgIncorrect.src="img/modalIncorrect.png"
                         imgIncorrect.style.maxWidth="70%";
