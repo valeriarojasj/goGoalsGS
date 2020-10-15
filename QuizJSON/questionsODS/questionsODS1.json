@@ -4,7 +4,6 @@
     "choice1": "No tiene un Smartphone",
     "choice2": "No es capaz de costear sus necesidades básicas como comida, cuidados médicos,educación…",
     "choice3": "No está bien vestido/a",
-    "choice4":"Ninguna de las anteriores",
     "answer": 2
   },
   {
@@ -12,7 +11,6 @@
     "choice1": "No; 1000 millones de personas más están viviendo en la pobreza",
     "choice2": "Sí; 1000 millones de personas han conseguido salir de la pobreza",
     "choice3": "Sí; 100 personas han conseguido salir de la pobreza",
-    "choice4":"Ninguna de las anteriores",
     "answer": 2
   },
   {
@@ -20,7 +18,22 @@
     "choice1": "Más de 800 personas",
     "choice2": "Más de 8000 personas",
     "choice3": "Más de 800 millones de personas",
-    "choice4":"Ninguna de las anteriores",
     "answer": 3
+  },
+  {
+    "question": "La mayoría de la gente en situación de pobreza vive en:",
+    "choice1": "Europa",
+    "choice2": "Norte y Sudamérica",
+    "choice3": "África y Asia",
+    "answer": 3
+  },
+  {
+    "question": "En 1990, casi 4 de cada 10 personas (38%)
+vivía en una situación de pobreza extrema. ¿Cuánta gente vive hoy en día en esta situación?",
+    "choice1": "1 de cada 10",
+    "choice2": "3 de cada 10",
+    "choice3": "5 de cada 10",
+    "answer": 1
   }
+
 ]

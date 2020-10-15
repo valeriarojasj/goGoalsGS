@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-fetch('questions.json')
+fetch('quizjson/triviaQuestions.json')
     .then((res) => {
         return res.json();
     })
@@ -24,7 +24,7 @@ fetch('questions.json')
     });
 
 //CONSTANTS
-const CORRECT_BONUS = 20;
+const CORRECT_BONUS = 100;
 const MAX_QUESTIONS = 3;
 
 startGame = () => {
@@ -38,7 +38,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('end.html');
+        return window.location.assign('triviaEnd.php');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;

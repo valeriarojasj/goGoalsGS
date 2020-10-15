@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- CSS only -->
+
+  <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Chewy&family=Indie+Flower&family=Lemonada:wght@300;500&family=Londrina+Solid:wght@300;400&family=Shadows+Into+Light&family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
   <link href="css/stylesMemoTestV2.css" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
@@ -59,8 +64,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/memoTest_ODS1Fondo.png">
-        <img class="card-value ods1" src="IMG/ODS1_imagen.png">
+        <img class="card-face" src="img/memoTest_ODS1Fondo.png">
+        <img class="card-value ods1" src="img/ODS1_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -69,8 +74,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/memoTest_ODS1Fondo.png">
-        <img class="card-value ods1" src="IMG/ODS1_imagen.png">
+        <img class="card-face" src="img/memoTest_ODS1Fondo.png">
+        <img class="card-value ods1" src="img/ODS1_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -78,18 +83,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS2_fondo.png">
-        <img class="card-value ods2" src="IMG/ODS2_imagen.png">
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-back card-face">
-
-        <img class="objectives" src="img/reverso_Memo.png">
-      </div>
-      <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS2_fondo.png">
-        <img class="card-value ods2" src="IMG/ODS2_imagen.png">
+        <img class="card-face" src="img/ODS2_fondo.png">
+        <img class="card-value ods2" src="img/ODS2_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -98,8 +93,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS3_fondo.png">
-        <img class="card-value ods3" src="IMG/ODS3_imagen.png">
+        <img class="card-face" src="img/ODS2_fondo.png">
+        <img class="card-value ods2" src="img/ODS2_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -108,8 +103,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS3_fondo.png">
-        <img class="card-value ods3" src="IMG/ODS3_imagen.png">
+        <img class="card-face" src="img/ODS3_fondo.png">
+        <img class="card-value ods3" src="img/ODS3_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -118,8 +113,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS4_fondo.png">
-        <img class="card-value ods4" src="IMG/ODS4_imagen.png">
+        <img class="card-face" src="img/ODS3_fondo.png">
+        <img class="card-value ods3" src="img/ODS3_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -128,8 +123,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS4_fondo.png">
-        <img class="card-value ods4" src="IMG/ODS4_imagen.png">
+        <img class="card-face" src="img/ODS4_fondo.png">
+        <img class="card-value ods4" src="img/ODS4_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -138,8 +133,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS5_fondo.png">
-        <img class="card-value ods5" src="IMG/ODS5_imagen.png">
+        <img class="card-face" src="img/ODS4_fondo.png">
+        <img class="card-value ods4" src="img/ODS4_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -148,8 +143,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS5_fondo.png">
-        <img class="card-value ods5" src="IMG/ODS5_imagen.png">
+        <img class="card-face" src="img/ODS5_fondo.png">
+        <img class="card-value ods5" src="img/ODS5_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -158,8 +153,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS6_fondo.png">
-        <img class="card-value ods6" src="IMG/ODS6_imagen.png">
+        <img class="card-face" src="img/ODS5_fondo.png">
+        <img class="card-value ods5" src="img/ODS5_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -168,8 +163,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS6_fondo.png">
-        <img class="card-value ods6" src="IMG/ODS6_imagen.png">
+        <img class="card-face" src="img/ODS6_fondo.png">
+        <img class="card-value ods6" src="img/ODS6_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -178,8 +173,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS7_fondo.png">
-        <img class="card-value ods7" src="IMG/ODS7_imagen.png">
+        <img class="card-face" src="img/ODS6_fondo.png">
+        <img class="card-value ods6" src="img/ODS6_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -188,8 +183,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS7_fondo.png">
-        <img class="card-value ods7" src="IMG/ODS7_imagen.png">
+        <img class="card-face" src="img/ODS7_fondo.png">
+        <img class="card-value ods7" src="img/ODS7_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -198,8 +193,18 @@
         <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS8_fondo.png">
-        <img class="card-value ods8" src="IMG/ODS8_imagen.png">
+        <img class="card-face" src="img/ODS7_fondo.png">
+        <img class="card-value ods7" src="img/ODS7_imagen.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+
+        <img class="objectives" src="img/reverso_Memo.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-face" src="img/ODS8_fondo.png">
+        <img class="card-value ods8" src="img/ODS8_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -207,8 +212,8 @@
           <img class="objectives" src="img/reverso_Memo.png">
       </div>
       <div class="card-front card-face">
-        <img class="card-face" src="IMG/ODS8_fondo.png">
-        <img class="card-value ods8" src="IMG/ODS8_imagen.png">
+        <img class="card-face" src="img/ODS8_fondo.png">
+        <img class="card-value ods8" src="img/ODS8_imagen.png">
       </div>
     </div>
     <div class="card">
@@ -216,8 +221,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS9_fondo.png">
-      <img class="card-value ods9" src="IMG/ODS9_imagen.png">
+      <img class="card-face" src="img/ODS9_fondo.png">
+      <img class="card-value ods9" src="img/ODS9_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -226,8 +231,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS9_fondo.png">
-      <img class="card-value ods9" src="IMG/ODS9_imagen.png">
+      <img class="card-face" src="img/ODS9_fondo.png">
+      <img class="card-value ods9" src="img/ODS9_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -235,18 +240,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS10_fondo.png">
-      <img class="card-value ods10" src="IMG/ODS10_imagen.png">
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-back card-face">
-
-      <img class="objectives" src="img/reverso_Memo.png">
-    </div>
-    <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS10_fondo.png">
-      <img class="card-value ods10" src="IMG/ODS10_imagen.png">
+      <img class="card-face" src="img/ODS10_fondo.png">
+      <img class="card-value ods10" src="img/ODS10_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -255,8 +250,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS11_fondo.png">
-      <img class="card-value ods11" src="IMG/ODS11_imagen.png">
+      <img class="card-face" src="img/ODS10_fondo.png">
+      <img class="card-value ods10" src="img/ODS10_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -265,8 +260,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS11_fondo.png">
-      <img class="card-value ods11" src="IMG/ODS11_imagen.png">
+      <img class="card-face" src="img/ODS11_fondo.png">
+      <img class="card-value ods11" src="img/ODS11_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -275,8 +270,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS12_fondo.png">
-      <img class="card-value ods12" src="IMG/ODS12_imagen.png">
+      <img class="card-face" src="img/ODS11_fondo.png">
+      <img class="card-value ods11" src="img/ODS11_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -285,8 +280,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS12_fondo.png">
-      <img class="card-value ods12" src="IMG/ODS12_imagen.png">
+      <img class="card-face" src="img/ODS12_fondo.png">
+      <img class="card-value ods12" src="img/ODS12_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -295,8 +290,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS13_fondo.png">
-      <img class="card-value ods13" src="IMG/ODS13_imagen.png">
+      <img class="card-face" src="img/ODS12_fondo.png">
+      <img class="card-value ods12" src="img/ODS12_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -305,8 +300,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS13_fondo.png">
-      <img class="card-value ods13" src="IMG/ODS13_imagen.png">
+      <img class="card-face" src="img/ODS13_fondo.png">
+      <img class="card-value ods13" src="img/ODS13_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -315,8 +310,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS14_fondo.png">
-      <img class="card-value ods14" src="IMG/ODS14_imagen.png">
+      <img class="card-face" src="img/ODS13_fondo.png">
+      <img class="card-value ods13" src="img/ODS13_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -325,8 +320,18 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS14_fondo.png">
-      <img class="card-value ods14" src="IMG/ODS14_imagen.png">
+      <img class="card-face" src="img/ODS14_fondo.png">
+      <img class="card-value ods14" src="img/ODS14_imagen.png">
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-back card-face">
+
+      <img class="objectives" src="img/reverso_Memo.png">
+    </div>
+    <div class="card-front card-face">
+      <img class="card-face" src="img/ODS14_fondo.png">
+      <img class="card-value ods14" src="img/ODS14_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -336,8 +341,8 @@
     </div>
     <div class="card-front card-face">
 
-      <img class="card-face" src="IMG/ODS15_fondo.png">
-      <img class="card-value ods15" src="IMG/ODS15_imagen.png">
+      <img class="card-face" src="img/ODS15_fondo.png">
+      <img class="card-value ods15" src="img/ODS15_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -346,8 +351,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS15_fondo.png">
-      <img class="card-value ods15" src="IMG/ODS15_imagen.png">
+      <img class="card-face" src="img/ODS15_fondo.png">
+      <img class="card-value ods15" src="img/ODS15_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -356,8 +361,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS16_fondo.png">
-      <img class="card-value ods15" src="IMG/ODS16_imagen.png">
+      <img class="card-face" src="img/ODS16_fondo.png">
+      <img class="card-value ods15" src="img/ODS16_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -365,8 +370,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS16_fondo.png">
-      <img class="card-value ods16" src="IMG/ODS16_imagen.png">
+      <img class="card-face" src="img/ODS16_fondo.png">
+      <img class="card-value ods16" src="img/ODS16_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -375,8 +380,8 @@
       <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS17_fondo.png">
-      <img class="card-value ods17" src="IMG/ODS17_imagen.png">
+      <img class="card-face" src="img/ODS17_fondo.png">
+      <img class="card-value ods17" src="img/ODS17_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -384,8 +389,8 @@
         <img class="objectives" src="img/reverso_Memo.png">
     </div>
     <div class="card-front card-face">
-      <img class="card-face" src="IMG/ODS17_fondo.png">
-      <img class="card-value ods17" src="IMG/ODS17_imagen.png">
+      <img class="card-face" src="img/ODS17_fondo.png">
+      <img class="card-value ods17" src="img/ODS17_imagen.png">
     </div>
   </div>
   <div class="card">
@@ -395,7 +400,7 @@
     </div>
     <div class="card-front card-face">
 
-      <img class="card-value ods2030" src="IMG/ODS2030.png">
+      <img class="card-value ods2030" src="img/ODS2030.png">
     </div>
   </div>
   <div class="card">
@@ -404,7 +409,7 @@
     </div>
     <div class="card-front card-face">
 
-      <img class="card-value ods2030" src="IMG/ODS2030.png">
+      <img class="card-value ods2030" src="img/ODS2030.png">
     </div>
   </div>
 </div>
@@ -413,7 +418,7 @@
   <footer>
     <?php require("resources/footer.php") ?>
   </footer>
-  
+
 </body>
 
 <!-- JS, Popper.js, and jQuery -->

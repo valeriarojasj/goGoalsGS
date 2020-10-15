@@ -1,0 +1,38 @@
+[
+  {
+    "question": "¿Señala la respuesta INCORRECTA. La energía limpia puede ser producida con:",
+    "choice1": "Carbón",
+    "choice2": "Sol",
+    "choice3": "Viento",
+    "choice4": "Olas",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué significa eficiencia?",
+    "choice1": "Cuando una lámpara brilla mucho",
+    "choice2": "Cuando puedes usar energía sin tener que preocuparte sobre tu consumo",
+    "choice3": "Un aparato o un edificio que usa o necesita relativamente poca energía para funcionar",
+    "answer": 3
+  },
+  {
+    "question": "El calentamiento global ocurre por el aumento de la presencia de cierto gas en la atmósfera. ¿Qué gas es?",
+    "choice1": "Ozono",
+    "choice2": "Dióxido de carbono",
+    "choice3": "Gas mostaza",
+    "answer": 2
+  },
+  {
+    "question": "Algunas fuentes de energía son renovables, ¿Por qué?",
+    "choice1": "Porque no contaminan",
+    "choice2": "Porque son nuevas",
+    "choice3": "Porque pueden ser repuestas por la naturaleza en un período de tiempo corto",
+    "answer": 3
+  },
+  {
+    "question": "¿Cuál es una forma renovable de energía?",
+    "choice1": "Petróleo",
+    "choice2": "Gas",
+    "choice3": "Sol",
+    "answer": 3
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "question": "Solo uno de los siguientes países tiene más mujeres que hombres en su Parlamento. ¿Cuál es?",
+    "choice1": "Inglaterra",
+    "choice2": "Noruega",
+    "choice3": "Francia",
+    "choice4": "Ruanda",
+    "choice5": "Perú",
+    "answer": 4
+  },
+  {
+    "question": "¿Qué país fue el primero del mundo en dar a las mujeres derechos políticos plenos (el derecho a votar y ser elegidas)?",
+    "choice1": "Francia",
+    "choice2": "Los Estados Unidos",
+    "choice3": "Finlandia",
+    "answer": 3
+  },
+  {
+    "question": "¿Cuántos países en el mundo tienen una mujer como Presidente o Jefa de Estado?",
+    "choice1": "5",
+    "choice2": "20",
+    "choice3": "100",
+    "answer": 2
+  },
+  {
+    "question": "¿Quién debería cocinar y limpiar en casa?",
+    "choice1": "Las mujeres",
+    "choice2": "Los hombres",
+    "choice3": "Todos deberían ayudar",
+    "answer": 3
+  },
+  {
+    "question": "¿Qué porcentaje de mujeres son investigadoras en ciencia y tecnología?",
+    "choice1": "50%",
+    "choice2": "30%",
+    "choice3": "70%",
+    "answer": 2
+  }
+]
