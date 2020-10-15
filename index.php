@@ -2077,10 +2077,16 @@
             Ver Pregunta
           </button>
         </div>
-        <div class="divImgPregunta">
-          <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
-        </div>
-      </div>
+      <div class="divImgPregunta">
+        <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
+        <!-- <svg viewBox="0 0 100 100"> -->
+          <!-- <path d="M5,85 20,10" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
+          <!-- <path d="M10,67 30,71 M15,45 35,49 M20,23 40,27" stroke="#aB6533" stroke-width="5" stroke-linecap="round"></path> -->
+          <!-- <path d="M30,90 45,15" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
+        <!-- </svg> -->
+
+    </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade" style="margin-top: 20px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
       <div class="modal-dialog">
