@@ -1,9 +1,3 @@
-/*web loading*/
-window.onload = function(){
-  document.getElementById("loading").style.display = "none"
-}
-
-/*Gameplay*/
 var button = document.getElementById("playButton");
 var audio = document.getElementById("backgroundMusic");
 var moveForwardSound=document.getElementById("moveForwardSound");
@@ -791,7 +785,6 @@ const btnSendAnswer = document.getElementById('btnSendAnswer');
 const divCorrect = document.getElementById('divCorrect');
 const divIncorrect = document.getElementById('divIncorrect');
 const ods1Modal = document.getElementById('ODS1Modal');
-const verPregunta = document.getElementById('ods-popup');
 
 
 let currentQuestion = {};
@@ -806,7 +799,7 @@ let questions = [];
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
-            fetch('quizjson/questionsODS/questionsODS1.json')
+            fetch('questionsODS1.json')
                 .then((res) => {
                     return res.json();
                 })
@@ -868,10 +861,8 @@ let questions = [];
 
                         selectedChoice.parentElement.style.backgroundColor = "green";
                         setTimeout(() => {
-
                           ods1Modal.classList.remove("show");
                           ods1Modal.classList.add("hide");
-
                           const imgCorrect = document.createElement("img");
                           imgCorrect.src="img/modalCorrect.png"
                           imgCorrect.style.maxWidth="70%";
@@ -883,10 +874,8 @@ let questions = [];
                     }else if (classToApply === 'incorrect') {
                       selectedChoice.parentElement.style.backgroundColor = "red";
                       setTimeout(() => {
-
                         ods1Modal.classList.remove("show");
                         ods1Modal.classList.add("hide");
-
                         const imgIncorrect = document.createElement("img");
                         imgIncorrect.src="img/modalIncorrect.png"
                         imgIncorrect.style.maxWidth="70%";
