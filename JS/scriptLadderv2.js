@@ -805,7 +805,7 @@ let questions = [];
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
-            fetch('questionsODS1.json')
+            fetch('quizjson/questionsODS/questionsODS1.json')
                 .then((res) => {
                     return res.json();
                 })
