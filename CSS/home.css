@@ -1,5 +1,11 @@
+.nav-temp{
+  height: 10vh;
+}
+
+.container{
+  height: 90%;
+}
 
 #img-construction {
     width: 100%;
-
 }

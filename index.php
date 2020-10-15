@@ -13,7 +13,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
-  
+
   </head>
   <body>
     <!-- Loading web -->
@@ -2066,113 +2066,21 @@
     </div>
 
     <div class="scrim ods-popup" id="ods-popup">
-      <div class="box">
+      <div class="box question-box">
         <div class="ods-popupHeader">
-
-
-        <h1>Casillero de Pregunta</h1>
-        <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
+          <h1>Casillero de Pregunta</h1>
+          <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
         </div>
         <div>
           <p>Responde una pregunta y si es correcta puedes girar nuevamente la ruleta!</p>
-
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ODS1Modal">
-      Ver Pregunta
-    </button>
-
-          <div>
-
-
-            <!--<label id="ods-pl1-3" for="cb-pl1-3">Confirmar</label>
-            <label id="ods-pl1-7" for="cb-pl1-7">Confirmar</label>
-            <label id="ods-pl1-12" for="cb-pl1-12">Confirmar</label>
-            <label id="ods-pl1-15" for="cb-pl1-15">Confirmar</label>
-            <label id="ods-pl1-18" for="cb-pl1-18">Confirmar</label>
-            <label id="ods-pl1-20" for="cb-pl1-20">Confirmar</label>
-            <label id="ods-pl1-24" for="cb-pl1-24">Confirmar</label>
-            <label id="ods-pl1-28" for="cb-pl1-28">Confirmar</label>
-            <label id="ods-pl1-32" for="cb-pl1-32">Confirmar</label>
-            <label id="ods-pl1-35" for="cb-pl1-35">Confirmar</label>
-            <label id="ods-pl1-38" for="cb-pl1-38">Confirmar</label>
-            <label id="ods-pl1-42" for="cb-pl1-42">Confirmar</label>
-            <label id="ods-pl1-45" for="cb-pl1-45">Confirmar</label>
-            <label id="ods-pl1-48" for="cb-pl1-48">Confirmar</label>
-            <label id="ods-pl1-53" for="cb-pl1-53">Confirmar</label>
-            <label id="ods-pl1-56" for="cb-pl1-56">Confirmar</label>
-            <label id="ods-pl1-62" for="cb-pl1-62">Confirmar</label>
-            <label id="ods-pl1-35" for="cb-pl1-35">Confirmar</label>
-            <label id="ods-pl2-3" for="cb-pl2-3">Confirmar</label>
-            <label id="ods-pl2-7" for="cb-pl2-7">Confirmar</label>
-            <label id="ods-pl2-12" for="cb-pl2-12">Confirmar</label>
-            <label id="ods-pl2-15" for="cb-pl2-15">Confirmar</label>
-            <label id="ods-pl2-18" for="cb-pl2-18">Confirmar</label>
-            <label id="ods-pl2-20" for="cb-pl2-20">Confirmar</label>
-            <label id="ods-pl2-24" for="cb-pl2-24">Confirmar</label>
-            <label id="ods-pl2-28" for="cb-pl2-28">Confirmar</label>
-            <label id="ods-pl2-32" for="cb-pl2-32">Confirmar</label>
-            <label id="ods-pl2-35" for="cb-pl2-35">Confirmar</label>
-            <label id="ods-pl2-38" for="cb-pl2-38">Confirmar</label>
-            <label id="ods-pl2-42" for="cb-pl2-42">Confirmar</label>
-            <label id="ods-pl2-45" for="cb-pl2-45">Confirmar</label>
-            <label id="ods-pl2-48" for="cb-pl2-48">Confirmar</label>
-            <label id="ods-pl2-53" for="cb-pl2-53">Confirmar</label>
-            <label id="ods-pl2-56" for="cb-pl2-56">Confirmar</label>
-            <label id="ods-pl2-62" for="cb-pl2-62">Confirmar</label>
-            <label id="ods-pl2-35" for="cb-pl2-35">Confirmar</label>
-            <label id="ods-pl3-3" for="cb-pl3-3">Confirmar</label>
-            <label id="ods-pl3-7" for="cb-pl3-7">Confirmar</label>
-            <label id="ods-pl3-12" for="cb-pl3-12">Confirmar</label>
-            <label id="ods-pl3-15" for="cb-pl3-15">Confirmar</label>
-            <label id="ods-pl3-18" for="cb-pl3-18">Confirmar</label>
-            <label id="ods-pl3-20" for="cb-pl3-20">Confirmar</label>
-            <label id="ods-pl3-24" for="cb-pl3-24">Confirmar</label>
-            <label id="ods-pl3-28" for="cb-pl3-28">Confirmar</label>
-            <label id="ods-pl3-32" for="cb-pl3-32">Confirmar</label>
-            <label id="ods-pl3-35" for="cb-pl3-35">Confirmar</label>
-            <label id="ods-pl3-38" for="cb-pl3-38">Confirmar</label>
-            <label id="ods-pl3-42" for="cb-pl3-42">Confirmar</label>
-            <label id="ods-pl3-45" for="cb-pl3-45">Confirmar</label>
-            <label id="ods-pl3-48" for="cb-pl3-48">Confirmar</label>
-            <label id="ods-pl3-53" for="cb-pl3-53">Confirmar</label>
-            <label id="ods-pl3-56" for="cb-pl3-56">Confirmar</label>
-            <label id="ods-pl3-62" for="cb-pl3-62">Confirmar</label>
-            <label id="ods-pl3-35" for="cb-pl3-35">Confirmar</label>
-            <label id="ods-pl4-3" for="cb-pl4-3">Confirmar</label>
-            <label id="ods-pl4-7" for="cb-pl4-7">Confirmar</label>
-            <label id="ods-pl4-12" for="cb-pl4-12">Confirmar</label>
-            <label id="ods-pl4-15" for="cb-pl4-15">Confirmar</label>
-            <label id="ods-pl4-18" for="cb-pl4-18">Confirmar</label>
-            <label id="ods-pl4-20" for="cb-pl4-20">Confirmar</label>
-            <label id="ods-pl4-24" for="cb-pl4-24">Confirmar</label>
-            <label id="ods-pl4-28" for="cb-pl4-28">Confirmar</label>
-            <label id="ods-pl4-32" for="cb-pl4-32">Confirmar</label>
-            <label id="ods-pl4-35" for="cb-pl4-35">Confirmar</label>
-            <label id="ods-pl4-38" for="cb-pl4-38">Confirmar</label>
-            <label id="ods-pl4-42" for="cb-pl4-42">Confirmar</label>
-            <label id="ods-pl4-45" for="cb-pl4-45">Confirmar</label>
-            <label id="ods-pl4-48" for="cb-pl4-48">Confirmar</label>
-            <label id="ods-pl4-53" for="cb-pl4-53">Confirmar</label>
-            <label id="ods-pl4-56" for="cb-pl4-56">Confirmar</label>
-            <label id="ods-pl4-62" for="cb-pl4-62">Confirmar</label>
-            <label id="ods-pl4-35" for="cb-pl4-35">Confirmar</label>
-    -->
-          </div>
-
+            Ver Pregunta
+          </button>
         </div>
-
-    <div class="divImgPregunta">
-
-
-
-        <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
-        <!-- <svg viewBox="0 0 100 100"> -->
-          <!-- <path d="M5,85 20,10" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
-          <!-- <path d="M10,67 30,71 M15,45 35,49 M20,23 40,27" stroke="#aB6533" stroke-width="5" stroke-linecap="round"></path> -->
-          <!-- <path d="M30,90 45,15" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
-        <!-- </svg> -->
-
-    </div>
-    </div>
+        <div class="divImgPregunta">
+          <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
+        </div>
+      </div>
     <!-- Modal -->
     <div class="modal fade" style="margin-top: 20px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
       <div class="modal-dialog">

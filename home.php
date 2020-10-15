@@ -9,13 +9,14 @@
       <!-- CSS -->
       <link rel="stylesheet" href="css/home.css">
   </head>
-
   <body>
-    <ul class="nav justify-content-center mt-2">
-      <li class="nav-item">
-        <img src="img/genSustentable.png" alt="">
-      </li>
-    </ul>
+    <div class="nav-temp">
+      <ul class="nav justify-content-center mt-2">
+        <li class="nav-item">
+          <img src="img/genSustentable.png" alt="">
+        </li>
+      </ul>
+    </div>
     <div class="container mt-5">
       <img id="img-construction" src="img/construction/construction1.png" alt="">
     </div>
