@@ -1,0 +1,35 @@
+[
+  {
+    "question": "¿Qué es una empresa sostenible?",
+    "choice1": "Una empresa que empezó a funcionar hace mucho tiempo y que todavía sigue funcionando",
+    "choice2": "Una empresa que produce residuos tóxicos",
+    "choice3": "Una empresa que no causa daños al medio ambiente",
+    "answer": 3
+  },
+  {
+    "question": "Verdadero o falso: Todo el mundo tiene acceso a internet.",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: todo el mundo tiene accesso a electricidad.",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál de estas innovaciones es la mejor para luchar contra el calentamiento global?",
+    "choice1": "Un coche eléctrico",
+    "choice2": "Un coche diésel",
+    "choice3": "Un coche de gasolina",
+    "answer": 1
+  },
+  {
+    "question": "¿Qué infraestructura es importante para una educación de calidad?",
+    "choice1": "Patios y bocadillos",
+    "choice2": "Escuelas limpias, profesores y libros",
+    "choice3": "Dispensador de refrescos",
+    "answer": 2
+  }
+]

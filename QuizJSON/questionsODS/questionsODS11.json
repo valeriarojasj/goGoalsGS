@@ -1,0 +1,38 @@
+[
+  {
+    "question": "¿Cuánta gente de países en desarrollo viven en chabolas?",
+    "choice1": "30%",
+    "choice2": "55%",
+    "choice3": "80%"
+    "answer": 1
+  },
+  {
+    "question": "Ya existen soluciones para ahorrar energía y proteger el planeta. ¿Cuál de estas no son reales?",
+    "choice1": "Bicicletas",
+    "choice2": "Buses eléctricos",
+    "choice3": "Coches voladores",
+    "answer": 3
+  },
+  {
+    "question": "¿Qué son las energías renovables?",
+    "choice1": "Energía que proviene de fuentes naturales y nunca se agota",
+    "choice2": "Energía que proviene del espacio",
+    "choice3": "Una forma de energía usada por los faraones del Antiguo Egipto",
+    "answer": 1
+  },
+  {
+    "question": "¿Dónde se registra el mayor ritmo de urbanización en el mundo?",
+    "choice1": "Europa",
+    "choice2": "Estados Unidos de Américao",
+    "choice3": "Países en vías de desarrollo",
+    "answer": 3
+
+  },
+  {
+    "question": "En 2030, ¿qué porcentaje de la población mundial vivirá en áreas urbanas?",
+    "choice1": "60%",
+    "choice2": "100%",
+    "choice3": "20%",
+    "answer": 1
+  }
+]

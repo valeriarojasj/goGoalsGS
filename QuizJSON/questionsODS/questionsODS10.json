@@ -1,0 +1,38 @@
+[
+  {
+    "question": "¿Cuál es la mejor forma de luchar contra la pobreza?",
+    "choice1": "No hacer nada e ignorar el problema",
+    "choice2": "Repartir la riqueza que se genera en el mundo",
+    "choice3": "Prevenir que los extranjeros entren a tu país",
+    "answer": 2
+  },
+  {
+    "question": "Verdadero o falso: Durante los últimos 25 años el número de personas en extrema pobreza NO ha disminuido.",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 2
+  },
+  {
+    "question": "En la escuela:.",
+    "choice1": "Las niñas deben aprender a tejer y a cocinar",
+    "choice2": "Los niños deben aprender ciencia y tecnología",
+    "choice3": "Tanto niños como niñas deben tener igualdad de oportunidades",
+    "answer": 3
+  },
+  {
+    "question": "¿Para reducir desigualdades en el cuidado de la salud los niños deben tener acceso a:",
+    "choice1": "Agua potable",
+    "choice2": "Cuidado médico",
+    "choice3": "Vacunas",
+   "choice4": "Todas las de arriba",
+    "answer": 4
+
+  },
+  {
+    "question": "Podemos luchar contra las desigualdades:",
+    "choice1": "Asegurándonos de que todos los niños tienen acceso a la educación",
+    "choice2": "Asegurándonos de que todos llevamos la misma ropa",
+    "choice3": "Asegurándonos de que todos vemos los mismos canales de televisión",
+    "answer": 1
+  }
+]

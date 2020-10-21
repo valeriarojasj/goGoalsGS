@@ -1,0 +1,34 @@
+[
+  {
+    "question": "¿Deben ser remunerados igual los hombres y las mujeres si tienen el mismo trabajo?",
+    "choice1": "Por supuesto, hombres y mujeres tienen los mismos derechos",
+    "choice2": "No; se debe pagar más a los hombres porque son más fuertes",
+    "answer": 1
+  },
+  {
+    "question": "Si tienes un trabajo, ¿Significa eso que estás seguro de estar alejado de la pobreza?",
+    "choice1": "Sí; porque trabajas para ganar dinero",
+    "choice2": "No; puedes tener un trabajo y estar en situación de pobreza (1 de cada 7 trabajadores todavía vive por debajo de la línea de pobreza)",
+    "answer": 2
+  },
+  {
+    "question": "¿Qué significa crecimiento económico?",
+    "choice1": "Que ahorras dinero cada mes",
+    "choice2": "Que los precios están aumentando",
+    "choice3": "Un incremento en el valor de los bienes y servicios producidos por un país",
+    "answer": 3
+  },
+  {
+    "question": "¿Cuánta gente está desempleada en el mundo?",
+    "choice1": "2 millones",
+    "choice2": "20 millones",
+    "choice3": "200 millones",
+    "answer": 3
+  },
+  {
+    "question": "Verdadero o falso: Cada adulto posee una cuenta bancaria.",
+    "choice1": "Verdadero",
+    "choice2": "Falso",
+    "answer": 2
+  }
+]

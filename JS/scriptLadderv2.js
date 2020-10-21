@@ -792,7 +792,6 @@ const ods1Modal = document.getElementById('ODS1Modal');
 const verPregunta = document.getElementById('ods-popup');
 const questionBox = document.querySelector('.question-box');
 
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -805,7 +804,7 @@ let questions = [];
           if(document.querySelector('input[name="cb-player1"]:checked').value== "3"){
 
 
-            fetch('quizjson/questionsODS/questionsODS1.json')
+            fetch('questionsODS1.json')
                 .then((res) => {
                     return res.json();
                 })

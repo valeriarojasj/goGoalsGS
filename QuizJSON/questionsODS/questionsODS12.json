@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Verdadero o falso. Los peces que hay en el mar no se pueden acabar nunca.",
+    "choice1": "Verdadero, puedo comer todos los que quiera sin problema",
+    "choice2": "Falso, la sobrepesca, la contaminación y el cambio climático están reduciendo la cantidad de peces en el mar",
+    "answer": 2
+  },
+  {
+    "question": "¿Cuánta comida se malgasta al día en el mundo?",
+    "choice1": "Nada, toda la comida o se come o se congela",
+    "choice2": "Un tercio de toda la comida producida",
+    "choice3": "Muy poca, ya que la gente ha reducido dramáticamente la cantidad que malgasta",
+    "answer": 2
+  },
+  {
+    "question": "La industria del petróleo es la más contaminante del mundo. ¿Cuál es la siguiente?",
+    "choice1": "La industria de la extracción de carbón",
+    "choice2": "La industria textil",
+    "choice3": "La industria de los teléfonos móviles",
+    "answer": 2
+  },
+  {
+    "question": "Las bolsas de plástico son un gran problema para el medio ambiente. ¿Qué país fue el primero en prohibirlas?",
+    "choice1": "Suecia",
+    "choice2": "Rusia",
+    "choice3": "Ruanda",
+    "answer": 3
+
+  },
+  {
+    "question": "¿Cómo ayudan las abejas al medio ambiente?",
+    "choice1": "Ayudan a las plantas a crecer y a producir comida",
+    "choice2": "No ayudan, solamente hacen miel",
+    "choice3": "Se comen a otros insectos",
+    "answer": 1
+  }
+]
